@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>중개사무소 현황판 — 월별 개업·폐업 추이</title>
+<meta name="description" content="전국 부동산 중개사무소의 월별 개업·폐업 추이 대시보드">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --green:#0E7A44;        /* 간판 초록 — 개업 */
+    --green-deep:#0A5A33;
+    --vermilion:#C64A2E;    /* 폐업 */
+    --ink:#1B231E;
+    --paper:#F4F6F2;
+    --card:#FFFFFF;
+    --line:#DDE4DC;
+    --muted:#6B756E;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{font-size:16px}
+  body{
+    font-family:"IBM Plex Sans KR",-apple-system,sans-serif;
+    background:var(--paper);color:var(--ink);
+    font-variant-numeric:tabular-nums;
+    line-height:1.5;
+  }
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px 64px}
+
+  /* ── 간판 마스트헤드 ─────────────────────────── */
+  .signboard{
+    background:var(--green);
+    border-bottom:6px solid var(--green-deep);
+  }
+  .signboard-inner{
+    max-width:1040px;margin:0 auto;padding:34px 20px 30px;
+    border-left:3px solid rgba(255,255,255,.55);
+    border-right:3px solid rgba(255,255,255,.55);
+  }
+  .signboard .eyebrow{
+    color:#CFE8DA;font-size:.8rem;font-weight:500;letter-spacing:.22em;margin-bottom:6px;
+  }
+  .signboard h1{
+    font-family:"Black Han Sans",sans-serif;font-weight:400;
+    color:#fff;font-size:clamp(1.9rem,5vw,3rem);letter-spacing:.02em;line-height:1.15;
+  }
+  .signboard h1 .accent{color:#FFE24A}
+  .signboard .sub{color:#D8ECe1;color:#D8ECE1;font-size:.9rem;margin-top:8px}
+
+  .sample-note{
+    margin:20px 0 0;padding:12px 16px;border:1.5px dashed var(--vermilion);
+    border-radius:8px;background:#FBF1EE;color:#8C3520;font-size:.88rem;
+  }
+  .sample-note strong{font-weight:700}
+
+  /* ── 컨트롤 ─────────────────────────────────── */
+  .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:28px 0 20px}
+  .controls label{font-size:.85rem;font-weight:500;color:var(--muted)}
+  select{
+    font:inherit;font-size:.95rem;padding:8px 34px 8px 12px;border:1.5px solid var(--line);
+    border-radius:8px;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%231B231E' stroke-width='1.5' fill='none'/%3E%3C/svg%3E") no-repeat right 12px center;
+    color:var(--ink);appearance:none;cursor:pointer;
+  }
+  select:focus-visible{outline:2.5px solid var(--green);outline-offset:1px}
+  .updated{margin-left:auto;font-size:.8rem;color:var(--muted)}
+
+  /* ── 스탯 카드 ──────────────────────────────── */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
+  @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{
+    background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+    padding:16px 18px;
+  }
+  .stat .label{font-size:.8rem;color:var(--muted);font-weight:500}
+  .stat .value{font-size:1.9rem;font-weight:700;letter-spacing:-.01em;margin-top:2px}
+  .stat .delta{font-size:.78rem;color:var(--muted);margin-top:2px}
+  .stat.open .value{color:var(--green)}
+  .stat.close .value{color:var(--vermilion)}
+  .stat.net .value.plus{color:var(--green)}
+  .stat.net .value.minus{color:var(--vermilion)}
+
+  /* ── 차트 ───────────────────────────────────── */
+  .panel{
+    background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+    padding:22px 22px 14px;
+  }
+  .panel h2{font-size:1.05rem;font-weight:700;margin-bottom:4px}
+  .panel .desc{font-size:.83rem;color:var(--muted);margin-bottom:14px}
+  .chart-box{position:relative;height:380px}
+  @media(max-width:720px){.chart-box{height:300px}}
+
+  .footnote{margin-top:26px;font-size:.8rem;color:var(--muted);line-height:1.7}
+  .footnote a{color:var(--green-deep)}
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none!important;transition:none!important}
+  }
+</style>
+</head>
+<body>
+
+<header class="signboard">
+  <div class="signboard-inner">
+    <p class="eyebrow">전국 부동산중개업 데이터 · 매월 갱신</p>
+    <h1>중개사무소 <span class="accent">개업·폐업</span> 현황판</h1>
+    <p class="sub">국토교통부 부동산중개업정보를 월별로 집계한 추이입니다.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="sampleNote" class="sample-note" hidden>
+    지금 보이는 숫자는 <strong>샘플 데이터</strong>입니다. snapshots 폴더에 실제 CSV를 넣고
+    aggregate.py를 실행하면 실제 수치로 바뀝니다.
+  </div>
+
+  <div class="controls">
+    <label for="regionSel">지역</label>
+    <select id="regionSel" aria-label="지역 선택"></select>
+    <label for="rangeSel">기간</label>
+    <select id="rangeSel" aria-label="표시 기간 선택">
+      <option value="12">최근 12개월</option>
+      <option value="24" selected>최근 24개월</option>
+      <option value="999">전체</option>
+    </select>
+    <span class="updated" id="updatedAt"></span>
+  </div>
+
+  <section class="stats" aria-label="최근 월 요약">
+    <div class="stat open">
+      <div class="label" id="lblOpen">이번 달 개업</div>
+      <div class="value" id="stOpen">–</div>
+      <div class="delta" id="dOpen"></div>
+    </div>
+    <div class="stat close">
+      <div class="label" id="lblClose">이번 달 폐업</div>
+      <div class="value" id="stClose">–</div>
+      <div class="delta" id="dClose"></div>
+    </div>
+    <div class="stat net">
+      <div class="label">순증감</div>
+      <div class="value" id="stNet">–</div>
+      <div class="delta">개업 − 폐업</div>
+    </div>
+    <div class="stat">
+      <div class="label">영업중 사무소</div>
+      <div class="value" id="stActive">–</div>
+      <div class="delta">최신 데이터 기준</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 id="chartTitle">월별 개업·폐업 추이</h2>
+    <p class="desc">막대는 개업(초록)과 폐업(주홍), 선은 순증감입니다.</p>
+    <div class="chart-box"><canvas id="mainChart" role="img" aria-label="월별 개업 폐업 추이 차트"></canvas></div>
+  </section>
+
+  <p class="footnote">
+    출처: 국토교통부 부동산중개업정보(브이월드·공공데이터포털).
+    개업은 개설등록일자 기준, 폐업은 월별 스냅샷 비교 방식으로 집계하므로 협회 공식 통계와 차이가 있을 수 있습니다.
+    폐업 수치가 비어 있는 구간은 비교할 이전 스냅샷이 없는 기간입니다.
+  </p>
+</main>
+
+<script>
+// snapshots가 아직 없어도 화면이 보이도록, data.json 로드 실패 시 사용할 내장 샘플
+const FALLBACK = {"updated": "2026-07-01", "latest_snapshot": "2026-06", "sample": true, "months": ["2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"], "regions": {"전국": {"open": [1009, 1008, 1145, 1217, 1142, 1084, 1003, 1045, 912, 951, 930, 876, 1008, 930, 1109, 1143, 1107, 1059, 1087, 1026, 937, 824, 786, 799, 911, 925, 960, 1058, 989, 969], "close": [1439, 1419, 1452, 1268, 1238, 1359, 1344, 1495, 1580, 1484, 1682, 1522, 1517, 1389, 1435, 1408, 1440, 1370, 1438, 1503, 1444, 1556, 1561, 1554, 1524, 1415, 1510, 1382, 1388, 1332], "active": 115320}, "서울특별시": {"open": [233, 231, 255, 239, 245, 237, 252, 229, 223, 191, 196, 199, 202, 235, 215, 223, 252, 220, 244, 228, 183, 194, 177, 175, 193, 219, 218, 241, 221, 228], "close": [353, 339, 327, 279, 286, 323, 304, 324, 343, 343, 348, 380, 330, 330, 291, 308, 293, 296, 315, 349, 358, 360, 370, 354, 371, 317, 297, 319, 304, 285], "active": 24810}, "경기도": {"open": [284, 301, 280, 291, 338, 304, 318, 263, 245, 261, 244, 239, 256, 276, 276, 324, 301, 280, 277, 256, 233, 227, 246, 226, 235, 279, 274, 299, 269, 279], "close": [418, 397, 365, 387, 376, 336, 403, 395, 432, 404, 438, 455, 396, 410, 365, 371, 358, 346, 381, 378, 424, 457, 405, 441, 390, 400, 393, 344, 353, 360], "active": 29140}, "부산광역시": {"open": [63, 69, 67, 74, 68, 69, 64, 62, 59, 60, 59, 58, 58, 60, 63, 64, 67, 71, 64, 56, 60, 53, 48, 52, 52, 54, 62, 61, 68, 64], "close": [104, 90, 89, 85, 86, 85, 98, 102, 94, 110, 113, 99, 96, 89, 99, 92, 86, 95, 95, 93, 102, 109, 107, 110, 109, 91, 94, 83, 83, 90], "active": 6870}, "인천광역시": {"open": [57, 61, 62, 64, 70, 65, 59, 65, 52, 51, 55, 52, 58, 59, 63, 67, 66, 60, 57, 55, 55, 51, 49, 53, 52, 51, 60, 63, 60, 56], "close": [93, 94, 86, 79, 76, 83, 83, 94, 88, 102, 102, 90, 95, 94, 77, 77, 84, 75, 84, 89, 87, 91, 102, 89, 89, 91, 80, 81, 73, 85], "active": 6540}, "대구광역시": {"open": [48, 50, 47, 50, 55, 55, 47, 48, 43, 39, 42, 43, 39, 44, 50, 52, 52, 52, 45, 44, 43, 36, 37, 41, 41, 46, 48, 50, 51, 43], "close": [76, 73, 64, 70, 69, 63, 64, 77, 77, 84, 85, 83, 79, 77, 73, 63, 61, 70, 72, 70, 72, 74, 84, 75, 74, 73, 64, 63, 63, 65], "active": 5120}}};
+
+const fmt = n => n == null ? "–" : n.toLocaleString("ko-KR");
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+let DATA, chart;
+
+async function load() {
+  try {
+    const r = await fetch("data.json", { cache: "no-store" });
+    if (!r.ok) throw 0;
+    DATA = await r.json();
+  } catch { DATA = FALLBACK; }
+  if (!DATA) { document.getElementById("chartTitle").textContent = "data.json을 불러오지 못했습니다"; return; }
+  init();
+}
+
+function init() {
+  document.getElementById("sampleNote").hidden = !DATA.sample;
+  document.getElementById("updatedAt").textContent =
+    `데이터 기준 ${DATA.latest_snapshot} · 갱신 ${DATA.updated}`;
+
+  const sel = document.getElementById("regionSel");
+  sel.innerHTML = Object.keys(DATA.regions)
+    .map(r => `<option value="${r}">${r}</option>`).join("");
+  sel.addEventListener("change", render);
+  document.getElementById("rangeSel").addEventListener("change", render);
+  render();
+}
+
+function render() {
+  const region = document.getElementById("regionSel").value;
+  const win = +document.getElementById("rangeSel").value;
+  const rg = DATA.regions[region];
+  const n = Math.min(win, DATA.months.length);
+  const months = DATA.months.slice(-n);
+  const open = rg.open.slice(-n);
+  const close = rg.close.slice(-n);
+  const net = open.map((o, i) => close[i] == null ? null : o - close[i]);
+
+  // 요약 카드: 가장 최근 월
+  const last = months.length - 1;
+  const label = months[last].replace("-", "년 ") + "월";
+  document.getElementById("lblOpen").textContent = `${label} 개업`;
+  document.getElementById("lblClose").textContent = `${label} 폐업`;
+  document.getElementById("stOpen").textContent = fmt(open[last]);
+  document.getElementById("stClose").textContent = fmt(close[last]);
+  const netEl = document.getElementById("stNet");
+  if (net[last] == null) { netEl.textContent = "–"; netEl.className = "value"; }
+  else {
+    netEl.textContent = (net[last] > 0 ? "+" : "") + fmt(net[last]);
+    netEl.className = "value " + (net[last] >= 0 ? "plus" : "minus");
+  }
+  document.getElementById("stActive").textContent = fmt(rg.active);
+  diffText("dOpen", open);
+  diffText("dClose", close);
+  document.getElementById("chartTitle").textContent = `${region} 월별 개업·폐업 추이`;
+
+  const labels = months.map(m => m.slice(2).replace("-", ".")); // 26.06
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById("mainChart"), {
+    data: {
+      labels,
+      datasets: [
+        { type: "bar", label: "개업", data: open,
+          backgroundColor: "#0E7A44", borderRadius: 3, order: 2 },
+        { type: "bar", label: "폐업", data: close,
+          backgroundColor: "#C64A2E", borderRadius: 3, order: 2 },
+        { type: "line", label: "순증감", data: net,
+          borderColor: "#1B231E", borderWidth: 2, pointRadius: 0,
+          pointHoverRadius: 4, tension: .3, spanGaps: false, order: 1 },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      animation: reduced ? false : { duration: 500 },
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { labels: { font: { family: "'IBM Plex Sans KR'" }, boxWidth: 14 } },
+        tooltip: {
+          callbacks: { label: c => ` ${c.dataset.label}: ${fmt(c.raw)}` },
+          bodyFont: { family: "'IBM Plex Sans KR'" },
+          titleFont: { family: "'IBM Plex Sans KR'" },
+        },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { family: "'IBM Plex Sans KR'", size: 11 }, maxRotation: 0, autoSkip: true } },
+        y: { grid: { color: "#E7ECE6" }, ticks: { font: { family: "'IBM Plex Sans KR'", size: 11 } } },
+      },
+    },
+  });
+}
+
+function diffText(id, arr) {
+  const el = document.getElementById(id);
+  const a = arr[arr.length - 1], b = arr[arr.length - 2];
+  if (a == null || b == null) { el.textContent = ""; return; }
+  const d = a - b;
+  el.textContent = d === 0 ? "전월과 동일" : `전월 대비 ${d > 0 ? "+" : ""}${fmt(d)}`;
+}
+
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+name: 집계 후 GitHub Pages 배포
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 월별 집계 실행 (스냅샷이 있을 때만)
+        run: |
+          if ls snapshots/*.csv >/dev/null 2>&1; then
+            python aggregate.py
+          else
+            echo "snapshots 없음 — 기존 data.json(샘플) 사용"
+          fi
+
+      - name: 배포 파일 구성
+        run: |
+          mkdir -p _site
+          cp index.html data.json _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

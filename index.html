@@ -125,9 +125,10 @@
     <span class="tilde">~</span>
     <select id="toSel" aria-label="끝 연월"></select>
     <span class="chips" role="group" aria-label="빠른 기간 선택">
+      <button type="button" data-q="month">이번달</button>
       <button type="button" data-q="ytd">올해</button>
-      <button type="button" data-q="12" class="on">최근 12개월</button>
-      <button type="button" data-q="all">전체</button>
+      <button type="button" data-q="6">최근 6개월</button>
+      <button type="button" data-q="all" class="on">전체</button>
     </span>
   </div>
 
@@ -135,7 +136,7 @@
     <div class="stat open"><div class="label">기간 내 개업</div><div class="value" id="stOpen">–</div><div class="delta" id="dOpen"></div></div>
     <div class="stat close"><div class="label">기간 내 폐업</div><div class="value" id="stClose">–</div><div class="delta" id="dClose"></div></div>
     <div class="stat net"><div class="label">기간 순증감</div><div class="value" id="stNet">–</div><div class="delta" id="dNet">개업 − 폐업</div></div>
-    <div class="stat"><div class="label">영업중 사무소</div><div class="value" id="stActive">–</div><div class="delta" id="dStatus"></div></div>
+    <div class="stat"><div class="label">영업 중 사무소 (현재 기준)</div><div class="value" id="stActive">–</div><div class="delta" id="dStatus"></div></div>
   </section>
 
   <section class="panel">
@@ -208,7 +209,7 @@ function init() {
   const mopts = DATA.months.map(m => `<option value="${m}">${m}</option>`).join("");
   document.getElementById("fromSel").innerHTML = mopts;
   document.getElementById("toSel").innerHTML = mopts;
-  setQuick("12");
+  setQuick("all");
 
   document.getElementById("regionSel").addEventListener("change", render);
   document.getElementById("tRegionSel").addEventListener("change", render);
@@ -236,11 +237,12 @@ function setQuick(q){
   const last = DATA.months[DATA.months.length - 1];
   t.value = last;
   if (q === "all") f.value = DATA.months[0];
+  else if (q === "month") f.value = last;
   else if (q === "ytd") {
     const jan = last.slice(0,4) + "-01";
     f.value = DATA.months.includes(jan) ? jan : DATA.months[0];
   } else {
-    f.value = DATA.months[Math.max(0, DATA.months.length - 12)];
+    f.value = DATA.months[Math.max(0, DATA.months.length - (+q || 12))];
   }
   document.querySelectorAll("[data-q]").forEach(x => x.classList.toggle("on", x.dataset.q === q));
 }

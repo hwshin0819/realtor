@@ -3,60 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>중개사무소 현황판 — 월별 개업·폐업 추이</title>
-<meta name="description" content="전국 부동산 중개사무소의 월별 개업·폐업 추이 대시보드">
+<title>중개사무소 현황판 — 월별 개업·영업중단·폐업 추이</title>
+<meta name="description" content="전국 부동산 중개사무소의 월별 개업, 영업 중단, 폐업 추이 대시보드">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root{
-    --green:#0E7A44;        /* 간판 초록 — 개업 */
-    --green-deep:#0A5A33;
-    --vermilion:#C64A2E;    /* 폐업 */
-    --ink:#1B231E;
-    --paper:#F4F6F2;
-    --card:#FFFFFF;
-    --line:#DDE4DC;
-    --muted:#6B756E;
+    --green:#0E7A44; --green-deep:#0A5A33;
+    --vermilion:#C64A2E;
+    --amber:#EF9F27; --amber-deep:#BA7517; --red-deep:#791F1F;
+    --ink:#1B231E; --paper:#F4F6F2; --card:#FFFFFF;
+    --line:#DDE4DC; --muted:#6B756E;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  html{font-size:16px}
   body{
     font-family:"IBM Plex Sans KR",-apple-system,sans-serif;
     background:var(--paper);color:var(--ink);
-    font-variant-numeric:tabular-nums;
-    line-height:1.5;
+    font-variant-numeric:tabular-nums;line-height:1.5;
   }
-  .wrap{max-width:1040px;margin:0 auto;padding:0 20px 64px}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 20px 64px}
 
-  /* ── 간판 마스트헤드 ─────────────────────────── */
-  .signboard{
-    background:var(--green);
-    border-bottom:6px solid var(--green-deep);
-  }
+  .signboard{background:var(--green);border-bottom:6px solid var(--green-deep)}
   .signboard-inner{
-    max-width:1040px;margin:0 auto;padding:34px 20px 30px;
-    border-left:3px solid rgba(255,255,255,.55);
-    border-right:3px solid rgba(255,255,255,.55);
+    max-width:1060px;margin:0 auto;padding:34px 20px 30px;
+    border-left:3px solid rgba(255,255,255,.55);border-right:3px solid rgba(255,255,255,.55);
   }
-  .signboard .eyebrow{
-    color:#CFE8DA;font-size:.8rem;font-weight:500;letter-spacing:.22em;margin-bottom:6px;
-  }
+  .signboard .eyebrow{color:#CFE8DA;font-size:.8rem;font-weight:500;letter-spacing:.22em;margin-bottom:6px}
   .signboard h1{
-    font-family:"Black Han Sans",sans-serif;font-weight:400;
-    color:#fff;font-size:clamp(1.9rem,5vw,3rem);letter-spacing:.02em;line-height:1.15;
+    font-family:"Black Han Sans",sans-serif;font-weight:400;color:#fff;
+    font-size:clamp(1.9rem,5vw,3rem);letter-spacing:.02em;line-height:1.15;
   }
   .signboard h1 .accent{color:#FFE24A}
-  .signboard .sub{color:#D8ECe1;color:#D8ECE1;font-size:.9rem;margin-top:8px}
+  .signboard .sub{color:#D8ECE1;font-size:.9rem;margin-top:8px}
 
   .sample-note{
     margin:20px 0 0;padding:12px 16px;border:1.5px dashed var(--vermilion);
     border-radius:8px;background:#FBF1EE;color:#8C3520;font-size:.88rem;
   }
-  .sample-note strong{font-weight:700}
 
-  /* ── 컨트롤 ─────────────────────────────────── */
   .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:28px 0 20px}
   .controls label{font-size:.85rem;font-weight:500;color:var(--muted)}
   select{
@@ -67,37 +53,44 @@
   select:focus-visible{outline:2.5px solid var(--green);outline-offset:1px}
   .updated{margin-left:auto;font-size:.8rem;color:var(--muted)}
 
-  /* ── 스탯 카드 ──────────────────────────────── */
   .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
   @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
-  .stat{
-    background:var(--card);border:1.5px solid var(--line);border-radius:12px;
-    padding:16px 18px;
-  }
+  .stat{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:16px 18px}
   .stat .label{font-size:.8rem;color:var(--muted);font-weight:500}
-  .stat .value{font-size:1.9rem;font-weight:700;letter-spacing:-.01em;margin-top:2px}
-  .stat .delta{font-size:.78rem;color:var(--muted);margin-top:2px}
+  .stat .value{font-size:1.8rem;font-weight:700;letter-spacing:-.01em;margin-top:2px}
+  .stat .delta{font-size:.76rem;color:var(--muted);margin-top:2px}
   .stat.open .value{color:var(--green)}
   .stat.close .value{color:var(--vermilion)}
   .stat.net .value.plus{color:var(--green)}
   .stat.net .value.minus{color:var(--vermilion)}
 
-  /* ── 차트 ───────────────────────────────────── */
-  .panel{
-    background:var(--card);border:1.5px solid var(--line);border-radius:12px;
-    padding:22px 22px 14px;
-  }
+  .panel{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:22px 22px 14px;margin-bottom:22px}
   .panel h2{font-size:1.05rem;font-weight:700;margin-bottom:4px}
   .panel .desc{font-size:.83rem;color:var(--muted);margin-bottom:14px}
-  .chart-box{position:relative;height:380px}
-  @media(max-width:720px){.chart-box{height:300px}}
+  .chart-box{position:relative;height:400px}
+  @media(max-width:720px){.chart-box{height:310px}}
 
-  .footnote{margin-top:26px;font-size:.8rem;color:var(--muted);line-height:1.7}
-  .footnote a{color:var(--green-deep)}
-
-  @media (prefers-reduced-motion: reduce){
-    *{animation:none!important;transition:none!important}
+  .table-scroll{overflow-x:auto;margin:0 -4px;padding:0 4px}
+  table{border-collapse:collapse;font-size:.82rem;white-space:nowrap;width:100%}
+  thead th{font-weight:500;color:var(--muted);padding:6px 10px;border-bottom:1.5px solid var(--line);text-align:right}
+  thead th.mo{text-align:center;color:var(--ink)}
+  thead th.oc-o{color:var(--green)}
+  thead th.oc-c{color:var(--vermilion)}
+  tbody td{padding:6px 10px;border-bottom:1px solid #EDF1EC;text-align:right}
+  tbody tr:hover{background:#F7FAF6}
+  td.region,th.region{
+    text-align:left;position:sticky;left:0;background:var(--card);font-weight:500;
+    border-right:1.5px solid var(--line);cursor:pointer;
   }
+  tbody tr:hover td.region{background:#F7FAF6}
+  td.region:hover{color:var(--green-deep);text-decoration:underline}
+  td.net.plus{color:var(--green);font-weight:500}
+  td.net.minus{color:var(--vermilion);font-weight:500}
+  .bf{color:var(--muted)}
+
+  .footnote{margin-top:4px;font-size:.78rem;color:var(--muted);line-height:1.7}
+
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
@@ -106,7 +99,7 @@
   <div class="signboard-inner">
     <p class="eyebrow">전국 부동산중개업 데이터 · 매월 갱신</p>
     <h1>중개사무소 <span class="accent">개업·폐업</span> 현황판</h1>
-    <p class="sub">국토교통부 부동산중개업정보를 월별로 집계한 추이입니다.</p>
+    <p class="sub">개업, 영업 중단(휴업·정지), 폐업을 월별로 집계한 추이입니다.</p>
   </div>
 </header>
 
@@ -147,26 +140,32 @@
     <div class="stat">
       <div class="label">영업중 사무소</div>
       <div class="value" id="stActive">–</div>
-      <div class="delta">최신 데이터 기준</div>
+      <div class="delta" id="dStatus">최신 데이터 기준</div>
     </div>
   </section>
 
   <section class="panel">
-    <h2 id="chartTitle">월별 개업·폐업 추이</h2>
-    <p class="desc">막대는 개업(초록)과 폐업(주홍), 선은 순증감입니다.</p>
-    <div class="chart-box"><canvas id="mainChart" role="img" aria-label="월별 개업 폐업 추이 차트"></canvas></div>
+    <h2 id="chartTitle">월별 추이</h2>
+    <p class="desc">초록 = 개업 · 노랑 계열 = 영업 중단(휴업·휴업 연장·업무정지) · 주홍 = 폐업 · 선 = 순증감</p>
+    <div class="chart-box"><canvas id="mainChart" role="img" aria-label="월별 개업 영업중단 폐업 추이 차트"></canvas></div>
+  </section>
+
+  <section class="panel">
+    <h2>지역별 상세 표</h2>
+    <p class="desc">지역 이름을 클릭하면 위 차트가 그 지역으로 바뀝니다. 좌우로 스크롤해 이전 달을 볼 수 있어요.</p>
+    <div class="table-scroll"><table id="regionTable"></table></div>
+    <p class="footnote" id="tableNote"></p>
   </section>
 
   <p class="footnote">
-    출처: 국토교통부 부동산중개업정보(브이월드·공공데이터포털).
-    개업은 개설등록일자 기준, 폐업은 월별 스냅샷 비교 방식으로 집계하므로 협회 공식 통계와 차이가 있을 수 있습니다.
-    폐업 수치가 비어 있는 구간은 비교할 이전 스냅샷이 없는 기간입니다.
+    출처: 국토교통부 부동산중개업정보(K-Geo플랫폼) 자체 집계.
+    개업은 등록일자·스냅샷 신규 등장 기준, 폐업·영업 중단은 월별 스냅샷 비교 방식이라 협회 공식 통계와 차이가 있을 수 있습니다.
+    <span id="bfNote"></span>
   </p>
 </main>
 
 <script>
-// snapshots가 아직 없어도 화면이 보이도록, data.json 로드 실패 시 사용할 내장 샘플
-const FALLBACK = {"updated": "2026-07-01", "latest_snapshot": "2026-06", "sample": true, "months": ["2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"], "regions": {"전국": {"open": [1009, 1008, 1145, 1217, 1142, 1084, 1003, 1045, 912, 951, 930, 876, 1008, 930, 1109, 1143, 1107, 1059, 1087, 1026, 937, 824, 786, 799, 911, 925, 960, 1058, 989, 969], "close": [1439, 1419, 1452, 1268, 1238, 1359, 1344, 1495, 1580, 1484, 1682, 1522, 1517, 1389, 1435, 1408, 1440, 1370, 1438, 1503, 1444, 1556, 1561, 1554, 1524, 1415, 1510, 1382, 1388, 1332], "active": 115320}, "서울특별시": {"open": [233, 231, 255, 239, 245, 237, 252, 229, 223, 191, 196, 199, 202, 235, 215, 223, 252, 220, 244, 228, 183, 194, 177, 175, 193, 219, 218, 241, 221, 228], "close": [353, 339, 327, 279, 286, 323, 304, 324, 343, 343, 348, 380, 330, 330, 291, 308, 293, 296, 315, 349, 358, 360, 370, 354, 371, 317, 297, 319, 304, 285], "active": 24810}, "경기도": {"open": [284, 301, 280, 291, 338, 304, 318, 263, 245, 261, 244, 239, 256, 276, 276, 324, 301, 280, 277, 256, 233, 227, 246, 226, 235, 279, 274, 299, 269, 279], "close": [418, 397, 365, 387, 376, 336, 403, 395, 432, 404, 438, 455, 396, 410, 365, 371, 358, 346, 381, 378, 424, 457, 405, 441, 390, 400, 393, 344, 353, 360], "active": 29140}, "부산광역시": {"open": [63, 69, 67, 74, 68, 69, 64, 62, 59, 60, 59, 58, 58, 60, 63, 64, 67, 71, 64, 56, 60, 53, 48, 52, 52, 54, 62, 61, 68, 64], "close": [104, 90, 89, 85, 86, 85, 98, 102, 94, 110, 113, 99, 96, 89, 99, 92, 86, 95, 95, 93, 102, 109, 107, 110, 109, 91, 94, 83, 83, 90], "active": 6870}, "인천광역시": {"open": [57, 61, 62, 64, 70, 65, 59, 65, 52, 51, 55, 52, 58, 59, 63, 67, 66, 60, 57, 55, 55, 51, 49, 53, 52, 51, 60, 63, 60, 56], "close": [93, 94, 86, 79, 76, 83, 83, 94, 88, 102, 102, 90, 95, 94, 77, 77, 84, 75, 84, 89, 87, 91, 102, 89, 89, 91, 80, 81, 73, 85], "active": 6540}, "대구광역시": {"open": [48, 50, 47, 50, 55, 55, 47, 48, 43, 39, 42, 43, 39, 44, 50, 52, 52, 52, 45, 44, 43, 36, 37, 41, 41, 46, 48, 50, 51, 43], "close": [76, 73, 64, 70, 69, 63, 64, 77, 77, 84, 85, 83, 79, 77, 73, 63, 61, 70, 72, 70, 72, 74, 84, 75, 74, 73, 64, 63, 63, 65], "active": 5120}}};
+const FALLBACK = {"updated": "2026-07-13", "latest_snapshot": "2026-07", "sample": true, "months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07"], "regions": {"전국": {"open": [824, 927, 951, 891, 898, 893, 930, 832, 876, 834, 887, 880, 875, 675, 881, 777, 543, 538, 540], "close": [1173, 1104, 1121, 1114, 1083, 1021, 1228, 1140, 1375, 1275, 1197, 1247, 1168, 867, 1096, 1100, 880, 1072, 1035], "source": ["backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "own"], "pause": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 111], "ext": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 38], "stop": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0], "active": 99412, "status": {"영업중": 99412, "휴업": 1830, "휴업연장": 682, "업무정지": 8}}, "서울특별시": {"open": [221, 238, 244, 229, 256, 249, 254, 249, 207, 221, 198, 203, 245, 198, 267, 233, 173, 219, 138], "close": [283, 246, 239, 257, 249, 248, 253, 260, 261, 264, 291, 285, 264, 220, 267, 257, 192, 243, 229], "source": ["backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "own"], "pause": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 33], "ext": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 7], "stop": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0], "active": 21830, "status": {"영업중": 21830, "휴업": 410, "휴업연장": 150, "업무정지": 1}}, "경기도": {"open": [209, 213, 227, 218, 255, 231, 230, 201, 199, 183, 190, 208, 244, 205, 249, 220, 154, 144, 132], "close": [296, 330, 317, 283, 294, 272, 307, 279, 330, 343, 337, 324, 300, 256, 293, 312, 242, 321, 261], "source": ["backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "own"], "pause": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 37], "ext": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 11], "stop": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0], "active": 25140, "status": {"영업중": 25140, "휴업": 520, "휴업연장": 190, "업무정지": 2}}, "부산광역시": {"open": [46, 45, 44, 51, 53, 45, 45, 44, 44, 42, 38, 38, 52, 38, 56, 18, 38, 33, 27], "close": [85, 83, 76, 75, 76, 75, 74, 84, 96, 88, 83, 93, 101, 59, 89, 95, 65, 75, 72], "source": ["backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "own"], "pause": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8], "ext": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5], "stop": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2], "active": 6120, "status": {"영업중": 6120, "휴업": 140, "휴업연장": 55, "업무정지": 0}}, "인천광역시": {"open": [40, 42, 49, 46, 55, 52, 51, 47, 42, 41, 38, 41, 44, 40, 44, 44, 47, 44, 27], "close": [62, 63, 57, 62, 59, 57, 65, 63, 64, 66, 75, 62, null, null, null, null, null, null, 54], "source": ["backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "reg", "reg", "reg", "reg", "reg", "reg", "own"], "pause": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8], "ext": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 3], "stop": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2], "active": 5890, "status": {"영업중": 5890, "휴업": 120, "휴업연장": 40, "업무정지": 0}}, "대구광역시": {"open": [35, 41, 39, 41, 41, 38, 41, 39, 33, 33, 37, 33, 32, 38, 36, 39, 35, 33, 22], "close": [63, 60, 51, 59, 51, 56, 55, 58, 67, 65, 67, 65, null, null, null, null, null, null, 50], "source": ["backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "backfill", "reg", "reg", "reg", "reg", "reg", "reg", "own"], "pause": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 13], "ext": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5], "stop": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1], "active": 4610, "status": {"영업중": 4610, "휴업": 96, "휴업연장": 33, "업무정지": 1}}}};
 
 const fmt = n => n == null ? "–" : n.toLocaleString("ko-KR");
 const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -186,13 +185,19 @@ function init() {
   document.getElementById("sampleNote").hidden = !DATA.sample;
   document.getElementById("updatedAt").textContent =
     `데이터 기준 ${DATA.latest_snapshot} · 갱신 ${DATA.updated}`;
-
   const sel = document.getElementById("regionSel");
-  sel.innerHTML = Object.keys(DATA.regions)
-    .map(r => `<option value="${r}">${r}</option>`).join("");
+  sel.innerHTML = Object.keys(DATA.regions).map(r => `<option value="${r}">${r}</option>`).join("");
   sel.addEventListener("change", render);
   document.getElementById("rangeSel").addEventListener("change", render);
   render();
+}
+
+function slice(rg, n) {
+  const s = arr => arr.slice(-n);
+  return {
+    open: s(rg.open), close: s(rg.close), source: s(rg.source),
+    pause: s(rg.pause), ext: s(rg.ext), stop: s(rg.stop),
+  };
 }
 
 function render() {
@@ -201,17 +206,15 @@ function render() {
   const rg = DATA.regions[region];
   const n = Math.min(win, DATA.months.length);
   const months = DATA.months.slice(-n);
-  const open = rg.open.slice(-n);
-  const close = rg.close.slice(-n);
-  const net = open.map((o, i) => close[i] == null ? null : o - close[i]);
+  const d = slice(rg, n);
+  const net = d.open.map((o, i) => d.close[i] == null ? null : o - d.close[i]);
 
-  // 요약 카드: 가장 최근 월
   const last = months.length - 1;
   const label = months[last].replace("-", "년 ") + "월";
   document.getElementById("lblOpen").textContent = `${label} 개업`;
   document.getElementById("lblClose").textContent = `${label} 폐업`;
-  document.getElementById("stOpen").textContent = fmt(open[last]);
-  document.getElementById("stClose").textContent = fmt(close[last]);
+  document.getElementById("stOpen").textContent = fmt(d.open[last]);
+  document.getElementById("stClose").textContent = fmt(d.close[last]);
   const netEl = document.getElementById("stNet");
   if (net[last] == null) { netEl.textContent = "–"; netEl.className = "value"; }
   else {
@@ -219,19 +222,36 @@ function render() {
     netEl.className = "value " + (net[last] >= 0 ? "plus" : "minus");
   }
   document.getElementById("stActive").textContent = fmt(rg.active);
-  diffText("dOpen", open);
-  diffText("dClose", close);
-  document.getElementById("chartTitle").textContent = `${region} 월별 개업·폐업 추이`;
+  const st = rg.status || {};
+  const suspended = (st["휴업"] || 0) + (st["휴업연장"] || 0) + (st["업무정지"] || 0);
+  document.getElementById("dStatus").textContent = suspended
+    ? `휴업 ${fmt(st["휴업"])} · 연장 ${fmt(st["휴업연장"])} · 정지 ${fmt(st["업무정지"])}`
+    : "최신 데이터 기준";
+  diffText("dOpen", d.open);
+  diffText("dClose", d.close);
+  document.getElementById("chartTitle").textContent = `${region} 월별 추이`;
 
-  const labels = months.map(m => m.slice(2).replace("-", ".")); // 26.06
+  drawChart(months, d, net);
+  drawTable(months, n);
+}
+
+function drawChart(months, d, net) {
+  const labels = months.map(m => m.slice(2).replace("-", "."));
   if (chart) chart.destroy();
+  const f = { family: "'IBM Plex Sans KR'" };
   chart = new Chart(document.getElementById("mainChart"), {
     data: {
       labels,
       datasets: [
-        { type: "bar", label: "개업", data: open,
+        { type: "bar", label: "개업", data: d.open, stack: "o",
           backgroundColor: "#0E7A44", borderRadius: 3, order: 2 },
-        { type: "bar", label: "폐업", data: close,
+        { type: "bar", label: "신규 휴업", data: d.pause, stack: "s",
+          backgroundColor: "#EF9F27", order: 2 },
+        { type: "bar", label: "휴업 연장", data: d.ext, stack: "s",
+          backgroundColor: "#BA7517", order: 2 },
+        { type: "bar", label: "업무정지", data: d.stop, stack: "s",
+          backgroundColor: "#791F1F", order: 2 },
+        { type: "bar", label: "폐업", data: d.close, stack: "c",
           backgroundColor: "#C64A2E", borderRadius: 3, order: 2 },
         { type: "line", label: "순증감", data: net,
           borderColor: "#1B231E", borderWidth: 2, pointRadius: 0,
@@ -243,27 +263,69 @@ function render() {
       animation: reduced ? false : { duration: 500 },
       interaction: { mode: "index", intersect: false },
       plugins: {
-        legend: { labels: { font: { family: "'IBM Plex Sans KR'" }, boxWidth: 14 } },
+        legend: { labels: { font: f, boxWidth: 14 } },
         tooltip: {
+          bodyFont: f, titleFont: f,
           callbacks: { label: c => ` ${c.dataset.label}: ${fmt(c.raw)}` },
-          bodyFont: { family: "'IBM Plex Sans KR'" },
-          titleFont: { family: "'IBM Plex Sans KR'" },
         },
       },
       scales: {
-        x: { grid: { display: false }, ticks: { font: { family: "'IBM Plex Sans KR'", size: 11 }, maxRotation: 0, autoSkip: true } },
-        y: { grid: { color: "#E7ECE6" }, ticks: { font: { family: "'IBM Plex Sans KR'", size: 11 } } },
+        x: { stacked: true, grid: { display: false },
+             ticks: { font: { ...f, size: 11 }, maxRotation: 0, autoSkip: true } },
+        y: { stacked: true, grid: { color: "#E7ECE6" },
+             ticks: { font: { ...f, size: 11 } } },
       },
     },
   });
+}
+
+function drawTable(months, n) {
+  const t = document.getElementById("regionTable");
+  const shown = months.slice().reverse(); // 최신 달이 왼쪽
+  let hasBf = false;
+
+  let h1 = `<tr><th class="region" rowspan="2">지역</th>`;
+  shown.forEach(m => {
+    const bf = DATA.regions["전국"] &&
+      DATA.regions["전국"].source[DATA.months.indexOf(m)] === "backfill";
+    if (bf) hasBf = true;
+    h1 += `<th class="mo" colspan="2">${m}${bf ? "*" : ""}</th>`;
+  });
+  h1 += `<th rowspan="2">순증감<br>(최근월)</th></tr><tr>`;
+  shown.forEach(() => { h1 += `<th class="oc-o">개업</th><th class="oc-c">폐업</th>`; });
+  h1 += `</tr>`;
+
+  let body = "";
+  for (const [name, rg] of Object.entries(DATA.regions)) {
+    body += `<tr><td class="region" data-r="${name}">${name}</td>`;
+    shown.forEach(m => {
+      const i = DATA.months.indexOf(m);
+      const bf = rg.source[i] === "backfill";
+      body += `<td${bf ? ' class="bf"' : ""}>${fmt(rg.open[i])}</td><td${bf ? ' class="bf"' : ""}>${fmt(rg.close[i])}</td>`;
+    });
+    const li = DATA.months.indexOf(months[months.length - 1]);
+    const netV = rg.close[li] == null ? null : rg.open[li] - rg.close[li];
+    const cls = netV == null ? "" : netV >= 0 ? "plus" : "minus";
+    body += `<td class="net ${cls}">${netV == null ? "–" : (netV > 0 ? "+" : "") + fmt(netV)}</td></tr>`;
+  }
+  t.innerHTML = `<thead>${h1}</thead><tbody>${body}</tbody>`;
+  t.querySelectorAll("td.region").forEach(td => td.addEventListener("click", () => {
+    document.getElementById("regionSel").value = td.dataset.r;
+    render();
+    document.querySelector(".chart-box").scrollIntoView({ behavior: reduced ? "auto" : "smooth" });
+  }));
+  document.getElementById("tableNote").textContent =
+    hasBf ? "* 표시 달은 외부 자료(backfill)로 채운 구간이며 회색으로 표시됩니다." : "";
+  document.getElementById("bfNote").textContent =
+    hasBf ? "일부 과거 구간은 외부 자료로 보완했습니다." : "";
 }
 
 function diffText(id, arr) {
   const el = document.getElementById(id);
   const a = arr[arr.length - 1], b = arr[arr.length - 2];
   if (a == null || b == null) { el.textContent = ""; return; }
-  const d = a - b;
-  el.textContent = d === 0 ? "전월과 동일" : `전월 대비 ${d > 0 ? "+" : ""}${fmt(d)}`;
+  const dv = a - b;
+  el.textContent = dv === 0 ? "전월과 동일" : `전월 대비 ${dv > 0 ? "+" : ""}${fmt(dv)}`;
 }
 
 load();

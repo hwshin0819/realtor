@@ -332,7 +332,7 @@ function drawChart(d){
       scales: {
         x:{ stacked:true, grid:{ display:false }, ticks:{ font:{ ...f, size:11 }, maxRotation:0, autoSkip:true } },
         y:{ stacked:true, beginAtZero:true, grid:{ color:"#EAEEE9" }, ticks:{ font:{ ...f, size:11 } } },
-        y1:{ position:"right", grid:{ drawOnChartArea:false },
+        y1:{ position:"right", grid:{ drawOnChartArea:false }, suggestedMax:0, suggestedMin:0,
              ticks:{ font:{ ...f, size:11 }, color:"#2563EB",
                      callback: v => (v > 0 ? "+" : "") + v.toLocaleString("ko-KR") } },
       },

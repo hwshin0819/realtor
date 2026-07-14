@@ -98,6 +98,11 @@
   td.net.minus{color:var(--vermilion);font-weight:500}
   .bf{color:var(--muted)}
   .footnote{margin-top:6px;font-size:.77rem;color:var(--muted);line-height:1.7}
+  .more-note{margin-top:2px}
+  .more-note summary{cursor:pointer;color:var(--green-deep);width:fit-content;user-select:none}
+  .more-note summary:hover{text-decoration:underline}
+  .more-note[open] summary{margin-bottom:2px}
+  .more-note p{margin:0}
 
   @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -163,9 +168,18 @@
     <p class="footnote" id="tableNote"></p>
   </section>
 
-  <p class="footnote">
-    폐업은 월별 스냅샷 비교 방식이라 공식 통계와 차이가 있을 수 있습니다. <span id="bfNote" hidden></span>
-  </p>
+  <div class="footnote">
+    폐업은 월별 스냅샷 비교 방식이라 공식 통계와 차이가 있을 수 있습니다.
+    <details class="more-note">
+      <summary>데이터 안내 더보기</summary>
+      <p>
+        전북(2024년 1월 이전)과 강원(2023년 6월 이전)의 폐업은 원자료 미비로 "–" 처리했습니다.<br>
+        시도별 수치의 합계는 주소 미상 사무소 등으로 전국 수치와 소폭 차이가 날 수 있습니다.<br>
+        광주·전남은 행정구역 통합(2026.7) 이후에도 비교를 위해 분리 집계합니다.<br>
+        광주·전남의 2026년 상반기 개업은 통합 이행기 영향으로 과소집계일 수 있습니다.
+      </p>
+    </details>
+  </div>
 </main>
 
 <script>
@@ -465,8 +479,6 @@ function drawTable(i0, i1){
   }));
   document.getElementById("tableNote").textContent =
     hasBf ? "* 표시 달은 외부 자료(backfill)로 채운 구간이며 회색으로 표시됩니다." : "";
-  document.getElementById("bfNote").textContent =
-    hasBf ? "일부 과거 구간은 외부 자료로 보완했습니다." : "";
 }
 
 function downloadXlsx(){

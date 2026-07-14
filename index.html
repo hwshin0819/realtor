@@ -141,7 +141,7 @@
     <div class="stat open"><div class="label">기간 내 개업</div><div class="value" id="stOpen">–</div><div class="delta" id="dOpen"></div></div>
     <div class="stat close"><div class="label">기간 내 폐업</div><div class="value" id="stClose">–</div><div class="delta" id="dClose"></div></div>
     <div class="stat net"><div class="label">기간 순증감</div><div class="value" id="stNet">–</div><div class="delta" id="dNet">개업 − 폐업</div></div>
-    <div class="stat"><div class="label">영업 중 사무소 (현재 기준)</div><div class="value" id="stActive">–</div><div class="delta" id="dStatus"></div></div>
+    <div class="stat"><div class="label">실제 영업 중 사무소 (현재 기준)</div><div class="value" id="stActive">–</div><div class="delta" id="dStatus"></div></div>
   </section>
 
   <section class="panel">
@@ -173,10 +173,10 @@
     <details class="more-note">
       <summary>데이터 안내 더보기</summary>
       <p>
-        전북(2024년 1월 이전)과 강원(2023년 6월 이전)의 폐업은 원자료 미비로 "–" 처리했습니다.<br>
-        시도별 수치의 합계는 주소 미상 사무소 등으로 전국 수치와 소폭 차이가 날 수 있습니다.<br>
-        광주·전남은 행정구역 통합(2026.7) 이후에도 비교를 위해 분리 집계합니다.<br>
-        광주·전남의 2026년 상반기 개업은 통합 이행기 영향으로 과소집계일 수 있습니다.
+        - 전북(2024년 1월 이전)과 강원(2023년 6월 이전)의 폐업은 원자료 미비로 "–" 처리했습니다.<br>
+        - 시도별 수치의 합계는 주소 미상 사무소 등으로 전국 수치와 소폭 차이가 날 수 있습니다.<br>
+        - 광주·전남은 행정구역 통합(2026.7) 이후에도 비교를 위해 분리 집계합니다.<br>
+        - 광주·전남의 2026년 상반기 개업은 통합 이행기 영향으로 과소집계일 수 있습니다.
       </p>
     </details>
   </div>
@@ -312,7 +312,7 @@ function render(){
   document.getElementById("stActive").textContent = fmt(rg.active);
   const st = rg.status || {};
   document.getElementById("dStatus").textContent =
-    `휴업 ${fmt(st["휴업"])} · 연장 ${fmt(st["휴업연장"])} · 정지 ${fmt(st["업무정지"])}`;
+    `휴업 ${fmt(st["휴업"])} · 연장 ${fmt(st["휴업연장"])} · 정지 ${fmt(st["업무정지"])} (별도)`;
   document.getElementById("chartTitle").textContent =
     `${SHORT[region] || region} ${granularity === "m" ? "월별" : "분기별"} 추이`;
 

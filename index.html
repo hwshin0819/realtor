@@ -9,7 +9,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
   :root{
     --green:#0E7A44; --green-deep:#0A5A33;
@@ -69,6 +68,14 @@
   .panel h2{font-size:1.02rem;font-weight:700;margin-right:auto}
   .panel .desc{font-size:.82rem;color:var(--muted);margin-bottom:14px}
   .chart-box{position:relative;height:400px}
+  .sel-box{
+    position:absolute;top:8px;right:8px;z-index:5;pointer-events:none;
+    background:rgba(255,255,255,.95);border:1.5px solid var(--green);border-radius:10px;
+    padding:10px 14px;font-size:.82rem;line-height:1.65;box-shadow:0 2px 10px rgba(27,35,30,.08);
+  }
+  .sel-box .t{font-weight:700;color:var(--green-deep);margin-bottom:2px}
+  .sel-box .o{color:var(--green)} .sel-box .c{color:var(--vermilion)}
+  .sel-box .n.plus{color:var(--green);font-weight:700} .sel-box .n.minus{color:var(--vermilion);font-weight:700}
   @media(max-width:720px){.chart-box{height:310px}}
 
   .btn{font:inherit;font-size:.83rem;font-weight:500;padding:7px 13px;border-radius:8px;
@@ -139,8 +146,8 @@
         <button type="button" data-g="q">분기별</button>
       </span>
     </div>
-    <p class="desc">초록 = 개업 · 주홍 = 폐업 · 파란 선 = 순증감(오른쪽 축) · 차트 위를 드래그하면 그 기간만 확대됩니다</p>
-    <div class="chart-box"><canvas id="mainChart" role="img" aria-label="개업 영업중단 폐업 추이 차트"></canvas></div>
+    <p class="desc">초록 (개업), 주홍 (폐업), 파란선 (순증감)<br>차트 위를 드래그 하면 해당 구간의 합계가 표시됩니다.</p>
+    <div class="chart-box"><canvas id="mainChart" role="img" aria-label="개업 폐업 추이 차트"></canvas><div class="sel-box" id="selBox" hidden></div></div>
   </section>
 
   <section class="panel">
@@ -297,24 +304,91 @@ function render(){
   drawTable(i0, i1);
 }
 
+let SEL = null, CUR = null;
+
+const rangeSelectPlugin = {
+  id: "rangeSelect",
+  afterDatasetsDraw(ch) {
+    if (!SEL) return;
+    const x = ch.scales.x, area = ch.chartArea, ctx = ch.ctx;
+    const half = (x.getPixelForValue(1) - x.getPixelForValue(0)) / 2 || 12;
+    const x0 = Math.max(area.left, x.getPixelForValue(SEL.i0) - half);
+    const x1 = Math.min(area.right, x.getPixelForValue(SEL.i1) + half);
+    ctx.save();
+    ctx.fillStyle = "rgba(14,122,68,.13)";
+    ctx.fillRect(x0, area.top, x1 - x0, area.bottom - area.top);
+    ctx.strokeStyle = "rgba(14,122,68,.55)";
+    ctx.lineWidth = 1.5;
+    ctx.strokeRect(x0, area.top, x1 - x0, area.bottom - area.top);
+    ctx.restore();
+  },
+};
+
+function updateSelBox() {
+  const box = document.getElementById("selBox");
+  if (!SEL || !CUR) { box.hidden = true; return; }
+  const s = CUR.months[SEL.i0], e = CUR.months[SEL.i1];
+  const open = CUR.open.slice(SEL.i0, SEL.i1 + 1);
+  const close = CUR.close.slice(SEL.i0, SEL.i1 + 1);
+  const known = close.filter(v => v != null);
+  const oSum = open.reduce((a, b) => a + (b || 0), 0);
+  const cSum = known.reduce((a, b) => a + b, 0);
+  const net = known.length ? open.reduce((a, o, i) => close[i] == null ? a : a + o - close[i], 0) : null;
+  const gap = known.length < close.length && known.length > 0;
+  box.innerHTML =
+    `<div class="t">${s === e ? s : s + " ~ " + e}</div>` +
+    `<div>개업 <span class="o">${fmt(oSum)}</span> · 폐업 <span class="c">${known.length ? fmt(cSum) : "–"}</span></div>` +
+    `<div>순증감 <span class="n ${net == null ? "" : net >= 0 ? "plus" : "minus"}">${net == null ? "–" : (net > 0 ? "+" : "") + fmt(net)}</span>${gap ? ' <span style="color:var(--muted)">(집계 전 제외)</span>' : ""}</div>`;
+  box.hidden = false;
+}
+
+function attachBrush(ch) {
+  const canvas = ch.canvas;
+  let anchor = null, moved = false;
+  const idxAt = e => {
+    const rect = canvas.getBoundingClientRect();
+    const v = ch.scales.x.getValueForPixel(e.clientX - rect.left);
+    return Math.max(0, Math.min(CUR.months.length - 1, Math.round(v)));
+  };
+  canvas.onpointerdown = e => { anchor = idxAt(e); moved = false; canvas.setPointerCapture(e.pointerId); };
+  canvas.onpointermove = e => {
+    if (anchor == null) return;
+    const i = idxAt(e);
+    if (i !== anchor) moved = true;
+    SEL = { i0: Math.min(anchor, i), i1: Math.max(anchor, i) };
+    updateSelBox();
+    ch.draw();
+  };
+  const finish = () => {
+    if (anchor != null && !moved) { SEL = null; updateSelBox(); ch.draw(); } // 클릭 → 해제
+    anchor = null;
+  };
+  canvas.onpointerup = finish;
+  canvas.onpointercancel = finish;
+}
+
 function drawChart(d){
   const isQ = d.months[0] && d.months[0].includes("Q");
   const labels = d.months.map(m => isQ ? m.slice(2).replace("-", " ") : m.slice(2).replace("-", "."));
   const net = d.open.map((o, i) => d.close[i] == null ? null : o - d.close[i]);
+  SEL = null;
+  CUR = d;
+  updateSelBox();
   if (chart) chart.destroy();
   const f = { family: "Pretendard Variable, Pretendard, sans-serif" };
   chart = new Chart(document.getElementById("mainChart"), {
+    plugins: [rangeSelectPlugin],
     data: { labels, datasets: [
       { type:"bar", label:"신규 개업", data:d.open,
-        backgroundColor:"#0E7A44", borderRadius:2, yAxisID:"y", order:2,
-        barPercentage:.9, categoryPercentage:.72 },
+        backgroundColor:"#7FBCA0", hoverBackgroundColor:"#0E7A44",
+        borderRadius:2, yAxisID:"y", order:2, barPercentage:.9, categoryPercentage:.72 },
       { type:"bar", label:"폐업", data:d.close,
-        backgroundColor:"#C64A2E", borderRadius:2, yAxisID:"y", order:2,
-        barPercentage:.9, categoryPercentage:.72 },
+        backgroundColor:"#E2A08F", hoverBackgroundColor:"#C64A2E",
+        borderRadius:2, yAxisID:"y", order:2, barPercentage:.9, categoryPercentage:.72 },
       { type:"line", label:"순증감", data:net, yAxisID:"y1", order:1,
-        borderColor:"#2563EB", borderWidth:2.5, tension:.3, spanGaps:false,
+        borderColor:"#2563EB", borderWidth:1.25, tension:.3, spanGaps:false,
         pointRadius: labels.length > 40 ? 0 : 4, pointHoverRadius:6,
-        pointBackgroundColor:"#fff", pointBorderColor:"#2563EB", pointBorderWidth:2.5 },
+        pointBackgroundColor:"#fff", pointBorderColor:"#2563EB", pointBorderWidth:1.5 },
     ]},
     options: {
       responsive:true, maintainAspectRatio:false,
@@ -333,29 +407,6 @@ function drawChart(d){
               ` ${c.dataset.label}: ${(c.dataset.label === "순증감" && c.raw > 0 ? "+" : "")}${fmt(c.raw)}곳`,
           },
         },
-        zoom: {
-          zoom: {
-            drag: { enabled:true, backgroundColor:"rgba(14,122,68,.15)", borderColor:"#0E7A44", borderWidth:1 },
-            mode: "x",
-            onZoomComplete: ({ chart: ch }) => {
-              const i0 = Math.max(0, Math.round(ch.scales.x.min));
-              const i1 = Math.min(d.months.length - 1, Math.round(ch.scales.x.max));
-              if (i1 <= i0) return;
-              const toM = q => q.includes("Q")
-                ? [q.slice(0,4) + "-" + String((+q.slice(6) - 1) * 3 + 1).padStart(2,"0"),
-                   q.slice(0,4) + "-" + String((+q.slice(6)) * 3).padStart(2,"0")]
-                : [q, q];
-              let from = toM(d.months[i0])[0], to = toM(d.months[i1])[1];
-              const all = DATA.months;
-              if (!all.includes(from)) from = all[0];
-              if (!all.includes(to)) to = all[all.length - 1];
-              document.getElementById("fromSel").value = from;
-              document.getElementById("toSel").value = to;
-              clearChips();
-              render();
-            },
-          },
-        },
       },
       scales: {
         x:{ grid:{ display:false }, ticks:{ font:{ ...f, size:11 }, maxRotation:0, autoSkip:true } },
@@ -366,6 +417,7 @@ function drawChart(d){
       },
     },
   });
+  attachBrush(chart);
 }
 
 function tableRegions(){

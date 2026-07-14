@@ -1,0 +1,479 @@
+전국
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 2486,
+            "closings": 2072,
+            "netChange": 414
+        },
+        {
+            "month": "2020-02",
+            "openings": 2296,
+            "closings": 1233,
+            "netChange": 1063
+        },
+        {
+            "month": "2020-03",
+            "openings": 1823,
+            "closings": 898,
+            "netChange": 925
+        },
+        {
+            "month": "2020-04",
+            "openings": 1458,
+            "closings": 1317,
+            "netChange": 141
+        },
+        {
+            "month": "2020-05",
+            "openings": 1499,
+            "closings": 876,
+            "netChange": 623
+        },
+        {
+            "month": "2020-06",
+            "openings": 1788,
+            "closings": 917,
+            "netChange": 871
+        },
+        {
+            "month": "2020-07",
+            "openings": 1834,
+            "closings": 1053,
+            "netChange": 781
+        },
+        {
+            "month": "2020-08",
+            "openings": 1601,
+            "closings": 1037,
+            "netChange": 564
+        },
+        {
+            "month": "2020-09",
+            "openings": 1544,
+            "closings": 1103,
+            "netChange": 441
+        },
+        {
+            "month": "2020-10",
+            "openings": 1347,
+            "closings": 959,
+            "netChange": 388
+        },
+        {
+            "month": "2020-11",
+            "openings": 1417,
+            "closings": 1078,
+            "netChange": 339
+        },
+        {
+            "month": "2020-12",
+            "openings": 1967,
+            "closings": 1278,
+            "netChange": 689
+        },
+        {
+            "month": "2021-01",
+            "openings": 2196,
+            "closings": 1157,
+            "netChange": 1039
+        },
+        {
+            "month": "2021-02",
+            "openings": 1723,
+            "closings": 2218,
+            "netChange": -495
+        },
+        {
+            "month": "2021-03",
+            "openings": 1975,
+            "closings": 0,
+            "netChange": 1975
+        },
+        {
+            "month": "2021-04",
+            "openings": 1855,
+            "closings": 786,
+            "netChange": 1069
+        },
+        {
+            "month": "2021-05",
+            "openings": 1500,
+            "closings": 976,
+            "netChange": 524
+        },
+        {
+            "month": "2021-06",
+            "openings": 1570,
+            "closings": 1214,
+            "netChange": 356
+        },
+        {
+            "month": "2021-07",
+            "openings": 1420,
+            "closings": 793,
+            "netChange": 627
+        },
+        {
+            "month": "2021-08",
+            "openings": 1226,
+            "closings": 818,
+            "netChange": 408
+        },
+        {
+            "month": "2021-09",
+            "openings": 1251,
+            "closings": 1408,
+            "netChange": -157
+        },
+        {
+            "month": "2021-10",
+            "openings": 1284,
+            "closings": 673,
+            "netChange": 611
+        },
+        {
+            "month": "2021-11",
+            "openings": 1283,
+            "closings": 989,
+            "netChange": 294
+        },
+        {
+            "month": "2021-12",
+            "openings": 2084,
+            "closings": 1334,
+            "netChange": 750
+        },
+        {
+            "month": "2022-01",
+            "openings": 2291,
+            "closings": 1326,
+            "netChange": 965
+        },
+        {
+            "month": "2022-02",
+            "openings": 1735,
+            "closings": 748,
+            "netChange": 987
+        },
+        {
+            "month": "2022-03",
+            "openings": 1711,
+            "closings": 1144,
+            "netChange": 567
+        },
+        {
+            "month": "2022-04",
+            "openings": 1615,
+            "closings": 837,
+            "netChange": 778
+        },
+        {
+            "month": "2022-05",
+            "openings": 1416,
+            "closings": 1469,
+            "netChange": -53
+        },
+        {
+            "month": "2022-06",
+            "openings": 1393,
+            "closings": 455,
+            "netChange": 938
+        },
+        {
+            "month": "2022-07",
+            "openings": 1218,
+            "closings": 975,
+            "netChange": 243
+        },
+        {
+            "month": "2022-08",
+            "openings": 1030,
+            "closings": 1443,
+            "netChange": -413
+        },
+        {
+            "month": "2022-09",
+            "openings": 1057,
+            "closings": 781,
+            "netChange": 276
+        },
+        {
+            "month": "2022-10",
+            "openings": 987,
+            "closings": 943,
+            "netChange": 44
+        },
+        {
+            "month": "2022-11",
+            "openings": 982,
+            "closings": 1088,
+            "netChange": -106
+        },
+        {
+            "month": "2022-12",
+            "openings": 1494,
+            "closings": 2347,
+            "netChange": -853
+        },
+        {
+            "month": "2023-01",
+            "openings": 1492,
+            "closings": 1308,
+            "netChange": 184
+        },
+        {
+            "month": "2023-02",
+            "openings": 1419,
+            "closings": 779,
+            "netChange": 640
+        },
+        {
+            "month": "2023-03",
+            "openings": 1518,
+            "closings": 1751,
+            "netChange": -233
+        },
+        {
+            "month": "2023-04",
+            "openings": 1306,
+            "closings": 1525,
+            "netChange": -219
+        },
+        {
+            "month": "2023-05",
+            "openings": 1237,
+            "closings": 974,
+            "netChange": 263
+        },
+        {
+            "month": "2023-06",
+            "openings": 1077,
+            "closings": 1281,
+            "netChange": -204
+        },
+        {
+            "month": "2023-07",
+            "openings": 1004,
+            "closings": 1193,
+            "netChange": -189
+        },
+        {
+            "month": "2023-08",
+            "openings": 937,
+            "closings": 1305,
+            "netChange": -368
+        },
+        {
+            "month": "2023-09",
+            "openings": 921,
+            "closings": 1223,
+            "netChange": -302
+        },
+        {
+            "month": "2023-10",
+            "openings": 935,
+            "closings": 1121,
+            "netChange": -186
+        },
+        {
+            "month": "2023-11",
+            "openings": 950,
+            "closings": 1924,
+            "netChange": -974
+        },
+        {
+            "month": "2023-12",
+            "openings": 1022,
+            "closings": 789,
+            "netChange": 233
+        },
+        {
+            "month": "2024-01",
+            "openings": 1239,
+            "closings": 1334,
+            "netChange": -95
+        },
+        {
+            "month": "2024-02",
+            "openings": 990,
+            "closings": 1073,
+            "netChange": -83
+        },
+        {
+            "month": "2024-03",
+            "openings": 1130,
+            "closings": 1515,
+            "netChange": -385
+        },
+        {
+            "month": "2024-04",
+            "openings": 1011,
+            "closings": 1239,
+            "netChange": -228
+        },
+        {
+            "month": "2024-05",
+            "openings": 975,
+            "closings": 1126,
+            "netChange": -151
+        },
+        {
+            "month": "2024-06",
+            "openings": 781,
+            "closings": 1154,
+            "netChange": -373
+        },
+        {
+            "month": "2024-07",
+            "openings": 852,
+            "closings": 1675,
+            "netChange": -823
+        },
+        {
+            "month": "2024-08",
+            "openings": 828,
+            "closings": 340,
+            "netChange": 488
+        },
+        {
+            "month": "2024-09",
+            "openings": 745,
+            "closings": 935,
+            "netChange": -190
+        },
+        {
+            "month": "2024-10",
+            "openings": 863,
+            "closings": 1212,
+            "netChange": -349
+        },
+        {
+            "month": "2024-11",
+            "openings": 831,
+            "closings": 995,
+            "netChange": -164
+        },
+        {
+            "month": "2024-12",
+            "openings": 968,
+            "closings": 1504,
+            "netChange": -536
+        },
+        {
+            "month": "2025-01",
+            "openings": 936,
+            "closings": 897,
+            "netChange": 39
+        },
+        {
+            "month": "2025-02",
+            "openings": 987,
+            "closings": 1016,
+            "netChange": -29
+        },
+        {
+            "month": "2025-03",
+            "openings": 978,
+            "closings": 1193,
+            "netChange": -215
+        },
+        {
+            "month": "2025-04",
+            "openings": 921,
+            "closings": 971,
+            "netChange": -50
+        },
+        {
+            "month": "2025-05",
+            "openings": 790,
+            "closings": 976,
+            "netChange": -186
+        },
+        {
+            "month": "2025-06",
+            "openings": 732,
+            "closings": 1048,
+            "netChange": -316
+        },
+        {
+            "month": "2025-07",
+            "openings": 783,
+            "closings": 879,
+            "netChange": -96
+        },
+        {
+            "month": "2025-08",
+            "openings": 605,
+            "closings": 866,
+            "netChange": -261
+        },
+        {
+            "month": "2025-09",
+            "openings": 694,
+            "closings": 912,
+            "netChange": -218
+        },
+        {
+            "month": "2025-10",
+            "openings": 628,
+            "closings": 854,
+            "netChange": -226
+        },
+        {
+            "month": "2025-11",
+            "openings": 601,
+            "closings": 981,
+            "netChange": -380
+        },
+        {
+            "month": "2025-12",
+            "openings": 975,
+            "closings": 1328,
+            "netChange": -353
+        },
+        {
+            "month": "2026-01",
+            "openings": 886,
+            "closings": 1164,
+            "netChange": -278
+        },
+        {
+            "month": "2026-02",
+            "openings": 680,
+            "closings": 866,
+            "netChange": -186
+        },
+        {
+            "month": "2026-03",
+            "openings": 884,
+            "closings": 1091,
+            "netChange": -207
+        },
+        {
+            "month": "2026-04",
+            "openings": 784,
+            "closings": 1097,
+            "netChange": -313
+        },
+        {
+            "month": "2026-05",
+            "openings": 548,
+            "closings": 1025,
+            "netChange": -477
+        },
+        {
+            "month": "2026-06",
+            "openings": 561,
+            "closings": 1070,
+            "netChange": -509
+        },
+        {
+            "month": "2026-07",
+            "openings": 256,
+            "closings": 287,
+            "netChange": -31
+        }
+    ]
+}

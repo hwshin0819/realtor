@@ -1,0 +1,8151 @@
+서울
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 546,
+            "closings": 516,
+            "netChange": 30
+        },
+        {
+            "month": "2020-02",
+            "openings": 460,
+            "closings": 287,
+            "netChange": 173
+        },
+        {
+            "month": "2020-03",
+            "openings": 410,
+            "closings": 223,
+            "netChange": 187
+        },
+        {
+            "month": "2020-04",
+            "openings": 357,
+            "closings": 336,
+            "netChange": 21
+        },
+        {
+            "month": "2020-05",
+            "openings": 336,
+            "closings": 180,
+            "netChange": 156
+        },
+        {
+            "month": "2020-06",
+            "openings": 419,
+            "closings": 197,
+            "netChange": 222
+        },
+        {
+            "month": "2020-07",
+            "openings": 461,
+            "closings": 254,
+            "netChange": 207
+        },
+        {
+            "month": "2020-08",
+            "openings": 371,
+            "closings": 286,
+            "netChange": 85
+        },
+        {
+            "month": "2020-09",
+            "openings": 378,
+            "closings": 285,
+            "netChange": 93
+        },
+        {
+            "month": "2020-10",
+            "openings": 311,
+            "closings": 247,
+            "netChange": 64
+        },
+        {
+            "month": "2020-11",
+            "openings": 328,
+            "closings": 262,
+            "netChange": 66
+        },
+        {
+            "month": "2020-12",
+            "openings": 420,
+            "closings": 321,
+            "netChange": 99
+        },
+        {
+            "month": "2021-01",
+            "openings": 519,
+            "closings": 262,
+            "netChange": 257
+        },
+        {
+            "month": "2021-02",
+            "openings": 378,
+            "closings": 586,
+            "netChange": -208
+        },
+        {
+            "month": "2021-03",
+            "openings": 397,
+            "closings": 0,
+            "netChange": 397
+        },
+        {
+            "month": "2021-04",
+            "openings": 444,
+            "closings": 204,
+            "netChange": 240
+        },
+        {
+            "month": "2021-05",
+            "openings": 345,
+            "closings": 240,
+            "netChange": 105
+        },
+        {
+            "month": "2021-06",
+            "openings": 399,
+            "closings": 329,
+            "netChange": 70
+        },
+        {
+            "month": "2021-07",
+            "openings": 346,
+            "closings": 217,
+            "netChange": 129
+        },
+        {
+            "month": "2021-08",
+            "openings": 305,
+            "closings": 226,
+            "netChange": 79
+        },
+        {
+            "month": "2021-09",
+            "openings": 315,
+            "closings": 368,
+            "netChange": -53
+        },
+        {
+            "month": "2021-10",
+            "openings": 290,
+            "closings": 170,
+            "netChange": 120
+        },
+        {
+            "month": "2021-11",
+            "openings": 304,
+            "closings": 267,
+            "netChange": 37
+        },
+        {
+            "month": "2021-12",
+            "openings": 465,
+            "closings": 323,
+            "netChange": 142
+        },
+        {
+            "month": "2022-01",
+            "openings": 595,
+            "closings": 360,
+            "netChange": 235
+        },
+        {
+            "month": "2022-02",
+            "openings": 423,
+            "closings": 185,
+            "netChange": 238
+        },
+        {
+            "month": "2022-03",
+            "openings": 356,
+            "closings": 309,
+            "netChange": 47
+        },
+        {
+            "month": "2022-04",
+            "openings": 407,
+            "closings": 258,
+            "netChange": 149
+        },
+        {
+            "month": "2022-05",
+            "openings": 325,
+            "closings": 391,
+            "netChange": -66
+        },
+        {
+            "month": "2022-06",
+            "openings": 342,
+            "closings": 110,
+            "netChange": 232
+        },
+        {
+            "month": "2022-07",
+            "openings": 303,
+            "closings": 246,
+            "netChange": 57
+        },
+        {
+            "month": "2022-08",
+            "openings": 265,
+            "closings": 374,
+            "netChange": -109
+        },
+        {
+            "month": "2022-09",
+            "openings": 251,
+            "closings": 199,
+            "netChange": 52
+        },
+        {
+            "month": "2022-10",
+            "openings": 228,
+            "closings": 241,
+            "netChange": -13
+        },
+        {
+            "month": "2022-11",
+            "openings": 215,
+            "closings": 263,
+            "netChange": -48
+        },
+        {
+            "month": "2022-12",
+            "openings": 336,
+            "closings": 569,
+            "netChange": -233
+        },
+        {
+            "month": "2023-01",
+            "openings": 342,
+            "closings": 317,
+            "netChange": 25
+        },
+        {
+            "month": "2023-02",
+            "openings": 321,
+            "closings": 164,
+            "netChange": 157
+        },
+        {
+            "month": "2023-03",
+            "openings": 366,
+            "closings": 438,
+            "netChange": -72
+        },
+        {
+            "month": "2023-04",
+            "openings": 309,
+            "closings": 402,
+            "netChange": -93
+        },
+        {
+            "month": "2023-05",
+            "openings": 320,
+            "closings": 244,
+            "netChange": 76
+        },
+        {
+            "month": "2023-06",
+            "openings": 276,
+            "closings": 344,
+            "netChange": -68
+        },
+        {
+            "month": "2023-07",
+            "openings": 259,
+            "closings": 295,
+            "netChange": -36
+        },
+        {
+            "month": "2023-08",
+            "openings": 232,
+            "closings": 302,
+            "netChange": -70
+        },
+        {
+            "month": "2023-09",
+            "openings": 242,
+            "closings": 316,
+            "netChange": -74
+        },
+        {
+            "month": "2023-10",
+            "openings": 245,
+            "closings": 240,
+            "netChange": 5
+        },
+        {
+            "month": "2023-11",
+            "openings": 236,
+            "closings": 470,
+            "netChange": -234
+        },
+        {
+            "month": "2023-12",
+            "openings": 247,
+            "closings": 177,
+            "netChange": 70
+        },
+        {
+            "month": "2024-01",
+            "openings": 285,
+            "closings": 289,
+            "netChange": -4
+        },
+        {
+            "month": "2024-02",
+            "openings": 211,
+            "closings": 264,
+            "netChange": -53
+        },
+        {
+            "month": "2024-03",
+            "openings": 268,
+            "closings": 342,
+            "netChange": -74
+        },
+        {
+            "month": "2024-04",
+            "openings": 258,
+            "closings": 296,
+            "netChange": -38
+        },
+        {
+            "month": "2024-05",
+            "openings": 245,
+            "closings": 281,
+            "netChange": -36
+        },
+        {
+            "month": "2024-06",
+            "openings": 213,
+            "closings": 273,
+            "netChange": -60
+        },
+        {
+            "month": "2024-07",
+            "openings": 233,
+            "closings": 402,
+            "netChange": -169
+        },
+        {
+            "month": "2024-08",
+            "openings": 236,
+            "closings": 84,
+            "netChange": 152
+        },
+        {
+            "month": "2024-09",
+            "openings": 205,
+            "closings": 212,
+            "netChange": -7
+        },
+        {
+            "month": "2024-10",
+            "openings": 237,
+            "closings": 298,
+            "netChange": -61
+        },
+        {
+            "month": "2024-11",
+            "openings": 189,
+            "closings": 224,
+            "netChange": -35
+        },
+        {
+            "month": "2024-12",
+            "openings": 263,
+            "closings": 359,
+            "netChange": -96
+        },
+        {
+            "month": "2025-01",
+            "openings": 251,
+            "closings": 199,
+            "netChange": 52
+        },
+        {
+            "month": "2025-02",
+            "openings": 268,
+            "closings": 219,
+            "netChange": 49
+        },
+        {
+            "month": "2025-03",
+            "openings": 244,
+            "closings": 313,
+            "netChange": -69
+        },
+        {
+            "month": "2025-04",
+            "openings": 273,
+            "closings": 254,
+            "netChange": 19
+        },
+        {
+            "month": "2025-05",
+            "openings": 235,
+            "closings": 221,
+            "netChange": 14
+        },
+        {
+            "month": "2025-06",
+            "openings": 214,
+            "closings": 286,
+            "netChange": -72
+        },
+        {
+            "month": "2025-07",
+            "openings": 220,
+            "closings": 198,
+            "netChange": 22
+        },
+        {
+            "month": "2025-08",
+            "openings": 178,
+            "closings": 193,
+            "netChange": -15
+        },
+        {
+            "month": "2025-09",
+            "openings": 205,
+            "closings": 222,
+            "netChange": -17
+        },
+        {
+            "month": "2025-10",
+            "openings": 215,
+            "closings": 219,
+            "netChange": -4
+        },
+        {
+            "month": "2025-11",
+            "openings": 170,
+            "closings": 224,
+            "netChange": -54
+        },
+        {
+            "month": "2025-12",
+            "openings": 255,
+            "closings": 302,
+            "netChange": -47
+        },
+        {
+            "month": "2026-01",
+            "openings": 246,
+            "closings": 264,
+            "netChange": -18
+        },
+        {
+            "month": "2026-02",
+            "openings": 201,
+            "closings": 219,
+            "netChange": -18
+        },
+        {
+            "month": "2026-03",
+            "openings": 269,
+            "closings": 266,
+            "netChange": 3
+        },
+        {
+            "month": "2026-04",
+            "openings": 233,
+            "closings": 256,
+            "netChange": -23
+        },
+        {
+            "month": "2026-05",
+            "openings": 174,
+            "closings": 229,
+            "netChange": -55
+        },
+        {
+            "month": "2026-06",
+            "openings": 219,
+            "closings": 243,
+            "netChange": -24
+        },
+        {
+            "month": "2026-07",
+            "openings": 92,
+            "closings": 63,
+            "netChange": 29
+        }
+    ]
+}
+
+경기도
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 726,
+            "closings": 607,
+            "netChange": 119
+        },
+        {
+            "month": "2020-02",
+            "openings": 651,
+            "closings": 354,
+            "netChange": 297
+        },
+        {
+            "month": "2020-03",
+            "openings": 567,
+            "closings": 263,
+            "netChange": 304
+        },
+        {
+            "month": "2020-04",
+            "openings": 420,
+            "closings": 393,
+            "netChange": 27
+        },
+        {
+            "month": "2020-05",
+            "openings": 451,
+            "closings": 284,
+            "netChange": 167
+        },
+        {
+            "month": "2020-06",
+            "openings": 509,
+            "closings": 298,
+            "netChange": 211
+        },
+        {
+            "month": "2020-07",
+            "openings": 522,
+            "closings": 320,
+            "netChange": 202
+        },
+        {
+            "month": "2020-08",
+            "openings": 485,
+            "closings": 311,
+            "netChange": 174
+        },
+        {
+            "month": "2020-09",
+            "openings": 440,
+            "closings": 294,
+            "netChange": 146
+        },
+        {
+            "month": "2020-10",
+            "openings": 402,
+            "closings": 303,
+            "netChange": 99
+        },
+        {
+            "month": "2020-11",
+            "openings": 419,
+            "closings": 327,
+            "netChange": 92
+        },
+        {
+            "month": "2020-12",
+            "openings": 587,
+            "closings": 373,
+            "netChange": 214
+        },
+        {
+            "month": "2021-01",
+            "openings": 619,
+            "closings": 381,
+            "netChange": 238
+        },
+        {
+            "month": "2021-02",
+            "openings": 543,
+            "closings": 706,
+            "netChange": -163
+        },
+        {
+            "month": "2021-03",
+            "openings": 613,
+            "closings": 0,
+            "netChange": 613
+        },
+        {
+            "month": "2021-04",
+            "openings": 537,
+            "closings": 229,
+            "netChange": 308
+        },
+        {
+            "month": "2021-05",
+            "openings": 513,
+            "closings": 308,
+            "netChange": 205
+        },
+        {
+            "month": "2021-06",
+            "openings": 499,
+            "closings": 357,
+            "netChange": 142
+        },
+        {
+            "month": "2021-07",
+            "openings": 456,
+            "closings": 230,
+            "netChange": 226
+        },
+        {
+            "month": "2021-08",
+            "openings": 402,
+            "closings": 236,
+            "netChange": 166
+        },
+        {
+            "month": "2021-09",
+            "openings": 384,
+            "closings": 404,
+            "netChange": -20
+        },
+        {
+            "month": "2021-10",
+            "openings": 453,
+            "closings": 194,
+            "netChange": 259
+        },
+        {
+            "month": "2021-11",
+            "openings": 422,
+            "closings": 301,
+            "netChange": 121
+        },
+        {
+            "month": "2021-12",
+            "openings": 656,
+            "closings": 417,
+            "netChange": 239
+        },
+        {
+            "month": "2022-01",
+            "openings": 641,
+            "closings": 375,
+            "netChange": 266
+        },
+        {
+            "month": "2022-02",
+            "openings": 498,
+            "closings": 234,
+            "netChange": 264
+        },
+        {
+            "month": "2022-03",
+            "openings": 535,
+            "closings": 353,
+            "netChange": 182
+        },
+        {
+            "month": "2022-04",
+            "openings": 473,
+            "closings": 259,
+            "netChange": 214
+        },
+        {
+            "month": "2022-05",
+            "openings": 454,
+            "closings": 476,
+            "netChange": -22
+        },
+        {
+            "month": "2022-06",
+            "openings": 451,
+            "closings": 137,
+            "netChange": 314
+        },
+        {
+            "month": "2022-07",
+            "openings": 400,
+            "closings": 298,
+            "netChange": 102
+        },
+        {
+            "month": "2022-08",
+            "openings": 343,
+            "closings": 447,
+            "netChange": -104
+        },
+        {
+            "month": "2022-09",
+            "openings": 336,
+            "closings": 219,
+            "netChange": 117
+        },
+        {
+            "month": "2022-10",
+            "openings": 323,
+            "closings": 275,
+            "netChange": 48
+        },
+        {
+            "month": "2022-11",
+            "openings": 320,
+            "closings": 321,
+            "netChange": -1
+        },
+        {
+            "month": "2022-12",
+            "openings": 394,
+            "closings": 632,
+            "netChange": -238
+        },
+        {
+            "month": "2023-01",
+            "openings": 407,
+            "closings": 337,
+            "netChange": 70
+        },
+        {
+            "month": "2023-02",
+            "openings": 409,
+            "closings": 227,
+            "netChange": 182
+        },
+        {
+            "month": "2023-03",
+            "openings": 420,
+            "closings": 502,
+            "netChange": -82
+        },
+        {
+            "month": "2023-04",
+            "openings": 383,
+            "closings": 452,
+            "netChange": -69
+        },
+        {
+            "month": "2023-05",
+            "openings": 358,
+            "closings": 262,
+            "netChange": 96
+        },
+        {
+            "month": "2023-06",
+            "openings": 296,
+            "closings": 383,
+            "netChange": -87
+        },
+        {
+            "month": "2023-07",
+            "openings": 294,
+            "closings": 378,
+            "netChange": -84
+        },
+        {
+            "month": "2023-08",
+            "openings": 296,
+            "closings": 391,
+            "netChange": -95
+        },
+        {
+            "month": "2023-09",
+            "openings": 278,
+            "closings": 336,
+            "netChange": -58
+        },
+        {
+            "month": "2023-10",
+            "openings": 263,
+            "closings": 322,
+            "netChange": -59
+        },
+        {
+            "month": "2023-11",
+            "openings": 282,
+            "closings": 512,
+            "netChange": -230
+        },
+        {
+            "month": "2023-12",
+            "openings": 274,
+            "closings": 222,
+            "netChange": 52
+        },
+        {
+            "month": "2024-01",
+            "openings": 334,
+            "closings": 366,
+            "netChange": -32
+        },
+        {
+            "month": "2024-02",
+            "openings": 295,
+            "closings": 313,
+            "netChange": -18
+        },
+        {
+            "month": "2024-03",
+            "openings": 320,
+            "closings": 410,
+            "netChange": -90
+        },
+        {
+            "month": "2024-04",
+            "openings": 304,
+            "closings": 330,
+            "netChange": -26
+        },
+        {
+            "month": "2024-05",
+            "openings": 290,
+            "closings": 283,
+            "netChange": 7
+        },
+        {
+            "month": "2024-06",
+            "openings": 231,
+            "closings": 332,
+            "netChange": -101
+        },
+        {
+            "month": "2024-07",
+            "openings": 245,
+            "closings": 489,
+            "netChange": -244
+        },
+        {
+            "month": "2024-08",
+            "openings": 253,
+            "closings": 106,
+            "netChange": 147
+        },
+        {
+            "month": "2024-09",
+            "openings": 234,
+            "closings": 262,
+            "netChange": -28
+        },
+        {
+            "month": "2024-10",
+            "openings": 252,
+            "closings": 358,
+            "netChange": -106
+        },
+        {
+            "month": "2024-11",
+            "openings": 258,
+            "closings": 280,
+            "netChange": -22
+        },
+        {
+            "month": "2024-12",
+            "openings": 262,
+            "closings": 434,
+            "netChange": -172
+        },
+        {
+            "month": "2025-01",
+            "openings": 269,
+            "closings": 267,
+            "netChange": 2
+        },
+        {
+            "month": "2025-02",
+            "openings": 256,
+            "closings": 263,
+            "netChange": -7
+        },
+        {
+            "month": "2025-03",
+            "openings": 316,
+            "closings": 325,
+            "netChange": -9
+        },
+        {
+            "month": "2025-04",
+            "openings": 263,
+            "closings": 275,
+            "netChange": -12
+        },
+        {
+            "month": "2025-05",
+            "openings": 224,
+            "closings": 252,
+            "netChange": -28
+        },
+        {
+            "month": "2025-06",
+            "openings": 224,
+            "closings": 285,
+            "netChange": -61
+        },
+        {
+            "month": "2025-07",
+            "openings": 238,
+            "closings": 287,
+            "netChange": -49
+        },
+        {
+            "month": "2025-08",
+            "openings": 174,
+            "closings": 270,
+            "netChange": -96
+        },
+        {
+            "month": "2025-09",
+            "openings": 211,
+            "closings": 277,
+            "netChange": -66
+        },
+        {
+            "month": "2025-10",
+            "openings": 181,
+            "closings": 271,
+            "netChange": -90
+        },
+        {
+            "month": "2025-11",
+            "openings": 193,
+            "closings": 281,
+            "netChange": -88
+        },
+        {
+            "month": "2025-12",
+            "openings": 272,
+            "closings": 369,
+            "netChange": -97
+        },
+        {
+            "month": "2026-01",
+            "openings": 248,
+            "closings": 300,
+            "netChange": -52
+        },
+        {
+            "month": "2026-02",
+            "openings": 207,
+            "closings": 256,
+            "netChange": -49
+        },
+        {
+            "month": "2026-03",
+            "openings": 251,
+            "closings": 292,
+            "netChange": -41
+        },
+        {
+            "month": "2026-04",
+            "openings": 220,
+            "closings": 311,
+            "netChange": -91
+        },
+        {
+            "month": "2026-05",
+            "openings": 155,
+            "closings": 283,
+            "netChange": -128
+        },
+        {
+            "month": "2026-06",
+            "openings": 144,
+            "closings": 321,
+            "netChange": -177
+        },
+        {
+            "month": "2026-07",
+            "openings": 63,
+            "closings": 79,
+            "netChange": -16
+        }
+    ]
+}
+
+인천
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 155,
+            "closings": 117,
+            "netChange": 38
+        },
+        {
+            "month": "2020-02",
+            "openings": 134,
+            "closings": 76,
+            "netChange": 58
+        },
+        {
+            "month": "2020-03",
+            "openings": 127,
+            "closings": 56,
+            "netChange": 71
+        },
+        {
+            "month": "2020-04",
+            "openings": 96,
+            "closings": 88,
+            "netChange": 8
+        },
+        {
+            "month": "2020-05",
+            "openings": 125,
+            "closings": 51,
+            "netChange": 74
+        },
+        {
+            "month": "2020-06",
+            "openings": 133,
+            "closings": 55,
+            "netChange": 78
+        },
+        {
+            "month": "2020-07",
+            "openings": 115,
+            "closings": 62,
+            "netChange": 53
+        },
+        {
+            "month": "2020-08",
+            "openings": 90,
+            "closings": 46,
+            "netChange": 44
+        },
+        {
+            "month": "2020-09",
+            "openings": 76,
+            "closings": 68,
+            "netChange": 8
+        },
+        {
+            "month": "2020-10",
+            "openings": 85,
+            "closings": 69,
+            "netChange": 16
+        },
+        {
+            "month": "2020-11",
+            "openings": 80,
+            "closings": 67,
+            "netChange": 13
+        },
+        {
+            "month": "2020-12",
+            "openings": 116,
+            "closings": 73,
+            "netChange": 43
+        },
+        {
+            "month": "2021-01",
+            "openings": 129,
+            "closings": 70,
+            "netChange": 59
+        },
+        {
+            "month": "2021-02",
+            "openings": 110,
+            "closings": 151,
+            "netChange": -41
+        },
+        {
+            "month": "2021-03",
+            "openings": 147,
+            "closings": 0,
+            "netChange": 147
+        },
+        {
+            "month": "2021-04",
+            "openings": 119,
+            "closings": 64,
+            "netChange": 55
+        },
+        {
+            "month": "2021-05",
+            "openings": 106,
+            "closings": 74,
+            "netChange": 32
+        },
+        {
+            "month": "2021-06",
+            "openings": 107,
+            "closings": 83,
+            "netChange": 24
+        },
+        {
+            "month": "2021-07",
+            "openings": 93,
+            "closings": 50,
+            "netChange": 43
+        },
+        {
+            "month": "2021-08",
+            "openings": 86,
+            "closings": 60,
+            "netChange": 26
+        },
+        {
+            "month": "2021-09",
+            "openings": 108,
+            "closings": 103,
+            "netChange": 5
+        },
+        {
+            "month": "2021-10",
+            "openings": 101,
+            "closings": 37,
+            "netChange": 64
+        },
+        {
+            "month": "2021-11",
+            "openings": 84,
+            "closings": 63,
+            "netChange": 21
+        },
+        {
+            "month": "2021-12",
+            "openings": 119,
+            "closings": 74,
+            "netChange": 45
+        },
+        {
+            "month": "2022-01",
+            "openings": 173,
+            "closings": 99,
+            "netChange": 74
+        },
+        {
+            "month": "2022-02",
+            "openings": 148,
+            "closings": 44,
+            "netChange": 104
+        },
+        {
+            "month": "2022-03",
+            "openings": 113,
+            "closings": 76,
+            "netChange": 37
+        },
+        {
+            "month": "2022-04",
+            "openings": 122,
+            "closings": 45,
+            "netChange": 77
+        },
+        {
+            "month": "2022-05",
+            "openings": 96,
+            "closings": 106,
+            "netChange": -10
+        },
+        {
+            "month": "2022-06",
+            "openings": 119,
+            "closings": 30,
+            "netChange": 89
+        },
+        {
+            "month": "2022-07",
+            "openings": 79,
+            "closings": 69,
+            "netChange": 10
+        },
+        {
+            "month": "2022-08",
+            "openings": 75,
+            "closings": 104,
+            "netChange": -29
+        },
+        {
+            "month": "2022-09",
+            "openings": 71,
+            "closings": 56,
+            "netChange": 15
+        },
+        {
+            "month": "2022-10",
+            "openings": 73,
+            "closings": 61,
+            "netChange": 12
+        },
+        {
+            "month": "2022-11",
+            "openings": 80,
+            "closings": 75,
+            "netChange": 5
+        },
+        {
+            "month": "2022-12",
+            "openings": 111,
+            "closings": 161,
+            "netChange": -50
+        },
+        {
+            "month": "2023-01",
+            "openings": 117,
+            "closings": 112,
+            "netChange": 5
+        },
+        {
+            "month": "2023-02",
+            "openings": 98,
+            "closings": 54,
+            "netChange": 44
+        },
+        {
+            "month": "2023-03",
+            "openings": 117,
+            "closings": 127,
+            "netChange": -10
+        },
+        {
+            "month": "2023-04",
+            "openings": 89,
+            "closings": 85,
+            "netChange": 4
+        },
+        {
+            "month": "2023-05",
+            "openings": 98,
+            "closings": 77,
+            "netChange": 21
+        },
+        {
+            "month": "2023-06",
+            "openings": 86,
+            "closings": 100,
+            "netChange": -14
+        },
+        {
+            "month": "2023-07",
+            "openings": 75,
+            "closings": 75,
+            "netChange": 0
+        },
+        {
+            "month": "2023-08",
+            "openings": 73,
+            "closings": 103,
+            "netChange": -30
+        },
+        {
+            "month": "2023-09",
+            "openings": 72,
+            "closings": 96,
+            "netChange": -24
+        },
+        {
+            "month": "2023-10",
+            "openings": 73,
+            "closings": 97,
+            "netChange": -24
+        },
+        {
+            "month": "2023-11",
+            "openings": 76,
+            "closings": 129,
+            "netChange": -53
+        },
+        {
+            "month": "2023-12",
+            "openings": 51,
+            "closings": 57,
+            "netChange": -6
+        },
+        {
+            "month": "2024-01",
+            "openings": 71,
+            "closings": 89,
+            "netChange": -18
+        },
+        {
+            "month": "2024-02",
+            "openings": 77,
+            "closings": 69,
+            "netChange": 8
+        },
+        {
+            "month": "2024-03",
+            "openings": 69,
+            "closings": 85,
+            "netChange": -16
+        },
+        {
+            "month": "2024-04",
+            "openings": 75,
+            "closings": 81,
+            "netChange": -6
+        },
+        {
+            "month": "2024-05",
+            "openings": 56,
+            "closings": 90,
+            "netChange": -34
+        },
+        {
+            "month": "2024-06",
+            "openings": 55,
+            "closings": 87,
+            "netChange": -32
+        },
+        {
+            "month": "2024-07",
+            "openings": 58,
+            "closings": 98,
+            "netChange": -40
+        },
+        {
+            "month": "2024-08",
+            "openings": 50,
+            "closings": 19,
+            "netChange": 31
+        },
+        {
+            "month": "2024-09",
+            "openings": 54,
+            "closings": 66,
+            "netChange": -12
+        },
+        {
+            "month": "2024-10",
+            "openings": 63,
+            "closings": 82,
+            "netChange": -19
+        },
+        {
+            "month": "2024-11",
+            "openings": 60,
+            "closings": 69,
+            "netChange": -9
+        },
+        {
+            "month": "2024-12",
+            "openings": 65,
+            "closings": 89,
+            "netChange": -24
+        },
+        {
+            "month": "2025-01",
+            "openings": 57,
+            "closings": 55,
+            "netChange": 2
+        },
+        {
+            "month": "2025-02",
+            "openings": 69,
+            "closings": 76,
+            "netChange": -7
+        },
+        {
+            "month": "2025-03",
+            "openings": 66,
+            "closings": 86,
+            "netChange": -20
+        },
+        {
+            "month": "2025-04",
+            "openings": 74,
+            "closings": 72,
+            "netChange": 2
+        },
+        {
+            "month": "2025-05",
+            "openings": 53,
+            "closings": 67,
+            "netChange": -14
+        },
+        {
+            "month": "2025-06",
+            "openings": 50,
+            "closings": 72,
+            "netChange": -22
+        },
+        {
+            "month": "2025-07",
+            "openings": 48,
+            "closings": 45,
+            "netChange": 3
+        },
+        {
+            "month": "2025-08",
+            "openings": 46,
+            "closings": 44,
+            "netChange": 2
+        },
+        {
+            "month": "2025-09",
+            "openings": 41,
+            "closings": 56,
+            "netChange": -15
+        },
+        {
+            "month": "2025-10",
+            "openings": 32,
+            "closings": 58,
+            "netChange": -26
+        },
+        {
+            "month": "2025-11",
+            "openings": 33,
+            "closings": 47,
+            "netChange": -14
+        },
+        {
+            "month": "2025-12",
+            "openings": 57,
+            "closings": 96,
+            "netChange": -39
+        },
+        {
+            "month": "2026-01",
+            "openings": 63,
+            "closings": 82,
+            "netChange": -19
+        },
+        {
+            "month": "2026-02",
+            "openings": 38,
+            "closings": 44,
+            "netChange": -6
+        },
+        {
+            "month": "2026-03",
+            "openings": 46,
+            "closings": 52,
+            "netChange": -6
+        },
+        {
+            "month": "2026-04",
+            "openings": 46,
+            "closings": 59,
+            "netChange": -13
+        },
+        {
+            "month": "2026-05",
+            "openings": 30,
+            "closings": 63,
+            "netChange": -33
+        },
+        {
+            "month": "2026-06",
+            "openings": 23,
+            "closings": 68,
+            "netChange": -45
+        },
+        {
+            "month": "2026-07",
+            "openings": 10,
+            "closings": 9,
+            "netChange": 1
+        }
+    ]
+}
+
+대전
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 61,
+            "closings": 50,
+            "netChange": 11
+        },
+        {
+            "month": "2020-02",
+            "openings": 71,
+            "closings": 28,
+            "netChange": 43
+        },
+        {
+            "month": "2020-03",
+            "openings": 54,
+            "closings": 25,
+            "netChange": 29
+        },
+        {
+            "month": "2020-04",
+            "openings": 35,
+            "closings": 31,
+            "netChange": 4
+        },
+        {
+            "month": "2020-05",
+            "openings": 39,
+            "closings": 20,
+            "netChange": 19
+        },
+        {
+            "month": "2020-06",
+            "openings": 41,
+            "closings": 19,
+            "netChange": 22
+        },
+        {
+            "month": "2020-07",
+            "openings": 36,
+            "closings": 29,
+            "netChange": 7
+        },
+        {
+            "month": "2020-08",
+            "openings": 37,
+            "closings": 27,
+            "netChange": 10
+        },
+        {
+            "month": "2020-09",
+            "openings": 43,
+            "closings": 23,
+            "netChange": 20
+        },
+        {
+            "month": "2020-10",
+            "openings": 21,
+            "closings": 33,
+            "netChange": -12
+        },
+        {
+            "month": "2020-11",
+            "openings": 34,
+            "closings": 25,
+            "netChange": 9
+        },
+        {
+            "month": "2020-12",
+            "openings": 46,
+            "closings": 32,
+            "netChange": 14
+        },
+        {
+            "month": "2021-01",
+            "openings": 62,
+            "closings": 26,
+            "netChange": 36
+        },
+        {
+            "month": "2021-02",
+            "openings": 33,
+            "closings": 52,
+            "netChange": -19
+        },
+        {
+            "month": "2021-03",
+            "openings": 48,
+            "closings": 0,
+            "netChange": 48
+        },
+        {
+            "month": "2021-04",
+            "openings": 51,
+            "closings": 15,
+            "netChange": 36
+        },
+        {
+            "month": "2021-05",
+            "openings": 37,
+            "closings": 25,
+            "netChange": 12
+        },
+        {
+            "month": "2021-06",
+            "openings": 41,
+            "closings": 31,
+            "netChange": 10
+        },
+        {
+            "month": "2021-07",
+            "openings": 29,
+            "closings": 14,
+            "netChange": 15
+        },
+        {
+            "month": "2021-08",
+            "openings": 45,
+            "closings": 26,
+            "netChange": 19
+        },
+        {
+            "month": "2021-09",
+            "openings": 30,
+            "closings": 38,
+            "netChange": -8
+        },
+        {
+            "month": "2021-10",
+            "openings": 31,
+            "closings": 10,
+            "netChange": 21
+        },
+        {
+            "month": "2021-11",
+            "openings": 41,
+            "closings": 25,
+            "netChange": 16
+        },
+        {
+            "month": "2021-12",
+            "openings": 43,
+            "closings": 39,
+            "netChange": 4
+        },
+        {
+            "month": "2022-01",
+            "openings": 52,
+            "closings": 32,
+            "netChange": 20
+        },
+        {
+            "month": "2022-02",
+            "openings": 37,
+            "closings": 27,
+            "netChange": 10
+        },
+        {
+            "month": "2022-03",
+            "openings": 49,
+            "closings": 22,
+            "netChange": 27
+        },
+        {
+            "month": "2022-04",
+            "openings": 42,
+            "closings": 22,
+            "netChange": 20
+        },
+        {
+            "month": "2022-05",
+            "openings": 36,
+            "closings": 53,
+            "netChange": -17
+        },
+        {
+            "month": "2022-06",
+            "openings": 33,
+            "closings": 17,
+            "netChange": 16
+        },
+        {
+            "month": "2022-07",
+            "openings": 30,
+            "closings": 29,
+            "netChange": 1
+        },
+        {
+            "month": "2022-08",
+            "openings": 28,
+            "closings": 35,
+            "netChange": -7
+        },
+        {
+            "month": "2022-09",
+            "openings": 27,
+            "closings": 23,
+            "netChange": 4
+        },
+        {
+            "month": "2022-10",
+            "openings": 15,
+            "closings": 15,
+            "netChange": 0
+        },
+        {
+            "month": "2022-11",
+            "openings": 31,
+            "closings": 29,
+            "netChange": 2
+        },
+        {
+            "month": "2022-12",
+            "openings": 58,
+            "closings": 66,
+            "netChange": -8
+        },
+        {
+            "month": "2023-01",
+            "openings": 50,
+            "closings": 25,
+            "netChange": 25
+        },
+        {
+            "month": "2023-02",
+            "openings": 32,
+            "closings": 20,
+            "netChange": 12
+        },
+        {
+            "month": "2023-03",
+            "openings": 44,
+            "closings": 62,
+            "netChange": -18
+        },
+        {
+            "month": "2023-04",
+            "openings": 39,
+            "closings": 41,
+            "netChange": -2
+        },
+        {
+            "month": "2023-05",
+            "openings": 30,
+            "closings": 23,
+            "netChange": 7
+        },
+        {
+            "month": "2023-06",
+            "openings": 32,
+            "closings": 20,
+            "netChange": 12
+        },
+        {
+            "month": "2023-07",
+            "openings": 19,
+            "closings": 33,
+            "netChange": -14
+        },
+        {
+            "month": "2023-08",
+            "openings": 25,
+            "closings": 41,
+            "netChange": -16
+        },
+        {
+            "month": "2023-09",
+            "openings": 24,
+            "closings": 40,
+            "netChange": -16
+        },
+        {
+            "month": "2023-10",
+            "openings": 40,
+            "closings": 20,
+            "netChange": 20
+        },
+        {
+            "month": "2023-11",
+            "openings": 24,
+            "closings": 57,
+            "netChange": -33
+        },
+        {
+            "month": "2023-12",
+            "openings": 30,
+            "closings": 29,
+            "netChange": 1
+        },
+        {
+            "month": "2024-01",
+            "openings": 36,
+            "closings": 34,
+            "netChange": 2
+        },
+        {
+            "month": "2024-02",
+            "openings": 31,
+            "closings": 26,
+            "netChange": 5
+        },
+        {
+            "month": "2024-03",
+            "openings": 58,
+            "closings": 47,
+            "netChange": 11
+        },
+        {
+            "month": "2024-04",
+            "openings": 32,
+            "closings": 32,
+            "netChange": 0
+        },
+        {
+            "month": "2024-05",
+            "openings": 24,
+            "closings": 37,
+            "netChange": -13
+        },
+        {
+            "month": "2024-06",
+            "openings": 18,
+            "closings": 28,
+            "netChange": -10
+        },
+        {
+            "month": "2024-07",
+            "openings": 25,
+            "closings": 44,
+            "netChange": -19
+        },
+        {
+            "month": "2024-08",
+            "openings": 28,
+            "closings": 7,
+            "netChange": 21
+        },
+        {
+            "month": "2024-09",
+            "openings": 19,
+            "closings": 24,
+            "netChange": -5
+        },
+        {
+            "month": "2024-10",
+            "openings": 23,
+            "closings": 27,
+            "netChange": -4
+        },
+        {
+            "month": "2024-11",
+            "openings": 28,
+            "closings": 26,
+            "netChange": 2
+        },
+        {
+            "month": "2024-12",
+            "openings": 30,
+            "closings": 34,
+            "netChange": -4
+        },
+        {
+            "month": "2025-01",
+            "openings": 20,
+            "closings": 30,
+            "netChange": -10
+        },
+        {
+            "month": "2025-02",
+            "openings": 36,
+            "closings": 34,
+            "netChange": 2
+        },
+        {
+            "month": "2025-03",
+            "openings": 20,
+            "closings": 29,
+            "netChange": -9
+        },
+        {
+            "month": "2025-04",
+            "openings": 20,
+            "closings": 31,
+            "netChange": -11
+        },
+        {
+            "month": "2025-05",
+            "openings": 11,
+            "closings": 27,
+            "netChange": -16
+        },
+        {
+            "month": "2025-06",
+            "openings": 13,
+            "closings": 26,
+            "netChange": -13
+        },
+        {
+            "month": "2025-07",
+            "openings": 16,
+            "closings": 16,
+            "netChange": 0
+        },
+        {
+            "month": "2025-08",
+            "openings": 12,
+            "closings": 27,
+            "netChange": -15
+        },
+        {
+            "month": "2025-09",
+            "openings": 20,
+            "closings": 24,
+            "netChange": -4
+        },
+        {
+            "month": "2025-10",
+            "openings": 18,
+            "closings": 25,
+            "netChange": -7
+        },
+        {
+            "month": "2025-11",
+            "openings": 14,
+            "closings": 28,
+            "netChange": -14
+        },
+        {
+            "month": "2025-12",
+            "openings": 27,
+            "closings": 31,
+            "netChange": -4
+        },
+        {
+            "month": "2026-01",
+            "openings": 22,
+            "closings": 39,
+            "netChange": -17
+        },
+        {
+            "month": "2026-02",
+            "openings": 22,
+            "closings": 16,
+            "netChange": 6
+        },
+        {
+            "month": "2026-03",
+            "openings": 30,
+            "closings": 37,
+            "netChange": -7
+        },
+        {
+            "month": "2026-04",
+            "openings": 21,
+            "closings": 36,
+            "netChange": -15
+        },
+        {
+            "month": "2026-05",
+            "openings": 17,
+            "closings": 31,
+            "netChange": -14
+        },
+        {
+            "month": "2026-06",
+            "openings": 13,
+            "closings": 27,
+            "netChange": -14
+        },
+        {
+            "month": "2026-07",
+            "openings": 5,
+            "closings": 11,
+            "netChange": -6
+        }
+    ]
+}
+
+충북
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 66,
+            "closings": 42,
+            "netChange": 24
+        },
+        {
+            "month": "2020-02",
+            "openings": 60,
+            "closings": 23,
+            "netChange": 37
+        },
+        {
+            "month": "2020-03",
+            "openings": 33,
+            "closings": 14,
+            "netChange": 19
+        },
+        {
+            "month": "2020-04",
+            "openings": 41,
+            "closings": 16,
+            "netChange": 25
+        },
+        {
+            "month": "2020-05",
+            "openings": 47,
+            "closings": 17,
+            "netChange": 30
+        },
+        {
+            "month": "2020-06",
+            "openings": 38,
+            "closings": 22,
+            "netChange": 16
+        },
+        {
+            "month": "2020-07",
+            "openings": 38,
+            "closings": 25,
+            "netChange": 13
+        },
+        {
+            "month": "2020-08",
+            "openings": 38,
+            "closings": 28,
+            "netChange": 10
+        },
+        {
+            "month": "2020-09",
+            "openings": 27,
+            "closings": 18,
+            "netChange": 9
+        },
+        {
+            "month": "2020-10",
+            "openings": 22,
+            "closings": 7,
+            "netChange": 15
+        },
+        {
+            "month": "2020-11",
+            "openings": 22,
+            "closings": 17,
+            "netChange": 5
+        },
+        {
+            "month": "2020-12",
+            "openings": 44,
+            "closings": 31,
+            "netChange": 13
+        },
+        {
+            "month": "2021-01",
+            "openings": 30,
+            "closings": 15,
+            "netChange": 15
+        },
+        {
+            "month": "2021-02",
+            "openings": 44,
+            "closings": 39,
+            "netChange": 5
+        },
+        {
+            "month": "2021-03",
+            "openings": 40,
+            "closings": 0,
+            "netChange": 40
+        },
+        {
+            "month": "2021-04",
+            "openings": 44,
+            "closings": 12,
+            "netChange": 32
+        },
+        {
+            "month": "2021-05",
+            "openings": 26,
+            "closings": 19,
+            "netChange": 7
+        },
+        {
+            "month": "2021-06",
+            "openings": 24,
+            "closings": 11,
+            "netChange": 13
+        },
+        {
+            "month": "2021-07",
+            "openings": 21,
+            "closings": 12,
+            "netChange": 9
+        },
+        {
+            "month": "2021-08",
+            "openings": 28,
+            "closings": 11,
+            "netChange": 17
+        },
+        {
+            "month": "2021-09",
+            "openings": 15,
+            "closings": 23,
+            "netChange": -8
+        },
+        {
+            "month": "2021-10",
+            "openings": 23,
+            "closings": 9,
+            "netChange": 14
+        },
+        {
+            "month": "2021-11",
+            "openings": 22,
+            "closings": 9,
+            "netChange": 13
+        },
+        {
+            "month": "2021-12",
+            "openings": 46,
+            "closings": 19,
+            "netChange": 27
+        },
+        {
+            "month": "2022-01",
+            "openings": 46,
+            "closings": 21,
+            "netChange": 25
+        },
+        {
+            "month": "2022-02",
+            "openings": 34,
+            "closings": 9,
+            "netChange": 25
+        },
+        {
+            "month": "2022-03",
+            "openings": 25,
+            "closings": 17,
+            "netChange": 8
+        },
+        {
+            "month": "2022-04",
+            "openings": 34,
+            "closings": 17,
+            "netChange": 17
+        },
+        {
+            "month": "2022-05",
+            "openings": 34,
+            "closings": 23,
+            "netChange": 11
+        },
+        {
+            "month": "2022-06",
+            "openings": 28,
+            "closings": 13,
+            "netChange": 15
+        },
+        {
+            "month": "2022-07",
+            "openings": 26,
+            "closings": 18,
+            "netChange": 8
+        },
+        {
+            "month": "2022-08",
+            "openings": 22,
+            "closings": 23,
+            "netChange": -1
+        },
+        {
+            "month": "2022-09",
+            "openings": 27,
+            "closings": 15,
+            "netChange": 12
+        },
+        {
+            "month": "2022-10",
+            "openings": 17,
+            "closings": 19,
+            "netChange": -2
+        },
+        {
+            "month": "2022-11",
+            "openings": 17,
+            "closings": 15,
+            "netChange": 2
+        },
+        {
+            "month": "2022-12",
+            "openings": 46,
+            "closings": 28,
+            "netChange": 18
+        },
+        {
+            "month": "2023-01",
+            "openings": 37,
+            "closings": 29,
+            "netChange": 8
+        },
+        {
+            "month": "2023-02",
+            "openings": 34,
+            "closings": 16,
+            "netChange": 18
+        },
+        {
+            "month": "2023-03",
+            "openings": 36,
+            "closings": 28,
+            "netChange": 8
+        },
+        {
+            "month": "2023-04",
+            "openings": 26,
+            "closings": 29,
+            "netChange": -3
+        },
+        {
+            "month": "2023-05",
+            "openings": 23,
+            "closings": 26,
+            "netChange": -3
+        },
+        {
+            "month": "2023-06",
+            "openings": 26,
+            "closings": 26,
+            "netChange": 0
+        },
+        {
+            "month": "2023-07",
+            "openings": 32,
+            "closings": 33,
+            "netChange": -1
+        },
+        {
+            "month": "2023-08",
+            "openings": 17,
+            "closings": 21,
+            "netChange": -4
+        },
+        {
+            "month": "2023-09",
+            "openings": 17,
+            "closings": 27,
+            "netChange": -10
+        },
+        {
+            "month": "2023-10",
+            "openings": 16,
+            "closings": 20,
+            "netChange": -4
+        },
+        {
+            "month": "2023-11",
+            "openings": 24,
+            "closings": 29,
+            "netChange": -5
+        },
+        {
+            "month": "2023-12",
+            "openings": 16,
+            "closings": 16,
+            "netChange": 0
+        },
+        {
+            "month": "2024-01",
+            "openings": 38,
+            "closings": 29,
+            "netChange": 9
+        },
+        {
+            "month": "2024-02",
+            "openings": 19,
+            "closings": 24,
+            "netChange": -5
+        },
+        {
+            "month": "2024-03",
+            "openings": 24,
+            "closings": 50,
+            "netChange": -26
+        },
+        {
+            "month": "2024-04",
+            "openings": 28,
+            "closings": 29,
+            "netChange": -1
+        },
+        {
+            "month": "2024-05",
+            "openings": 28,
+            "closings": 18,
+            "netChange": 10
+        },
+        {
+            "month": "2024-06",
+            "openings": 16,
+            "closings": 30,
+            "netChange": -14
+        },
+        {
+            "month": "2024-07",
+            "openings": 9,
+            "closings": 42,
+            "netChange": -33
+        },
+        {
+            "month": "2024-08",
+            "openings": 18,
+            "closings": 7,
+            "netChange": 11
+        },
+        {
+            "month": "2024-09",
+            "openings": 13,
+            "closings": 14,
+            "netChange": -1
+        },
+        {
+            "month": "2024-10",
+            "openings": 13,
+            "closings": 30,
+            "netChange": -17
+        },
+        {
+            "month": "2024-11",
+            "openings": 21,
+            "closings": 21,
+            "netChange": 0
+        },
+        {
+            "month": "2024-12",
+            "openings": 31,
+            "closings": 29,
+            "netChange": 2
+        },
+        {
+            "month": "2025-01",
+            "openings": 22,
+            "closings": 15,
+            "netChange": 7
+        },
+        {
+            "month": "2025-02",
+            "openings": 25,
+            "closings": 27,
+            "netChange": -2
+        },
+        {
+            "month": "2025-03",
+            "openings": 28,
+            "closings": 33,
+            "netChange": -5
+        },
+        {
+            "month": "2025-04",
+            "openings": 19,
+            "closings": 19,
+            "netChange": 0
+        },
+        {
+            "month": "2025-05",
+            "openings": 24,
+            "closings": 21,
+            "netChange": 3
+        },
+        {
+            "month": "2025-06",
+            "openings": 16,
+            "closings": 19,
+            "netChange": -3
+        },
+        {
+            "month": "2025-07",
+            "openings": 24,
+            "closings": 11,
+            "netChange": 13
+        },
+        {
+            "month": "2025-08",
+            "openings": 16,
+            "closings": 18,
+            "netChange": -2
+        },
+        {
+            "month": "2025-09",
+            "openings": 16,
+            "closings": 19,
+            "netChange": -3
+        },
+        {
+            "month": "2025-10",
+            "openings": 14,
+            "closings": 16,
+            "netChange": -2
+        },
+        {
+            "month": "2025-11",
+            "openings": 12,
+            "closings": 23,
+            "netChange": -11
+        },
+        {
+            "month": "2025-12",
+            "openings": 20,
+            "closings": 23,
+            "netChange": -3
+        },
+        {
+            "month": "2026-01",
+            "openings": 19,
+            "closings": 17,
+            "netChange": 2
+        },
+        {
+            "month": "2026-02",
+            "openings": 19,
+            "closings": 26,
+            "netChange": -7
+        },
+        {
+            "month": "2026-03",
+            "openings": 13,
+            "closings": 29,
+            "netChange": -16
+        },
+        {
+            "month": "2026-04",
+            "openings": 8,
+            "closings": 28,
+            "netChange": -20
+        },
+        {
+            "month": "2026-05",
+            "openings": 13,
+            "closings": 26,
+            "netChange": -13
+        },
+        {
+            "month": "2026-06",
+            "openings": 9,
+            "closings": 14,
+            "netChange": -5
+        },
+        {
+            "month": "2026-07",
+            "openings": 4,
+            "closings": 4,
+            "netChange": 0
+        }
+    ]
+}
+
+충남
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 55,
+            "closings": 53,
+            "netChange": 2
+        },
+        {
+            "month": "2020-02",
+            "openings": 68,
+            "closings": 27,
+            "netChange": 41
+        },
+        {
+            "month": "2020-03",
+            "openings": 45,
+            "closings": 20,
+            "netChange": 25
+        },
+        {
+            "month": "2020-04",
+            "openings": 36,
+            "closings": 29,
+            "netChange": 7
+        },
+        {
+            "month": "2020-05",
+            "openings": 34,
+            "closings": 23,
+            "netChange": 11
+        },
+        {
+            "month": "2020-06",
+            "openings": 75,
+            "closings": 29,
+            "netChange": 46
+        },
+        {
+            "month": "2020-07",
+            "openings": 53,
+            "closings": 21,
+            "netChange": 32
+        },
+        {
+            "month": "2020-08",
+            "openings": 38,
+            "closings": 32,
+            "netChange": 6
+        },
+        {
+            "month": "2020-09",
+            "openings": 42,
+            "closings": 30,
+            "netChange": 12
+        },
+        {
+            "month": "2020-10",
+            "openings": 44,
+            "closings": 18,
+            "netChange": 26
+        },
+        {
+            "month": "2020-11",
+            "openings": 31,
+            "closings": 38,
+            "netChange": -7
+        },
+        {
+            "month": "2020-12",
+            "openings": 67,
+            "closings": 40,
+            "netChange": 27
+        },
+        {
+            "month": "2021-01",
+            "openings": 66,
+            "closings": 28,
+            "netChange": 38
+        },
+        {
+            "month": "2021-02",
+            "openings": 55,
+            "closings": 39,
+            "netChange": 16
+        },
+        {
+            "month": "2021-03",
+            "openings": 73,
+            "closings": 0,
+            "netChange": 73
+        },
+        {
+            "month": "2021-04",
+            "openings": 47,
+            "closings": 21,
+            "netChange": 26
+        },
+        {
+            "month": "2021-05",
+            "openings": 44,
+            "closings": 13,
+            "netChange": 31
+        },
+        {
+            "month": "2021-06",
+            "openings": 43,
+            "closings": 28,
+            "netChange": 15
+        },
+        {
+            "month": "2021-07",
+            "openings": 40,
+            "closings": 19,
+            "netChange": 21
+        },
+        {
+            "month": "2021-08",
+            "openings": 54,
+            "closings": 19,
+            "netChange": 35
+        },
+        {
+            "month": "2021-09",
+            "openings": 32,
+            "closings": 35,
+            "netChange": -3
+        },
+        {
+            "month": "2021-10",
+            "openings": 30,
+            "closings": 14,
+            "netChange": 16
+        },
+        {
+            "month": "2021-11",
+            "openings": 40,
+            "closings": 24,
+            "netChange": 16
+        },
+        {
+            "month": "2021-12",
+            "openings": 74,
+            "closings": 36,
+            "netChange": 38
+        },
+        {
+            "month": "2022-01",
+            "openings": 62,
+            "closings": 36,
+            "netChange": 26
+        },
+        {
+            "month": "2022-02",
+            "openings": 65,
+            "closings": 20,
+            "netChange": 45
+        },
+        {
+            "month": "2022-03",
+            "openings": 56,
+            "closings": 24,
+            "netChange": 32
+        },
+        {
+            "month": "2022-04",
+            "openings": 58,
+            "closings": 24,
+            "netChange": 34
+        },
+        {
+            "month": "2022-05",
+            "openings": 32,
+            "closings": 28,
+            "netChange": 4
+        },
+        {
+            "month": "2022-06",
+            "openings": 39,
+            "closings": 9,
+            "netChange": 30
+        },
+        {
+            "month": "2022-07",
+            "openings": 28,
+            "closings": 24,
+            "netChange": 4
+        },
+        {
+            "month": "2022-08",
+            "openings": 21,
+            "closings": 28,
+            "netChange": -7
+        },
+        {
+            "month": "2022-09",
+            "openings": 35,
+            "closings": 11,
+            "netChange": 24
+        },
+        {
+            "month": "2022-10",
+            "openings": 40,
+            "closings": 39,
+            "netChange": 1
+        },
+        {
+            "month": "2022-11",
+            "openings": 34,
+            "closings": 31,
+            "netChange": 3
+        },
+        {
+            "month": "2022-12",
+            "openings": 57,
+            "closings": 53,
+            "netChange": 4
+        },
+        {
+            "month": "2023-01",
+            "openings": 58,
+            "closings": 30,
+            "netChange": 28
+        },
+        {
+            "month": "2023-02",
+            "openings": 45,
+            "closings": 21,
+            "netChange": 24
+        },
+        {
+            "month": "2023-03",
+            "openings": 65,
+            "closings": 48,
+            "netChange": 17
+        },
+        {
+            "month": "2023-04",
+            "openings": 47,
+            "closings": 28,
+            "netChange": 19
+        },
+        {
+            "month": "2023-05",
+            "openings": 40,
+            "closings": 21,
+            "netChange": 19
+        },
+        {
+            "month": "2023-06",
+            "openings": 36,
+            "closings": 25,
+            "netChange": 11
+        },
+        {
+            "month": "2023-07",
+            "openings": 43,
+            "closings": 27,
+            "netChange": 16
+        },
+        {
+            "month": "2023-08",
+            "openings": 40,
+            "closings": 32,
+            "netChange": 8
+        },
+        {
+            "month": "2023-09",
+            "openings": 31,
+            "closings": 22,
+            "netChange": 9
+        },
+        {
+            "month": "2023-10",
+            "openings": 23,
+            "closings": 32,
+            "netChange": -9
+        },
+        {
+            "month": "2023-11",
+            "openings": 28,
+            "closings": 44,
+            "netChange": -16
+        },
+        {
+            "month": "2023-12",
+            "openings": 32,
+            "closings": 26,
+            "netChange": 6
+        },
+        {
+            "month": "2024-01",
+            "openings": 33,
+            "closings": 35,
+            "netChange": -2
+        },
+        {
+            "month": "2024-02",
+            "openings": 23,
+            "closings": 21,
+            "netChange": 2
+        },
+        {
+            "month": "2024-03",
+            "openings": 36,
+            "closings": 50,
+            "netChange": -14
+        },
+        {
+            "month": "2024-04",
+            "openings": 32,
+            "closings": 36,
+            "netChange": -4
+        },
+        {
+            "month": "2024-05",
+            "openings": 35,
+            "closings": 43,
+            "netChange": -8
+        },
+        {
+            "month": "2024-06",
+            "openings": 34,
+            "closings": 33,
+            "netChange": 1
+        },
+        {
+            "month": "2024-07",
+            "openings": 25,
+            "closings": 40,
+            "netChange": -15
+        },
+        {
+            "month": "2024-08",
+            "openings": 22,
+            "closings": 10,
+            "netChange": 12
+        },
+        {
+            "month": "2024-09",
+            "openings": 21,
+            "closings": 31,
+            "netChange": -10
+        },
+        {
+            "month": "2024-10",
+            "openings": 26,
+            "closings": 28,
+            "netChange": -2
+        },
+        {
+            "month": "2024-11",
+            "openings": 26,
+            "closings": 28,
+            "netChange": -2
+        },
+        {
+            "month": "2024-12",
+            "openings": 29,
+            "closings": 47,
+            "netChange": -18
+        },
+        {
+            "month": "2025-01",
+            "openings": 28,
+            "closings": 29,
+            "netChange": -1
+        },
+        {
+            "month": "2025-02",
+            "openings": 31,
+            "closings": 30,
+            "netChange": 1
+        },
+        {
+            "month": "2025-03",
+            "openings": 22,
+            "closings": 30,
+            "netChange": -8
+        },
+        {
+            "month": "2025-04",
+            "openings": 24,
+            "closings": 27,
+            "netChange": -3
+        },
+        {
+            "month": "2025-05",
+            "openings": 25,
+            "closings": 25,
+            "netChange": 0
+        },
+        {
+            "month": "2025-06",
+            "openings": 24,
+            "closings": 26,
+            "netChange": -2
+        },
+        {
+            "month": "2025-07",
+            "openings": 21,
+            "closings": 30,
+            "netChange": -9
+        },
+        {
+            "month": "2025-08",
+            "openings": 17,
+            "closings": 32,
+            "netChange": -15
+        },
+        {
+            "month": "2025-09",
+            "openings": 24,
+            "closings": 24,
+            "netChange": 0
+        },
+        {
+            "month": "2025-10",
+            "openings": 20,
+            "closings": 22,
+            "netChange": -2
+        },
+        {
+            "month": "2025-11",
+            "openings": 14,
+            "closings": 29,
+            "netChange": -15
+        },
+        {
+            "month": "2025-12",
+            "openings": 32,
+            "closings": 33,
+            "netChange": -1
+        },
+        {
+            "month": "2026-01",
+            "openings": 26,
+            "closings": 44,
+            "netChange": -18
+        },
+        {
+            "month": "2026-02",
+            "openings": 19,
+            "closings": 22,
+            "netChange": -3
+        },
+        {
+            "month": "2026-03",
+            "openings": 26,
+            "closings": 29,
+            "netChange": -3
+        },
+        {
+            "month": "2026-04",
+            "openings": 19,
+            "closings": 36,
+            "netChange": -17
+        },
+        {
+            "month": "2026-05",
+            "openings": 23,
+            "closings": 37,
+            "netChange": -14
+        },
+        {
+            "month": "2026-06",
+            "openings": 20,
+            "closings": 39,
+            "netChange": -19
+        },
+        {
+            "month": "2026-07",
+            "openings": 9,
+            "closings": 10,
+            "netChange": -1
+        }
+    ]
+}
+
+세종
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 40,
+            "closings": 19,
+            "netChange": 21
+        },
+        {
+            "month": "2020-02",
+            "openings": 27,
+            "closings": 10,
+            "netChange": 17
+        },
+        {
+            "month": "2020-03",
+            "openings": 24,
+            "closings": 5,
+            "netChange": 19
+        },
+        {
+            "month": "2020-04",
+            "openings": 10,
+            "closings": 10,
+            "netChange": 0
+        },
+        {
+            "month": "2020-05",
+            "openings": 16,
+            "closings": 8,
+            "netChange": 8
+        },
+        {
+            "month": "2020-06",
+            "openings": 19,
+            "closings": 5,
+            "netChange": 14
+        },
+        {
+            "month": "2020-07",
+            "openings": 35,
+            "closings": 11,
+            "netChange": 24
+        },
+        {
+            "month": "2020-08",
+            "openings": 24,
+            "closings": 9,
+            "netChange": 15
+        },
+        {
+            "month": "2020-09",
+            "openings": 26,
+            "closings": 18,
+            "netChange": 8
+        },
+        {
+            "month": "2020-10",
+            "openings": 21,
+            "closings": 6,
+            "netChange": 15
+        },
+        {
+            "month": "2020-11",
+            "openings": 13,
+            "closings": 11,
+            "netChange": 2
+        },
+        {
+            "month": "2020-12",
+            "openings": 26,
+            "closings": 7,
+            "netChange": 19
+        },
+        {
+            "month": "2021-01",
+            "openings": 23,
+            "closings": 11,
+            "netChange": 12
+        },
+        {
+            "month": "2021-02",
+            "openings": 20,
+            "closings": 31,
+            "netChange": -11
+        },
+        {
+            "month": "2021-03",
+            "openings": 24,
+            "closings": 0,
+            "netChange": 24
+        },
+        {
+            "month": "2021-04",
+            "openings": 25,
+            "closings": 6,
+            "netChange": 19
+        },
+        {
+            "month": "2021-05",
+            "openings": 20,
+            "closings": 19,
+            "netChange": 1
+        },
+        {
+            "month": "2021-06",
+            "openings": 23,
+            "closings": 13,
+            "netChange": 10
+        },
+        {
+            "month": "2021-07",
+            "openings": 21,
+            "closings": 7,
+            "netChange": 14
+        },
+        {
+            "month": "2021-08",
+            "openings": 10,
+            "closings": 11,
+            "netChange": -1
+        },
+        {
+            "month": "2021-09",
+            "openings": 14,
+            "closings": 18,
+            "netChange": -4
+        },
+        {
+            "month": "2021-10",
+            "openings": 19,
+            "closings": 10,
+            "netChange": 9
+        },
+        {
+            "month": "2021-11",
+            "openings": 19,
+            "closings": 10,
+            "netChange": 9
+        },
+        {
+            "month": "2021-12",
+            "openings": 26,
+            "closings": 19,
+            "netChange": 7
+        },
+        {
+            "month": "2022-01",
+            "openings": 25,
+            "closings": 15,
+            "netChange": 10
+        },
+        {
+            "month": "2022-02",
+            "openings": 15,
+            "closings": 10,
+            "netChange": 5
+        },
+        {
+            "month": "2022-03",
+            "openings": 13,
+            "closings": 11,
+            "netChange": 2
+        },
+        {
+            "month": "2022-04",
+            "openings": 19,
+            "closings": 7,
+            "netChange": 12
+        },
+        {
+            "month": "2022-05",
+            "openings": 15,
+            "closings": 19,
+            "netChange": -4
+        },
+        {
+            "month": "2022-06",
+            "openings": 11,
+            "closings": 5,
+            "netChange": 6
+        },
+        {
+            "month": "2022-07",
+            "openings": 8,
+            "closings": 10,
+            "netChange": -2
+        },
+        {
+            "month": "2022-08",
+            "openings": 7,
+            "closings": 19,
+            "netChange": -12
+        },
+        {
+            "month": "2022-09",
+            "openings": 11,
+            "closings": 14,
+            "netChange": -3
+        },
+        {
+            "month": "2022-10",
+            "openings": 12,
+            "closings": 6,
+            "netChange": 6
+        },
+        {
+            "month": "2022-11",
+            "openings": 6,
+            "closings": 16,
+            "netChange": -10
+        },
+        {
+            "month": "2022-12",
+            "openings": 20,
+            "closings": 23,
+            "netChange": -3
+        },
+        {
+            "month": "2023-01",
+            "openings": 18,
+            "closings": 16,
+            "netChange": 2
+        },
+        {
+            "month": "2023-02",
+            "openings": 17,
+            "closings": 16,
+            "netChange": 1
+        },
+        {
+            "month": "2023-03",
+            "openings": 14,
+            "closings": 18,
+            "netChange": -4
+        },
+        {
+            "month": "2023-04",
+            "openings": 10,
+            "closings": 14,
+            "netChange": -4
+        },
+        {
+            "month": "2023-05",
+            "openings": 6,
+            "closings": 8,
+            "netChange": -2
+        },
+        {
+            "month": "2023-06",
+            "openings": 19,
+            "closings": 15,
+            "netChange": 4
+        },
+        {
+            "month": "2023-07",
+            "openings": 10,
+            "closings": 9,
+            "netChange": 1
+        },
+        {
+            "month": "2023-08",
+            "openings": 3,
+            "closings": 9,
+            "netChange": -6
+        },
+        {
+            "month": "2023-09",
+            "openings": 10,
+            "closings": 10,
+            "netChange": 0
+        },
+        {
+            "month": "2023-10",
+            "openings": 10,
+            "closings": 7,
+            "netChange": 3
+        },
+        {
+            "month": "2023-11",
+            "openings": 11,
+            "closings": 24,
+            "netChange": -13
+        },
+        {
+            "month": "2023-12",
+            "openings": 9,
+            "closings": 6,
+            "netChange": 3
+        },
+        {
+            "month": "2024-01",
+            "openings": 10,
+            "closings": 15,
+            "netChange": -5
+        },
+        {
+            "month": "2024-02",
+            "openings": 13,
+            "closings": 11,
+            "netChange": 2
+        },
+        {
+            "month": "2024-03",
+            "openings": 9,
+            "closings": 30,
+            "netChange": -21
+        },
+        {
+            "month": "2024-04",
+            "openings": 9,
+            "closings": 17,
+            "netChange": -8
+        },
+        {
+            "month": "2024-05",
+            "openings": 5,
+            "closings": 16,
+            "netChange": -11
+        },
+        {
+            "month": "2024-06",
+            "openings": 11,
+            "closings": 9,
+            "netChange": 2
+        },
+        {
+            "month": "2024-07",
+            "openings": 8,
+            "closings": 22,
+            "netChange": -14
+        },
+        {
+            "month": "2024-08",
+            "openings": 4,
+            "closings": 9,
+            "netChange": -5
+        },
+        {
+            "month": "2024-09",
+            "openings": 4,
+            "closings": 19,
+            "netChange": -15
+        },
+        {
+            "month": "2024-10",
+            "openings": 3,
+            "closings": 10,
+            "netChange": -7
+        },
+        {
+            "month": "2024-11",
+            "openings": 9,
+            "closings": 13,
+            "netChange": -4
+        },
+        {
+            "month": "2024-12",
+            "openings": 5,
+            "closings": 20,
+            "netChange": -15
+        },
+        {
+            "month": "2025-01",
+            "openings": 7,
+            "closings": 9,
+            "netChange": -2
+        },
+        {
+            "month": "2025-02",
+            "openings": 9,
+            "closings": 8,
+            "netChange": 1
+        },
+        {
+            "month": "2025-03",
+            "openings": 5,
+            "closings": 13,
+            "netChange": -8
+        },
+        {
+            "month": "2025-04",
+            "openings": 9,
+            "closings": 6,
+            "netChange": 3
+        },
+        {
+            "month": "2025-05",
+            "openings": 8,
+            "closings": 9,
+            "netChange": -1
+        },
+        {
+            "month": "2025-06",
+            "openings": 3,
+            "closings": 9,
+            "netChange": -6
+        },
+        {
+            "month": "2025-07",
+            "openings": 3,
+            "closings": 8,
+            "netChange": -5
+        },
+        {
+            "month": "2025-08",
+            "openings": 10,
+            "closings": 7,
+            "netChange": 3
+        },
+        {
+            "month": "2025-09",
+            "openings": 4,
+            "closings": 10,
+            "netChange": -6
+        },
+        {
+            "month": "2025-10",
+            "openings": 7,
+            "closings": 7,
+            "netChange": 0
+        },
+        {
+            "month": "2025-11",
+            "openings": 5,
+            "closings": 11,
+            "netChange": -6
+        },
+        {
+            "month": "2025-12",
+            "openings": 9,
+            "closings": 12,
+            "netChange": -3
+        },
+        {
+            "month": "2026-01",
+            "openings": 11,
+            "closings": 12,
+            "netChange": -1
+        },
+        {
+            "month": "2026-02",
+            "openings": 3,
+            "closings": 7,
+            "netChange": -4
+        },
+        {
+            "month": "2026-03",
+            "openings": 9,
+            "closings": 18,
+            "netChange": -9
+        },
+        {
+            "month": "2026-04",
+            "openings": 2,
+            "closings": 13,
+            "netChange": -11
+        },
+        {
+            "month": "2026-05",
+            "openings": 3,
+            "closings": 7,
+            "netChange": -4
+        },
+        {
+            "month": "2026-06",
+            "openings": 7,
+            "closings": 11,
+            "netChange": -4
+        },
+        {
+            "month": "2026-07",
+            "openings": 1,
+            "closings": 2,
+            "netChange": -1
+        }
+    ]
+}
+
+부산
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 169,
+            "closings": 158,
+            "netChange": 11
+        },
+        {
+            "month": "2020-02",
+            "openings": 193,
+            "closings": 87,
+            "netChange": 106
+        },
+        {
+            "month": "2020-03",
+            "openings": 130,
+            "closings": 64,
+            "netChange": 66
+        },
+        {
+            "month": "2020-04",
+            "openings": 137,
+            "closings": 77,
+            "netChange": 60
+        },
+        {
+            "month": "2020-05",
+            "openings": 118,
+            "closings": 74,
+            "netChange": 44
+        },
+        {
+            "month": "2020-06",
+            "openings": 145,
+            "closings": 70,
+            "netChange": 75
+        },
+        {
+            "month": "2020-07",
+            "openings": 156,
+            "closings": 77,
+            "netChange": 79
+        },
+        {
+            "month": "2020-08",
+            "openings": 121,
+            "closings": 64,
+            "netChange": 57
+        },
+        {
+            "month": "2020-09",
+            "openings": 149,
+            "closings": 97,
+            "netChange": 52
+        },
+        {
+            "month": "2020-10",
+            "openings": 111,
+            "closings": 66,
+            "netChange": 45
+        },
+        {
+            "month": "2020-11",
+            "openings": 120,
+            "closings": 79,
+            "netChange": 41
+        },
+        {
+            "month": "2020-12",
+            "openings": 155,
+            "closings": 79,
+            "netChange": 76
+        },
+        {
+            "month": "2021-01",
+            "openings": 169,
+            "closings": 97,
+            "netChange": 72
+        },
+        {
+            "month": "2021-02",
+            "openings": 129,
+            "closings": 167,
+            "netChange": -38
+        },
+        {
+            "month": "2021-03",
+            "openings": 152,
+            "closings": 0,
+            "netChange": 152
+        },
+        {
+            "month": "2021-04",
+            "openings": 162,
+            "closings": 54,
+            "netChange": 108
+        },
+        {
+            "month": "2021-05",
+            "openings": 94,
+            "closings": 66,
+            "netChange": 28
+        },
+        {
+            "month": "2021-06",
+            "openings": 133,
+            "closings": 100,
+            "netChange": 33
+        },
+        {
+            "month": "2021-07",
+            "openings": 138,
+            "closings": 71,
+            "netChange": 67
+        },
+        {
+            "month": "2021-08",
+            "openings": 83,
+            "closings": 52,
+            "netChange": 31
+        },
+        {
+            "month": "2021-09",
+            "openings": 84,
+            "closings": 101,
+            "netChange": -17
+        },
+        {
+            "month": "2021-10",
+            "openings": 87,
+            "closings": 64,
+            "netChange": 23
+        },
+        {
+            "month": "2021-11",
+            "openings": 83,
+            "closings": 76,
+            "netChange": 7
+        },
+        {
+            "month": "2021-12",
+            "openings": 164,
+            "closings": 99,
+            "netChange": 65
+        },
+        {
+            "month": "2022-01",
+            "openings": 152,
+            "closings": 99,
+            "netChange": 53
+        },
+        {
+            "month": "2022-02",
+            "openings": 116,
+            "closings": 46,
+            "netChange": 70
+        },
+        {
+            "month": "2022-03",
+            "openings": 125,
+            "closings": 79,
+            "netChange": 46
+        },
+        {
+            "month": "2022-04",
+            "openings": 124,
+            "closings": 65,
+            "netChange": 59
+        },
+        {
+            "month": "2022-05",
+            "openings": 99,
+            "closings": 105,
+            "netChange": -6
+        },
+        {
+            "month": "2022-06",
+            "openings": 86,
+            "closings": 34,
+            "netChange": 52
+        },
+        {
+            "month": "2022-07",
+            "openings": 83,
+            "closings": 66,
+            "netChange": 17
+        },
+        {
+            "month": "2022-08",
+            "openings": 74,
+            "closings": 99,
+            "netChange": -25
+        },
+        {
+            "month": "2022-09",
+            "openings": 73,
+            "closings": 59,
+            "netChange": 14
+        },
+        {
+            "month": "2022-10",
+            "openings": 85,
+            "closings": 50,
+            "netChange": 35
+        },
+        {
+            "month": "2022-11",
+            "openings": 53,
+            "closings": 75,
+            "netChange": -22
+        },
+        {
+            "month": "2022-12",
+            "openings": 107,
+            "closings": 183,
+            "netChange": -76
+        },
+        {
+            "month": "2023-01",
+            "openings": 108,
+            "closings": 111,
+            "netChange": -3
+        },
+        {
+            "month": "2023-02",
+            "openings": 111,
+            "closings": 49,
+            "netChange": 62
+        },
+        {
+            "month": "2023-03",
+            "openings": 92,
+            "closings": 120,
+            "netChange": -28
+        },
+        {
+            "month": "2023-04",
+            "openings": 109,
+            "closings": 112,
+            "netChange": -3
+        },
+        {
+            "month": "2023-05",
+            "openings": 104,
+            "closings": 80,
+            "netChange": 24
+        },
+        {
+            "month": "2023-06",
+            "openings": 72,
+            "closings": 89,
+            "netChange": -17
+        },
+        {
+            "month": "2023-07",
+            "openings": 95,
+            "closings": 77,
+            "netChange": 18
+        },
+        {
+            "month": "2023-08",
+            "openings": 61,
+            "closings": 91,
+            "netChange": -30
+        },
+        {
+            "month": "2023-09",
+            "openings": 73,
+            "closings": 98,
+            "netChange": -25
+        },
+        {
+            "month": "2023-10",
+            "openings": 77,
+            "closings": 80,
+            "netChange": -3
+        },
+        {
+            "month": "2023-11",
+            "openings": 66,
+            "closings": 143,
+            "netChange": -77
+        },
+        {
+            "month": "2023-12",
+            "openings": 107,
+            "closings": 59,
+            "netChange": 48
+        },
+        {
+            "month": "2024-01",
+            "openings": 111,
+            "closings": 115,
+            "netChange": -4
+        },
+        {
+            "month": "2024-02",
+            "openings": 55,
+            "closings": 76,
+            "netChange": -21
+        },
+        {
+            "month": "2024-03",
+            "openings": 80,
+            "closings": 106,
+            "netChange": -26
+        },
+        {
+            "month": "2024-04",
+            "openings": 65,
+            "closings": 98,
+            "netChange": -33
+        },
+        {
+            "month": "2024-05",
+            "openings": 74,
+            "closings": 79,
+            "netChange": -5
+        },
+        {
+            "month": "2024-06",
+            "openings": 57,
+            "closings": 90,
+            "netChange": -33
+        },
+        {
+            "month": "2024-07",
+            "openings": 78,
+            "closings": 114,
+            "netChange": -36
+        },
+        {
+            "month": "2024-08",
+            "openings": 48,
+            "closings": 26,
+            "netChange": 22
+        },
+        {
+            "month": "2024-09",
+            "openings": 44,
+            "closings": 76,
+            "netChange": -32
+        },
+        {
+            "month": "2024-10",
+            "openings": 72,
+            "closings": 93,
+            "netChange": -21
+        },
+        {
+            "month": "2024-11",
+            "openings": 66,
+            "closings": 85,
+            "netChange": -19
+        },
+        {
+            "month": "2024-12",
+            "openings": 68,
+            "closings": 103,
+            "netChange": -35
+        },
+        {
+            "month": "2025-01",
+            "openings": 61,
+            "closings": 67,
+            "netChange": -6
+        },
+        {
+            "month": "2025-02",
+            "openings": 64,
+            "closings": 83,
+            "netChange": -19
+        },
+        {
+            "month": "2025-03",
+            "openings": 70,
+            "closings": 70,
+            "netChange": 0
+        },
+        {
+            "month": "2025-04",
+            "openings": 60,
+            "closings": 64,
+            "netChange": -4
+        },
+        {
+            "month": "2025-05",
+            "openings": 46,
+            "closings": 85,
+            "netChange": -39
+        },
+        {
+            "month": "2025-06",
+            "openings": 45,
+            "closings": 57,
+            "netChange": -12
+        },
+        {
+            "month": "2025-07",
+            "openings": 62,
+            "closings": 76,
+            "netChange": -14
+        },
+        {
+            "month": "2025-08",
+            "openings": 39,
+            "closings": 53,
+            "netChange": -14
+        },
+        {
+            "month": "2025-09",
+            "openings": 39,
+            "closings": 47,
+            "netChange": -8
+        },
+        {
+            "month": "2025-10",
+            "openings": 35,
+            "closings": 50,
+            "netChange": -15
+        },
+        {
+            "month": "2025-11",
+            "openings": 51,
+            "closings": 82,
+            "netChange": -31
+        },
+        {
+            "month": "2025-12",
+            "openings": 63,
+            "closings": 113,
+            "netChange": -50
+        },
+        {
+            "month": "2026-01",
+            "openings": 55,
+            "closings": 101,
+            "netChange": -46
+        },
+        {
+            "month": "2026-02",
+            "openings": 38,
+            "closings": 59,
+            "netChange": -21
+        },
+        {
+            "month": "2026-03",
+            "openings": 56,
+            "closings": 89,
+            "netChange": -33
+        },
+        {
+            "month": "2026-04",
+            "openings": 58,
+            "closings": 95,
+            "netChange": -37
+        },
+        {
+            "month": "2026-05",
+            "openings": 38,
+            "closings": 75,
+            "netChange": -37
+        },
+        {
+            "month": "2026-06",
+            "openings": 33,
+            "closings": 75,
+            "netChange": -42
+        },
+        {
+            "month": "2026-07",
+            "openings": 24,
+            "closings": 30,
+            "netChange": -6
+        }
+    ]
+}
+
+대구
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 132,
+            "closings": 99,
+            "netChange": 33
+        },
+        {
+            "month": "2020-02",
+            "openings": 161,
+            "closings": 48,
+            "netChange": 113
+        },
+        {
+            "month": "2020-03",
+            "openings": 76,
+            "closings": 38,
+            "netChange": 38
+        },
+        {
+            "month": "2020-04",
+            "openings": 72,
+            "closings": 51,
+            "netChange": 21
+        },
+        {
+            "month": "2020-05",
+            "openings": 77,
+            "closings": 38,
+            "netChange": 39
+        },
+        {
+            "month": "2020-06",
+            "openings": 116,
+            "closings": 43,
+            "netChange": 73
+        },
+        {
+            "month": "2020-07",
+            "openings": 90,
+            "closings": 47,
+            "netChange": 43
+        },
+        {
+            "month": "2020-08",
+            "openings": 85,
+            "closings": 37,
+            "netChange": 48
+        },
+        {
+            "month": "2020-09",
+            "openings": 79,
+            "closings": 50,
+            "netChange": 29
+        },
+        {
+            "month": "2020-10",
+            "openings": 81,
+            "closings": 44,
+            "netChange": 37
+        },
+        {
+            "month": "2020-11",
+            "openings": 85,
+            "closings": 49,
+            "netChange": 36
+        },
+        {
+            "month": "2020-12",
+            "openings": 107,
+            "closings": 50,
+            "netChange": 57
+        },
+        {
+            "month": "2021-01",
+            "openings": 116,
+            "closings": 55,
+            "netChange": 61
+        },
+        {
+            "month": "2021-02",
+            "openings": 89,
+            "closings": 100,
+            "netChange": -11
+        },
+        {
+            "month": "2021-03",
+            "openings": 72,
+            "closings": 0,
+            "netChange": 72
+        },
+        {
+            "month": "2021-04",
+            "openings": 102,
+            "closings": 39,
+            "netChange": 63
+        },
+        {
+            "month": "2021-05",
+            "openings": 65,
+            "closings": 40,
+            "netChange": 25
+        },
+        {
+            "month": "2021-06",
+            "openings": 51,
+            "closings": 54,
+            "netChange": -3
+        },
+        {
+            "month": "2021-07",
+            "openings": 54,
+            "closings": 35,
+            "netChange": 19
+        },
+        {
+            "month": "2021-08",
+            "openings": 35,
+            "closings": 27,
+            "netChange": 8
+        },
+        {
+            "month": "2021-09",
+            "openings": 66,
+            "closings": 65,
+            "netChange": 1
+        },
+        {
+            "month": "2021-10",
+            "openings": 33,
+            "closings": 36,
+            "netChange": -3
+        },
+        {
+            "month": "2021-11",
+            "openings": 52,
+            "closings": 38,
+            "netChange": 14
+        },
+        {
+            "month": "2021-12",
+            "openings": 99,
+            "closings": 58,
+            "netChange": 41
+        },
+        {
+            "month": "2022-01",
+            "openings": 116,
+            "closings": 61,
+            "netChange": 55
+        },
+        {
+            "month": "2022-02",
+            "openings": 86,
+            "closings": 33,
+            "netChange": 53
+        },
+        {
+            "month": "2022-03",
+            "openings": 96,
+            "closings": 61,
+            "netChange": 35
+        },
+        {
+            "month": "2022-04",
+            "openings": 67,
+            "closings": 30,
+            "netChange": 37
+        },
+        {
+            "month": "2022-05",
+            "openings": 60,
+            "closings": 65,
+            "netChange": -5
+        },
+        {
+            "month": "2022-06",
+            "openings": 51,
+            "closings": 28,
+            "netChange": 23
+        },
+        {
+            "month": "2022-07",
+            "openings": 43,
+            "closings": 44,
+            "netChange": -1
+        },
+        {
+            "month": "2022-08",
+            "openings": 35,
+            "closings": 72,
+            "netChange": -37
+        },
+        {
+            "month": "2022-09",
+            "openings": 54,
+            "closings": 48,
+            "netChange": 6
+        },
+        {
+            "month": "2022-10",
+            "openings": 36,
+            "closings": 55,
+            "netChange": -19
+        },
+        {
+            "month": "2022-11",
+            "openings": 30,
+            "closings": 59,
+            "netChange": -29
+        },
+        {
+            "month": "2022-12",
+            "openings": 58,
+            "closings": 158,
+            "netChange": -100
+        },
+        {
+            "month": "2023-01",
+            "openings": 68,
+            "closings": 72,
+            "netChange": -4
+        },
+        {
+            "month": "2023-02",
+            "openings": 80,
+            "closings": 39,
+            "netChange": 41
+        },
+        {
+            "month": "2023-03",
+            "openings": 86,
+            "closings": 85,
+            "netChange": 1
+        },
+        {
+            "month": "2023-04",
+            "openings": 84,
+            "closings": 79,
+            "netChange": 5
+        },
+        {
+            "month": "2023-05",
+            "openings": 68,
+            "closings": 48,
+            "netChange": 20
+        },
+        {
+            "month": "2023-06",
+            "openings": 69,
+            "closings": 61,
+            "netChange": 8
+        },
+        {
+            "month": "2023-07",
+            "openings": 35,
+            "closings": 47,
+            "netChange": -12
+        },
+        {
+            "month": "2023-08",
+            "openings": 43,
+            "closings": 74,
+            "netChange": -31
+        },
+        {
+            "month": "2023-09",
+            "openings": 57,
+            "closings": 66,
+            "netChange": -9
+        },
+        {
+            "month": "2023-10",
+            "openings": 35,
+            "closings": 72,
+            "netChange": -37
+        },
+        {
+            "month": "2023-11",
+            "openings": 68,
+            "closings": 122,
+            "netChange": -54
+        },
+        {
+            "month": "2023-12",
+            "openings": 49,
+            "closings": 53,
+            "netChange": -4
+        },
+        {
+            "month": "2024-01",
+            "openings": 74,
+            "closings": 81,
+            "netChange": -7
+        },
+        {
+            "month": "2024-02",
+            "openings": 51,
+            "closings": 56,
+            "netChange": -5
+        },
+        {
+            "month": "2024-03",
+            "openings": 63,
+            "closings": 66,
+            "netChange": -3
+        },
+        {
+            "month": "2024-04",
+            "openings": 40,
+            "closings": 68,
+            "netChange": -28
+        },
+        {
+            "month": "2024-05",
+            "openings": 44,
+            "closings": 62,
+            "netChange": -18
+        },
+        {
+            "month": "2024-06",
+            "openings": 29,
+            "closings": 52,
+            "netChange": -23
+        },
+        {
+            "month": "2024-07",
+            "openings": 31,
+            "closings": 97,
+            "netChange": -66
+        },
+        {
+            "month": "2024-08",
+            "openings": 37,
+            "closings": 17,
+            "netChange": 20
+        },
+        {
+            "month": "2024-09",
+            "openings": 38,
+            "closings": 51,
+            "netChange": -13
+        },
+        {
+            "month": "2024-10",
+            "openings": 45,
+            "closings": 50,
+            "netChange": -5
+        },
+        {
+            "month": "2024-11",
+            "openings": 38,
+            "closings": 43,
+            "netChange": -5
+        },
+        {
+            "month": "2024-12",
+            "openings": 43,
+            "closings": 74,
+            "netChange": -31
+        },
+        {
+            "month": "2025-01",
+            "openings": 26,
+            "closings": 45,
+            "netChange": -19
+        },
+        {
+            "month": "2025-02",
+            "openings": 33,
+            "closings": 52,
+            "netChange": -19
+        },
+        {
+            "month": "2025-03",
+            "openings": 36,
+            "closings": 59,
+            "netChange": -23
+        },
+        {
+            "month": "2025-04",
+            "openings": 40,
+            "closings": 43,
+            "netChange": -3
+        },
+        {
+            "month": "2025-05",
+            "openings": 38,
+            "closings": 46,
+            "netChange": -8
+        },
+        {
+            "month": "2025-06",
+            "openings": 30,
+            "closings": 44,
+            "netChange": -14
+        },
+        {
+            "month": "2025-07",
+            "openings": 28,
+            "closings": 34,
+            "netChange": -6
+        },
+        {
+            "month": "2025-08",
+            "openings": 21,
+            "closings": 49,
+            "netChange": -28
+        },
+        {
+            "month": "2025-09",
+            "openings": 25,
+            "closings": 41,
+            "netChange": -16
+        },
+        {
+            "month": "2025-10",
+            "openings": 27,
+            "closings": 43,
+            "netChange": -16
+        },
+        {
+            "month": "2025-11",
+            "openings": 17,
+            "closings": 61,
+            "netChange": -44
+        },
+        {
+            "month": "2025-12",
+            "openings": 39,
+            "closings": 62,
+            "netChange": -23
+        },
+        {
+            "month": "2026-01",
+            "openings": 37,
+            "closings": 59,
+            "netChange": -22
+        },
+        {
+            "month": "2026-02",
+            "openings": 27,
+            "closings": 46,
+            "netChange": -19
+        },
+        {
+            "month": "2026-03",
+            "openings": 39,
+            "closings": 47,
+            "netChange": -8
+        },
+        {
+            "month": "2026-04",
+            "openings": 47,
+            "closings": 56,
+            "netChange": -9
+        },
+        {
+            "month": "2026-05",
+            "openings": 12,
+            "closings": 40,
+            "netChange": -28
+        },
+        {
+            "month": "2026-06",
+            "openings": 17,
+            "closings": 49,
+            "netChange": -32
+        },
+        {
+            "month": "2026-07",
+            "openings": 7,
+            "closings": 14,
+            "netChange": -7
+        }
+    ]
+}
+
+울산
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 45,
+            "closings": 34,
+            "netChange": 11
+        },
+        {
+            "month": "2020-02",
+            "openings": 43,
+            "closings": 22,
+            "netChange": 21
+        },
+        {
+            "month": "2020-03",
+            "openings": 25,
+            "closings": 22,
+            "netChange": 3
+        },
+        {
+            "month": "2020-04",
+            "openings": 11,
+            "closings": 30,
+            "netChange": -19
+        },
+        {
+            "month": "2020-05",
+            "openings": 19,
+            "closings": 22,
+            "netChange": -3
+        },
+        {
+            "month": "2020-06",
+            "openings": 27,
+            "closings": 17,
+            "netChange": 10
+        },
+        {
+            "month": "2020-07",
+            "openings": 38,
+            "closings": 20,
+            "netChange": 18
+        },
+        {
+            "month": "2020-08",
+            "openings": 21,
+            "closings": 16,
+            "netChange": 5
+        },
+        {
+            "month": "2020-09",
+            "openings": 27,
+            "closings": 19,
+            "netChange": 8
+        },
+        {
+            "month": "2020-10",
+            "openings": 21,
+            "closings": 14,
+            "netChange": 7
+        },
+        {
+            "month": "2020-11",
+            "openings": 28,
+            "closings": 18,
+            "netChange": 10
+        },
+        {
+            "month": "2020-12",
+            "openings": 32,
+            "closings": 27,
+            "netChange": 5
+        },
+        {
+            "month": "2021-01",
+            "openings": 39,
+            "closings": 24,
+            "netChange": 15
+        },
+        {
+            "month": "2021-02",
+            "openings": 23,
+            "closings": 33,
+            "netChange": -10
+        },
+        {
+            "month": "2021-03",
+            "openings": 34,
+            "closings": 0,
+            "netChange": 34
+        },
+        {
+            "month": "2021-04",
+            "openings": 25,
+            "closings": 9,
+            "netChange": 16
+        },
+        {
+            "month": "2021-05",
+            "openings": 29,
+            "closings": 16,
+            "netChange": 13
+        },
+        {
+            "month": "2021-06",
+            "openings": 25,
+            "closings": 23,
+            "netChange": 2
+        },
+        {
+            "month": "2021-07",
+            "openings": 18,
+            "closings": 12,
+            "netChange": 6
+        },
+        {
+            "month": "2021-08",
+            "openings": 16,
+            "closings": 15,
+            "netChange": 1
+        },
+        {
+            "month": "2021-09",
+            "openings": 21,
+            "closings": 22,
+            "netChange": -1
+        },
+        {
+            "month": "2021-10",
+            "openings": 22,
+            "closings": 16,
+            "netChange": 6
+        },
+        {
+            "month": "2021-11",
+            "openings": 18,
+            "closings": 19,
+            "netChange": -1
+        },
+        {
+            "month": "2021-12",
+            "openings": 29,
+            "closings": 31,
+            "netChange": -2
+        },
+        {
+            "month": "2022-01",
+            "openings": 34,
+            "closings": 21,
+            "netChange": 13
+        },
+        {
+            "month": "2022-02",
+            "openings": 23,
+            "closings": 10,
+            "netChange": 13
+        },
+        {
+            "month": "2022-03",
+            "openings": 23,
+            "closings": 17,
+            "netChange": 6
+        },
+        {
+            "month": "2022-04",
+            "openings": 22,
+            "closings": 7,
+            "netChange": 15
+        },
+        {
+            "month": "2022-05",
+            "openings": 23,
+            "closings": 22,
+            "netChange": 1
+        },
+        {
+            "month": "2022-06",
+            "openings": 21,
+            "closings": 3,
+            "netChange": 18
+        },
+        {
+            "month": "2022-07",
+            "openings": 13,
+            "closings": 17,
+            "netChange": -4
+        },
+        {
+            "month": "2022-08",
+            "openings": 14,
+            "closings": 33,
+            "netChange": -19
+        },
+        {
+            "month": "2022-09",
+            "openings": 14,
+            "closings": 15,
+            "netChange": -1
+        },
+        {
+            "month": "2022-10",
+            "openings": 14,
+            "closings": 22,
+            "netChange": -8
+        },
+        {
+            "month": "2022-11",
+            "openings": 12,
+            "closings": 18,
+            "netChange": -6
+        },
+        {
+            "month": "2022-12",
+            "openings": 22,
+            "closings": 49,
+            "netChange": -27
+        },
+        {
+            "month": "2023-01",
+            "openings": 28,
+            "closings": 22,
+            "netChange": 6
+        },
+        {
+            "month": "2023-02",
+            "openings": 24,
+            "closings": 20,
+            "netChange": 4
+        },
+        {
+            "month": "2023-03",
+            "openings": 29,
+            "closings": 28,
+            "netChange": 1
+        },
+        {
+            "month": "2023-04",
+            "openings": 10,
+            "closings": 23,
+            "netChange": -13
+        },
+        {
+            "month": "2023-05",
+            "openings": 18,
+            "closings": 14,
+            "netChange": 4
+        },
+        {
+            "month": "2023-06",
+            "openings": 15,
+            "closings": 18,
+            "netChange": -3
+        },
+        {
+            "month": "2023-07",
+            "openings": 15,
+            "closings": 16,
+            "netChange": -1
+        },
+        {
+            "month": "2023-08",
+            "openings": 11,
+            "closings": 27,
+            "netChange": -16
+        },
+        {
+            "month": "2023-09",
+            "openings": 11,
+            "closings": 22,
+            "netChange": -11
+        },
+        {
+            "month": "2023-10",
+            "openings": 18,
+            "closings": 27,
+            "netChange": -9
+        },
+        {
+            "month": "2023-11",
+            "openings": 15,
+            "closings": 30,
+            "netChange": -15
+        },
+        {
+            "month": "2023-12",
+            "openings": 20,
+            "closings": 19,
+            "netChange": 1
+        },
+        {
+            "month": "2024-01",
+            "openings": 26,
+            "closings": 27,
+            "netChange": -1
+        },
+        {
+            "month": "2024-02",
+            "openings": 16,
+            "closings": 29,
+            "netChange": -13
+        },
+        {
+            "month": "2024-03",
+            "openings": 13,
+            "closings": 31,
+            "netChange": -18
+        },
+        {
+            "month": "2024-04",
+            "openings": 13,
+            "closings": 22,
+            "netChange": -9
+        },
+        {
+            "month": "2024-05",
+            "openings": 15,
+            "closings": 20,
+            "netChange": -5
+        },
+        {
+            "month": "2024-06",
+            "openings": 6,
+            "closings": 16,
+            "netChange": -10
+        },
+        {
+            "month": "2024-07",
+            "openings": 15,
+            "closings": 36,
+            "netChange": -21
+        },
+        {
+            "month": "2024-08",
+            "openings": 14,
+            "closings": 6,
+            "netChange": 8
+        },
+        {
+            "month": "2024-09",
+            "openings": 8,
+            "closings": 12,
+            "netChange": -4
+        },
+        {
+            "month": "2024-10",
+            "openings": 14,
+            "closings": 31,
+            "netChange": -17
+        },
+        {
+            "month": "2024-11",
+            "openings": 10,
+            "closings": 21,
+            "netChange": -11
+        },
+        {
+            "month": "2024-12",
+            "openings": 14,
+            "closings": 27,
+            "netChange": -13
+        },
+        {
+            "month": "2025-01",
+            "openings": 20,
+            "closings": 15,
+            "netChange": 5
+        },
+        {
+            "month": "2025-02",
+            "openings": 19,
+            "closings": 15,
+            "netChange": 4
+        },
+        {
+            "month": "2025-03",
+            "openings": 14,
+            "closings": 16,
+            "netChange": -2
+        },
+        {
+            "month": "2025-04",
+            "openings": 15,
+            "closings": 15,
+            "netChange": 0
+        },
+        {
+            "month": "2025-05",
+            "openings": 16,
+            "closings": 26,
+            "netChange": -10
+        },
+        {
+            "month": "2025-06",
+            "openings": 9,
+            "closings": 13,
+            "netChange": -4
+        },
+        {
+            "month": "2025-07",
+            "openings": 18,
+            "closings": 19,
+            "netChange": -1
+        },
+        {
+            "month": "2025-08",
+            "openings": 9,
+            "closings": 12,
+            "netChange": -3
+        },
+        {
+            "month": "2025-09",
+            "openings": 17,
+            "closings": 16,
+            "netChange": 1
+        },
+        {
+            "month": "2025-10",
+            "openings": 8,
+            "closings": 14,
+            "netChange": -6
+        },
+        {
+            "month": "2025-11",
+            "openings": 10,
+            "closings": 14,
+            "netChange": -4
+        },
+        {
+            "month": "2025-12",
+            "openings": 15,
+            "closings": 22,
+            "netChange": -7
+        },
+        {
+            "month": "2026-01",
+            "openings": 15,
+            "closings": 17,
+            "netChange": -2
+        },
+        {
+            "month": "2026-02",
+            "openings": 10,
+            "closings": 15,
+            "netChange": -5
+        },
+        {
+            "month": "2026-03",
+            "openings": 15,
+            "closings": 12,
+            "netChange": 3
+        },
+        {
+            "month": "2026-04",
+            "openings": 17,
+            "closings": 15,
+            "netChange": 2
+        },
+        {
+            "month": "2026-05",
+            "openings": 8,
+            "closings": 17,
+            "netChange": -9
+        },
+        {
+            "month": "2026-06",
+            "openings": 5,
+            "closings": 15,
+            "netChange": -10
+        },
+        {
+            "month": "2026-07",
+            "openings": 1,
+            "closings": 7,
+            "netChange": -6
+        }
+    ]
+}
+
+경북
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 86,
+            "closings": 71,
+            "netChange": 15
+        },
+        {
+            "month": "2020-02",
+            "openings": 59,
+            "closings": 41,
+            "netChange": 18
+        },
+        {
+            "month": "2020-03",
+            "openings": 33,
+            "closings": 27,
+            "netChange": 6
+        },
+        {
+            "month": "2020-04",
+            "openings": 51,
+            "closings": 53,
+            "netChange": -2
+        },
+        {
+            "month": "2020-05",
+            "openings": 39,
+            "closings": 34,
+            "netChange": 5
+        },
+        {
+            "month": "2020-06",
+            "openings": 49,
+            "closings": 36,
+            "netChange": 13
+        },
+        {
+            "month": "2020-07",
+            "openings": 50,
+            "closings": 30,
+            "netChange": 20
+        },
+        {
+            "month": "2020-08",
+            "openings": 45,
+            "closings": 32,
+            "netChange": 13
+        },
+        {
+            "month": "2020-09",
+            "openings": 51,
+            "closings": 26,
+            "netChange": 25
+        },
+        {
+            "month": "2020-10",
+            "openings": 47,
+            "closings": 22,
+            "netChange": 25
+        },
+        {
+            "month": "2020-11",
+            "openings": 47,
+            "closings": 33,
+            "netChange": 14
+        },
+        {
+            "month": "2020-12",
+            "openings": 69,
+            "closings": 43,
+            "netChange": 26
+        },
+        {
+            "month": "2021-01",
+            "openings": 58,
+            "closings": 29,
+            "netChange": 29
+        },
+        {
+            "month": "2021-02",
+            "openings": 48,
+            "closings": 61,
+            "netChange": -13
+        },
+        {
+            "month": "2021-03",
+            "openings": 63,
+            "closings": 0,
+            "netChange": 63
+        },
+        {
+            "month": "2021-04",
+            "openings": 61,
+            "closings": 23,
+            "netChange": 38
+        },
+        {
+            "month": "2021-05",
+            "openings": 48,
+            "closings": 24,
+            "netChange": 24
+        },
+        {
+            "month": "2021-06",
+            "openings": 30,
+            "closings": 30,
+            "netChange": 0
+        },
+        {
+            "month": "2021-07",
+            "openings": 40,
+            "closings": 21,
+            "netChange": 19
+        },
+        {
+            "month": "2021-08",
+            "openings": 20,
+            "closings": 14,
+            "netChange": 6
+        },
+        {
+            "month": "2021-09",
+            "openings": 35,
+            "closings": 48,
+            "netChange": -13
+        },
+        {
+            "month": "2021-10",
+            "openings": 27,
+            "closings": 22,
+            "netChange": 5
+        },
+        {
+            "month": "2021-11",
+            "openings": 29,
+            "closings": 31,
+            "netChange": -2
+        },
+        {
+            "month": "2021-12",
+            "openings": 69,
+            "closings": 31,
+            "netChange": 38
+        },
+        {
+            "month": "2022-01",
+            "openings": 62,
+            "closings": 24,
+            "netChange": 38
+        },
+        {
+            "month": "2022-02",
+            "openings": 40,
+            "closings": 20,
+            "netChange": 20
+        },
+        {
+            "month": "2022-03",
+            "openings": 44,
+            "closings": 31,
+            "netChange": 13
+        },
+        {
+            "month": "2022-04",
+            "openings": 37,
+            "closings": 19,
+            "netChange": 18
+        },
+        {
+            "month": "2022-05",
+            "openings": 34,
+            "closings": 31,
+            "netChange": 3
+        },
+        {
+            "month": "2022-06",
+            "openings": 36,
+            "closings": 13,
+            "netChange": 23
+        },
+        {
+            "month": "2022-07",
+            "openings": 25,
+            "closings": 22,
+            "netChange": 3
+        },
+        {
+            "month": "2022-08",
+            "openings": 26,
+            "closings": 36,
+            "netChange": -10
+        },
+        {
+            "month": "2022-09",
+            "openings": 29,
+            "closings": 21,
+            "netChange": 8
+        },
+        {
+            "month": "2022-10",
+            "openings": 19,
+            "closings": 25,
+            "netChange": -6
+        },
+        {
+            "month": "2022-11",
+            "openings": 33,
+            "closings": 32,
+            "netChange": 1
+        },
+        {
+            "month": "2022-12",
+            "openings": 49,
+            "closings": 68,
+            "netChange": -19
+        },
+        {
+            "month": "2023-01",
+            "openings": 51,
+            "closings": 32,
+            "netChange": 19
+        },
+        {
+            "month": "2023-02",
+            "openings": 40,
+            "closings": 28,
+            "netChange": 12
+        },
+        {
+            "month": "2023-03",
+            "openings": 55,
+            "closings": 52,
+            "netChange": 3
+        },
+        {
+            "month": "2023-04",
+            "openings": 35,
+            "closings": 39,
+            "netChange": -4
+        },
+        {
+            "month": "2023-05",
+            "openings": 24,
+            "closings": 33,
+            "netChange": -9
+        },
+        {
+            "month": "2023-06",
+            "openings": 27,
+            "closings": 36,
+            "netChange": -9
+        },
+        {
+            "month": "2023-07",
+            "openings": 19,
+            "closings": 29,
+            "netChange": -10
+        },
+        {
+            "month": "2023-08",
+            "openings": 24,
+            "closings": 31,
+            "netChange": -7
+        },
+        {
+            "month": "2023-09",
+            "openings": 13,
+            "closings": 35,
+            "netChange": -22
+        },
+        {
+            "month": "2023-10",
+            "openings": 30,
+            "closings": 37,
+            "netChange": -7
+        },
+        {
+            "month": "2023-11",
+            "openings": 19,
+            "closings": 72,
+            "netChange": -53
+        },
+        {
+            "month": "2023-12",
+            "openings": 39,
+            "closings": 19,
+            "netChange": 20
+        },
+        {
+            "month": "2024-01",
+            "openings": 38,
+            "closings": 43,
+            "netChange": -5
+        },
+        {
+            "month": "2024-02",
+            "openings": 30,
+            "closings": 17,
+            "netChange": 13
+        },
+        {
+            "month": "2024-03",
+            "openings": 34,
+            "closings": 46,
+            "netChange": -12
+        },
+        {
+            "month": "2024-04",
+            "openings": 29,
+            "closings": 35,
+            "netChange": -6
+        },
+        {
+            "month": "2024-05",
+            "openings": 33,
+            "closings": 38,
+            "netChange": -5
+        },
+        {
+            "month": "2024-06",
+            "openings": 18,
+            "closings": 38,
+            "netChange": -20
+        },
+        {
+            "month": "2024-07",
+            "openings": 13,
+            "closings": 47,
+            "netChange": -34
+        },
+        {
+            "month": "2024-08",
+            "openings": 19,
+            "closings": 4,
+            "netChange": 15
+        },
+        {
+            "month": "2024-09",
+            "openings": 16,
+            "closings": 31,
+            "netChange": -15
+        },
+        {
+            "month": "2024-10",
+            "openings": 25,
+            "closings": 35,
+            "netChange": -10
+        },
+        {
+            "month": "2024-11",
+            "openings": 18,
+            "closings": 35,
+            "netChange": -17
+        },
+        {
+            "month": "2024-12",
+            "openings": 20,
+            "closings": 44,
+            "netChange": -24
+        },
+        {
+            "month": "2025-01",
+            "openings": 22,
+            "closings": 26,
+            "netChange": -4
+        },
+        {
+            "month": "2025-02",
+            "openings": 38,
+            "closings": 38,
+            "netChange": 0
+        },
+        {
+            "month": "2025-03",
+            "openings": 19,
+            "closings": 27,
+            "netChange": -8
+        },
+        {
+            "month": "2025-04",
+            "openings": 19,
+            "closings": 25,
+            "netChange": -6
+        },
+        {
+            "month": "2025-05",
+            "openings": 10,
+            "closings": 24,
+            "netChange": -14
+        },
+        {
+            "month": "2025-06",
+            "openings": 13,
+            "closings": 41,
+            "netChange": -28
+        },
+        {
+            "month": "2025-07",
+            "openings": 13,
+            "closings": 24,
+            "netChange": -11
+        },
+        {
+            "month": "2025-08",
+            "openings": 14,
+            "closings": 30,
+            "netChange": -16
+        },
+        {
+            "month": "2025-09",
+            "openings": 19,
+            "closings": 24,
+            "netChange": -5
+        },
+        {
+            "month": "2025-10",
+            "openings": 22,
+            "closings": 13,
+            "netChange": 9
+        },
+        {
+            "month": "2025-11",
+            "openings": 14,
+            "closings": 28,
+            "netChange": -14
+        },
+        {
+            "month": "2025-12",
+            "openings": 27,
+            "closings": 39,
+            "netChange": -12
+        },
+        {
+            "month": "2026-01",
+            "openings": 21,
+            "closings": 36,
+            "netChange": -15
+        },
+        {
+            "month": "2026-02",
+            "openings": 17,
+            "closings": 16,
+            "netChange": 1
+        },
+        {
+            "month": "2026-03",
+            "openings": 27,
+            "closings": 29,
+            "netChange": -2
+        },
+        {
+            "month": "2026-04",
+            "openings": 14,
+            "closings": 35,
+            "netChange": -21
+        },
+        {
+            "month": "2026-05",
+            "openings": 10,
+            "closings": 36,
+            "netChange": -26
+        },
+        {
+            "month": "2026-06",
+            "openings": 7,
+            "closings": 32,
+            "netChange": -25
+        },
+        {
+            "month": "2026-07",
+            "openings": 6,
+            "closings": 9,
+            "netChange": -3
+        }
+    ]
+}
+
+경남
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 96,
+            "closings": 113,
+            "netChange": -17
+        },
+        {
+            "month": "2020-02",
+            "openings": 99,
+            "closings": 69,
+            "netChange": 30
+        },
+        {
+            "month": "2020-03",
+            "openings": 81,
+            "closings": 39,
+            "netChange": 42
+        },
+        {
+            "month": "2020-04",
+            "openings": 59,
+            "closings": 78,
+            "netChange": -19
+        },
+        {
+            "month": "2020-05",
+            "openings": 55,
+            "closings": 39,
+            "netChange": 16
+        },
+        {
+            "month": "2020-06",
+            "openings": 86,
+            "closings": 44,
+            "netChange": 42
+        },
+        {
+            "month": "2020-07",
+            "openings": 68,
+            "closings": 52,
+            "netChange": 16
+        },
+        {
+            "month": "2020-08",
+            "openings": 86,
+            "closings": 49,
+            "netChange": 37
+        },
+        {
+            "month": "2020-09",
+            "openings": 65,
+            "closings": 56,
+            "netChange": 9
+        },
+        {
+            "month": "2020-10",
+            "openings": 64,
+            "closings": 51,
+            "netChange": 13
+        },
+        {
+            "month": "2020-11",
+            "openings": 69,
+            "closings": 49,
+            "netChange": 20
+        },
+        {
+            "month": "2020-12",
+            "openings": 74,
+            "closings": 73,
+            "netChange": 1
+        },
+        {
+            "month": "2021-01",
+            "openings": 119,
+            "closings": 54,
+            "netChange": 65
+        },
+        {
+            "month": "2021-02",
+            "openings": 74,
+            "closings": 92,
+            "netChange": -18
+        },
+        {
+            "month": "2021-03",
+            "openings": 82,
+            "closings": 0,
+            "netChange": 82
+        },
+        {
+            "month": "2021-04",
+            "openings": 73,
+            "closings": 38,
+            "netChange": 35
+        },
+        {
+            "month": "2021-05",
+            "openings": 56,
+            "closings": 51,
+            "netChange": 5
+        },
+        {
+            "month": "2021-06",
+            "openings": 56,
+            "closings": 57,
+            "netChange": -1
+        },
+        {
+            "month": "2021-07",
+            "openings": 37,
+            "closings": 35,
+            "netChange": 2
+        },
+        {
+            "month": "2021-08",
+            "openings": 50,
+            "closings": 48,
+            "netChange": 2
+        },
+        {
+            "month": "2021-09",
+            "openings": 40,
+            "closings": 64,
+            "netChange": -24
+        },
+        {
+            "month": "2021-10",
+            "openings": 50,
+            "closings": 36,
+            "netChange": 14
+        },
+        {
+            "month": "2021-11",
+            "openings": 70,
+            "closings": 51,
+            "netChange": 19
+        },
+        {
+            "month": "2021-12",
+            "openings": 72,
+            "closings": 64,
+            "netChange": 8
+        },
+        {
+            "month": "2022-01",
+            "openings": 101,
+            "closings": 61,
+            "netChange": 40
+        },
+        {
+            "month": "2022-02",
+            "openings": 79,
+            "closings": 49,
+            "netChange": 30
+        },
+        {
+            "month": "2022-03",
+            "openings": 79,
+            "closings": 41,
+            "netChange": 38
+        },
+        {
+            "month": "2022-04",
+            "openings": 74,
+            "closings": 28,
+            "netChange": 46
+        },
+        {
+            "month": "2022-05",
+            "openings": 56,
+            "closings": 53,
+            "netChange": 3
+        },
+        {
+            "month": "2022-06",
+            "openings": 54,
+            "closings": 22,
+            "netChange": 32
+        },
+        {
+            "month": "2022-07",
+            "openings": 46,
+            "closings": 44,
+            "netChange": 2
+        },
+        {
+            "month": "2022-08",
+            "openings": 39,
+            "closings": 58,
+            "netChange": -19
+        },
+        {
+            "month": "2022-09",
+            "openings": 37,
+            "closings": 34,
+            "netChange": 3
+        },
+        {
+            "month": "2022-10",
+            "openings": 35,
+            "closings": 52,
+            "netChange": -17
+        },
+        {
+            "month": "2022-11",
+            "openings": 51,
+            "closings": 65,
+            "netChange": -14
+        },
+        {
+            "month": "2022-12",
+            "openings": 48,
+            "closings": 134,
+            "netChange": -86
+        },
+        {
+            "month": "2023-01",
+            "openings": 49,
+            "closings": 78,
+            "netChange": -29
+        },
+        {
+            "month": "2023-02",
+            "openings": 60,
+            "closings": 37,
+            "netChange": 23
+        },
+        {
+            "month": "2023-03",
+            "openings": 47,
+            "closings": 79,
+            "netChange": -32
+        },
+        {
+            "month": "2023-04",
+            "openings": 42,
+            "closings": 72,
+            "netChange": -30
+        },
+        {
+            "month": "2023-05",
+            "openings": 39,
+            "closings": 47,
+            "netChange": -8
+        },
+        {
+            "month": "2023-06",
+            "openings": 37,
+            "closings": 52,
+            "netChange": -15
+        },
+        {
+            "month": "2023-07",
+            "openings": 24,
+            "closings": 63,
+            "netChange": -39
+        },
+        {
+            "month": "2023-08",
+            "openings": 28,
+            "closings": 57,
+            "netChange": -29
+        },
+        {
+            "month": "2023-09",
+            "openings": 26,
+            "closings": 42,
+            "netChange": -16
+        },
+        {
+            "month": "2023-10",
+            "openings": 30,
+            "closings": 58,
+            "netChange": -28
+        },
+        {
+            "month": "2023-11",
+            "openings": 37,
+            "closings": 94,
+            "netChange": -57
+        },
+        {
+            "month": "2023-12",
+            "openings": 40,
+            "closings": 30,
+            "netChange": 10
+        },
+        {
+            "month": "2024-01",
+            "openings": 51,
+            "closings": 79,
+            "netChange": -28
+        },
+        {
+            "month": "2024-02",
+            "openings": 46,
+            "closings": 63,
+            "netChange": -17
+        },
+        {
+            "month": "2024-03",
+            "openings": 47,
+            "closings": 60,
+            "netChange": -13
+        },
+        {
+            "month": "2024-04",
+            "openings": 37,
+            "closings": 51,
+            "netChange": -14
+        },
+        {
+            "month": "2024-05",
+            "openings": 33,
+            "closings": 54,
+            "netChange": -21
+        },
+        {
+            "month": "2024-06",
+            "openings": 31,
+            "closings": 59,
+            "netChange": -28
+        },
+        {
+            "month": "2024-07",
+            "openings": 30,
+            "closings": 65,
+            "netChange": -35
+        },
+        {
+            "month": "2024-08",
+            "openings": 26,
+            "closings": 16,
+            "netChange": 10
+        },
+        {
+            "month": "2024-09",
+            "openings": 24,
+            "closings": 42,
+            "netChange": -18
+        },
+        {
+            "month": "2024-10",
+            "openings": 28,
+            "closings": 49,
+            "netChange": -21
+        },
+        {
+            "month": "2024-11",
+            "openings": 34,
+            "closings": 42,
+            "netChange": -8
+        },
+        {
+            "month": "2024-12",
+            "openings": 46,
+            "closings": 70,
+            "netChange": -24
+        },
+        {
+            "month": "2025-01",
+            "openings": 45,
+            "closings": 38,
+            "netChange": 7
+        },
+        {
+            "month": "2025-02",
+            "openings": 49,
+            "closings": 53,
+            "netChange": -4
+        },
+        {
+            "month": "2025-03",
+            "openings": 36,
+            "closings": 78,
+            "netChange": -42
+        },
+        {
+            "month": "2025-04",
+            "openings": 23,
+            "closings": 51,
+            "netChange": -28
+        },
+        {
+            "month": "2025-05",
+            "openings": 27,
+            "closings": 54,
+            "netChange": -27
+        },
+        {
+            "month": "2025-06",
+            "openings": 23,
+            "closings": 49,
+            "netChange": -26
+        },
+        {
+            "month": "2025-07",
+            "openings": 20,
+            "closings": 37,
+            "netChange": -17
+        },
+        {
+            "month": "2025-08",
+            "openings": 21,
+            "closings": 45,
+            "netChange": -24
+        },
+        {
+            "month": "2025-09",
+            "openings": 28,
+            "closings": 52,
+            "netChange": -24
+        },
+        {
+            "month": "2025-10",
+            "openings": 13,
+            "closings": 34,
+            "netChange": -21
+        },
+        {
+            "month": "2025-11",
+            "openings": 27,
+            "closings": 49,
+            "netChange": -22
+        },
+        {
+            "month": "2025-12",
+            "openings": 44,
+            "closings": 57,
+            "netChange": -13
+        },
+        {
+            "month": "2026-01",
+            "openings": 30,
+            "closings": 58,
+            "netChange": -28
+        },
+        {
+            "month": "2026-02",
+            "openings": 20,
+            "closings": 38,
+            "netChange": -18
+        },
+        {
+            "month": "2026-03",
+            "openings": 25,
+            "closings": 54,
+            "netChange": -29
+        },
+        {
+            "month": "2026-04",
+            "openings": 28,
+            "closings": 54,
+            "netChange": -26
+        },
+        {
+            "month": "2026-05",
+            "openings": 20,
+            "closings": 52,
+            "netChange": -32
+        },
+        {
+            "month": "2026-06",
+            "openings": 21,
+            "closings": 52,
+            "netChange": -31
+        },
+        {
+            "month": "2026-07",
+            "openings": 13,
+            "closings": 8,
+            "netChange": 5
+        }
+    ]
+}
+
+광주
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 63,
+            "closings": 62,
+            "netChange": 1
+        },
+        {
+            "month": "2020-02",
+            "openings": 71,
+            "closings": 44,
+            "netChange": 27
+        },
+        {
+            "month": "2020-03",
+            "openings": 59,
+            "closings": 40,
+            "netChange": 19
+        },
+        {
+            "month": "2020-04",
+            "openings": 38,
+            "closings": 47,
+            "netChange": -9
+        },
+        {
+            "month": "2020-05",
+            "openings": 32,
+            "closings": 22,
+            "netChange": 10
+        },
+        {
+            "month": "2020-06",
+            "openings": 29,
+            "closings": 29,
+            "netChange": 0
+        },
+        {
+            "month": "2020-07",
+            "openings": 51,
+            "closings": 27,
+            "netChange": 24
+        },
+        {
+            "month": "2020-08",
+            "openings": 44,
+            "closings": 39,
+            "netChange": 5
+        },
+        {
+            "month": "2020-09",
+            "openings": 38,
+            "closings": 36,
+            "netChange": 2
+        },
+        {
+            "month": "2020-10",
+            "openings": 29,
+            "closings": 31,
+            "netChange": -2
+        },
+        {
+            "month": "2020-11",
+            "openings": 31,
+            "closings": 30,
+            "netChange": 1
+        },
+        {
+            "month": "2020-12",
+            "openings": 54,
+            "closings": 47,
+            "netChange": 7
+        },
+        {
+            "month": "2021-01",
+            "openings": 58,
+            "closings": 41,
+            "netChange": 17
+        },
+        {
+            "month": "2021-02",
+            "openings": 49,
+            "closings": 53,
+            "netChange": -4
+        },
+        {
+            "month": "2021-03",
+            "openings": 55,
+            "closings": 0,
+            "netChange": 55
+        },
+        {
+            "month": "2021-04",
+            "openings": 34,
+            "closings": 21,
+            "netChange": 13
+        },
+        {
+            "month": "2021-05",
+            "openings": 29,
+            "closings": 33,
+            "netChange": -4
+        },
+        {
+            "month": "2021-06",
+            "openings": 31,
+            "closings": 36,
+            "netChange": -5
+        },
+        {
+            "month": "2021-07",
+            "openings": 21,
+            "closings": 22,
+            "netChange": -1
+        },
+        {
+            "month": "2021-08",
+            "openings": 22,
+            "closings": 22,
+            "netChange": 0
+        },
+        {
+            "month": "2021-09",
+            "openings": 27,
+            "closings": 47,
+            "netChange": -20
+        },
+        {
+            "month": "2021-10",
+            "openings": 21,
+            "closings": 24,
+            "netChange": -3
+        },
+        {
+            "month": "2021-11",
+            "openings": 22,
+            "closings": 23,
+            "netChange": -1
+        },
+        {
+            "month": "2021-12",
+            "openings": 47,
+            "closings": 32,
+            "netChange": 15
+        },
+        {
+            "month": "2022-01",
+            "openings": 36,
+            "closings": 30,
+            "netChange": 6
+        },
+        {
+            "month": "2022-02",
+            "openings": 33,
+            "closings": 22,
+            "netChange": 11
+        },
+        {
+            "month": "2022-03",
+            "openings": 42,
+            "closings": 29,
+            "netChange": 13
+        },
+        {
+            "month": "2022-04",
+            "openings": 33,
+            "closings": 18,
+            "netChange": 15
+        },
+        {
+            "month": "2022-05",
+            "openings": 27,
+            "closings": 39,
+            "netChange": -12
+        },
+        {
+            "month": "2022-06",
+            "openings": 28,
+            "closings": 8,
+            "netChange": 20
+        },
+        {
+            "month": "2022-07",
+            "openings": 21,
+            "closings": 31,
+            "netChange": -10
+        },
+        {
+            "month": "2022-08",
+            "openings": 20,
+            "closings": 38,
+            "netChange": -18
+        },
+        {
+            "month": "2022-09",
+            "openings": 25,
+            "closings": 22,
+            "netChange": 3
+        },
+        {
+            "month": "2022-10",
+            "openings": 19,
+            "closings": 22,
+            "netChange": -3
+        },
+        {
+            "month": "2022-11",
+            "openings": 19,
+            "closings": 27,
+            "netChange": -8
+        },
+        {
+            "month": "2022-12",
+            "openings": 25,
+            "closings": 82,
+            "netChange": -57
+        },
+        {
+            "month": "2023-01",
+            "openings": 29,
+            "closings": 46,
+            "netChange": -17
+        },
+        {
+            "month": "2023-02",
+            "openings": 28,
+            "closings": 30,
+            "netChange": -2
+        },
+        {
+            "month": "2023-03",
+            "openings": 16,
+            "closings": 38,
+            "netChange": -22
+        },
+        {
+            "month": "2023-04",
+            "openings": 15,
+            "closings": 45,
+            "netChange": -30
+        },
+        {
+            "month": "2023-05",
+            "openings": 12,
+            "closings": 28,
+            "netChange": -16
+        },
+        {
+            "month": "2023-06",
+            "openings": 16,
+            "closings": 39,
+            "netChange": -23
+        },
+        {
+            "month": "2023-07",
+            "openings": 11,
+            "closings": 40,
+            "netChange": -29
+        },
+        {
+            "month": "2023-08",
+            "openings": 15,
+            "closings": 40,
+            "netChange": -25
+        },
+        {
+            "month": "2023-09",
+            "openings": 12,
+            "closings": 36,
+            "netChange": -24
+        },
+        {
+            "month": "2023-10",
+            "openings": 16,
+            "closings": 41,
+            "netChange": -25
+        },
+        {
+            "month": "2023-11",
+            "openings": 6,
+            "closings": 72,
+            "netChange": -66
+        },
+        {
+            "month": "2023-12",
+            "openings": 12,
+            "closings": 30,
+            "netChange": -18
+        },
+        {
+            "month": "2024-01",
+            "openings": 28,
+            "closings": 35,
+            "netChange": -7
+        },
+        {
+            "month": "2024-02",
+            "openings": 21,
+            "closings": 48,
+            "netChange": -27
+        },
+        {
+            "month": "2024-03",
+            "openings": 12,
+            "closings": 56,
+            "netChange": -44
+        },
+        {
+            "month": "2024-04",
+            "openings": 11,
+            "closings": 51,
+            "netChange": -40
+        },
+        {
+            "month": "2024-05",
+            "openings": 12,
+            "closings": 31,
+            "netChange": -19
+        },
+        {
+            "month": "2024-06",
+            "openings": 8,
+            "closings": 43,
+            "netChange": -35
+        },
+        {
+            "month": "2024-07",
+            "openings": 2,
+            "closings": 54,
+            "netChange": -52
+        },
+        {
+            "month": "2024-08",
+            "openings": 10,
+            "closings": 6,
+            "netChange": 4
+        },
+        {
+            "month": "2024-09",
+            "openings": 11,
+            "closings": 23,
+            "netChange": -12
+        },
+        {
+            "month": "2024-10",
+            "openings": 5,
+            "closings": 35,
+            "netChange": -30
+        },
+        {
+            "month": "2024-11",
+            "openings": 10,
+            "closings": 45,
+            "netChange": -35
+        },
+        {
+            "month": "2024-12",
+            "openings": 11,
+            "closings": 74,
+            "netChange": -63
+        },
+        {
+            "month": "2025-01",
+            "openings": 9,
+            "closings": 40,
+            "netChange": -31
+        },
+        {
+            "month": "2025-02",
+            "openings": 5,
+            "closings": 28,
+            "netChange": -23
+        },
+        {
+            "month": "2025-03",
+            "openings": 10,
+            "closings": 22,
+            "netChange": -12
+        },
+        {
+            "month": "2025-04",
+            "openings": 5,
+            "closings": 29,
+            "netChange": -24
+        },
+        {
+            "month": "2025-05",
+            "openings": 3,
+            "closings": 35,
+            "netChange": -32
+        },
+        {
+            "month": "2025-06",
+            "openings": 9,
+            "closings": 39,
+            "netChange": -30
+        },
+        {
+            "month": "2025-07",
+            "openings": 7,
+            "closings": 27,
+            "netChange": -20
+        },
+        {
+            "month": "2025-08",
+            "openings": 3,
+            "closings": 24,
+            "netChange": -21
+        },
+        {
+            "month": "2025-09",
+            "openings": 1,
+            "closings": 34,
+            "netChange": -33
+        },
+        {
+            "month": "2025-10",
+            "openings": 4,
+            "closings": 23,
+            "netChange": -19
+        },
+        {
+            "month": "2025-11",
+            "openings": 4,
+            "closings": 22,
+            "netChange": -18
+        },
+        {
+            "month": "2025-12",
+            "openings": 3,
+            "closings": 49,
+            "netChange": -46
+        },
+        {
+            "month": "2026-01",
+            "openings": 5,
+            "closings": 44,
+            "netChange": -39
+        },
+        {
+            "month": "2026-02",
+            "openings": 1,
+            "closings": 30,
+            "netChange": -29
+        },
+        {
+            "month": "2026-03",
+            "openings": 0,
+            "closings": 42,
+            "netChange": -42
+        },
+        {
+            "month": "2026-04",
+            "openings": 1,
+            "closings": 31,
+            "netChange": -30
+        },
+        {
+            "month": "2026-05",
+            "openings": 0,
+            "closings": 45,
+            "netChange": -45
+        },
+        {
+            "month": "2026-06",
+            "openings": 0,
+            "closings": 34,
+            "netChange": -34
+        }
+    ]
+}
+
+전북
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 32,
+            "closings": 0,
+            "netChange": 32
+        },
+        {
+            "month": "2020-02",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2020-03",
+            "openings": 32,
+            "closings": 0,
+            "netChange": 32
+        },
+        {
+            "month": "2020-04",
+            "openings": 13,
+            "closings": 0,
+            "netChange": 13
+        },
+        {
+            "month": "2020-05",
+            "openings": 23,
+            "closings": 0,
+            "netChange": 23
+        },
+        {
+            "month": "2020-06",
+            "openings": 19,
+            "closings": 0,
+            "netChange": 19
+        },
+        {
+            "month": "2020-07",
+            "openings": 11,
+            "closings": 0,
+            "netChange": 11
+        },
+        {
+            "month": "2020-08",
+            "openings": 20,
+            "closings": 0,
+            "netChange": 20
+        },
+        {
+            "month": "2020-09",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2020-10",
+            "openings": 14,
+            "closings": 0,
+            "netChange": 14
+        },
+        {
+            "month": "2020-11",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2020-12",
+            "openings": 38,
+            "closings": 0,
+            "netChange": 38
+        },
+        {
+            "month": "2021-01",
+            "openings": 23,
+            "closings": 0,
+            "netChange": 23
+        },
+        {
+            "month": "2021-02",
+            "openings": 15,
+            "closings": 0,
+            "netChange": 15
+        },
+        {
+            "month": "2021-03",
+            "openings": 27,
+            "closings": 0,
+            "netChange": 27
+        },
+        {
+            "month": "2021-04",
+            "openings": 20,
+            "closings": 0,
+            "netChange": 20
+        },
+        {
+            "month": "2021-05",
+            "openings": 19,
+            "closings": 0,
+            "netChange": 19
+        },
+        {
+            "month": "2021-06",
+            "openings": 15,
+            "closings": 0,
+            "netChange": 15
+        },
+        {
+            "month": "2021-07",
+            "openings": 21,
+            "closings": 0,
+            "netChange": 21
+        },
+        {
+            "month": "2021-08",
+            "openings": 14,
+            "closings": 0,
+            "netChange": 14
+        },
+        {
+            "month": "2021-09",
+            "openings": 20,
+            "closings": 0,
+            "netChange": 20
+        },
+        {
+            "month": "2021-10",
+            "openings": 21,
+            "closings": 0,
+            "netChange": 21
+        },
+        {
+            "month": "2021-11",
+            "openings": 16,
+            "closings": 0,
+            "netChange": 16
+        },
+        {
+            "month": "2021-12",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2022-01",
+            "openings": 35,
+            "closings": 0,
+            "netChange": 35
+        },
+        {
+            "month": "2022-02",
+            "openings": 33,
+            "closings": 0,
+            "netChange": 33
+        },
+        {
+            "month": "2022-03",
+            "openings": 29,
+            "closings": 0,
+            "netChange": 29
+        },
+        {
+            "month": "2022-04",
+            "openings": 23,
+            "closings": 0,
+            "netChange": 23
+        },
+        {
+            "month": "2022-05",
+            "openings": 33,
+            "closings": 0,
+            "netChange": 33
+        },
+        {
+            "month": "2022-06",
+            "openings": 15,
+            "closings": 0,
+            "netChange": 15
+        },
+        {
+            "month": "2022-07",
+            "openings": 18,
+            "closings": 0,
+            "netChange": 18
+        },
+        {
+            "month": "2022-08",
+            "openings": 11,
+            "closings": 0,
+            "netChange": 11
+        },
+        {
+            "month": "2022-09",
+            "openings": 16,
+            "closings": 0,
+            "netChange": 16
+        },
+        {
+            "month": "2022-10",
+            "openings": 13,
+            "closings": 0,
+            "netChange": 13
+        },
+        {
+            "month": "2022-11",
+            "openings": 11,
+            "closings": 0,
+            "netChange": 11
+        },
+        {
+            "month": "2022-12",
+            "openings": 27,
+            "closings": 0,
+            "netChange": 27
+        },
+        {
+            "month": "2023-01",
+            "openings": 26,
+            "closings": 0,
+            "netChange": 26
+        },
+        {
+            "month": "2023-02",
+            "openings": 21,
+            "closings": 0,
+            "netChange": 21
+        },
+        {
+            "month": "2023-03",
+            "openings": 31,
+            "closings": 0,
+            "netChange": 31
+        },
+        {
+            "month": "2023-04",
+            "openings": 27,
+            "closings": 0,
+            "netChange": 27
+        },
+        {
+            "month": "2023-05",
+            "openings": 18,
+            "closings": 0,
+            "netChange": 18
+        },
+        {
+            "month": "2023-06",
+            "openings": 18,
+            "closings": 0,
+            "netChange": 18
+        },
+        {
+            "month": "2023-07",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2023-08",
+            "openings": 11,
+            "closings": 0,
+            "netChange": 11
+        },
+        {
+            "month": "2023-09",
+            "openings": 18,
+            "closings": 0,
+            "netChange": 18
+        },
+        {
+            "month": "2023-10",
+            "openings": 13,
+            "closings": 0,
+            "netChange": 13
+        },
+        {
+            "month": "2023-11",
+            "openings": 15,
+            "closings": 0,
+            "netChange": 15
+        },
+        {
+            "month": "2023-12",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2024-01",
+            "openings": 29,
+            "closings": 0,
+            "netChange": 29
+        },
+        {
+            "month": "2024-02",
+            "openings": 33,
+            "closings": 12,
+            "netChange": 21
+        },
+        {
+            "month": "2024-03",
+            "openings": 20,
+            "closings": 44,
+            "netChange": -24
+        },
+        {
+            "month": "2024-04",
+            "openings": 23,
+            "closings": 32,
+            "netChange": -9
+        },
+        {
+            "month": "2024-05",
+            "openings": 23,
+            "closings": 18,
+            "netChange": 5
+        },
+        {
+            "month": "2024-06",
+            "openings": 15,
+            "closings": 18,
+            "netChange": -3
+        },
+        {
+            "month": "2024-07",
+            "openings": 21,
+            "closings": 41,
+            "netChange": -20
+        },
+        {
+            "month": "2024-08",
+            "openings": 19,
+            "closings": 6,
+            "netChange": 13
+        },
+        {
+            "month": "2024-09",
+            "openings": 9,
+            "closings": 23,
+            "netChange": -14
+        },
+        {
+            "month": "2024-10",
+            "openings": 12,
+            "closings": 29,
+            "netChange": -17
+        },
+        {
+            "month": "2024-11",
+            "openings": 20,
+            "closings": 21,
+            "netChange": -1
+        },
+        {
+            "month": "2024-12",
+            "openings": 27,
+            "closings": 33,
+            "netChange": -6
+        },
+        {
+            "month": "2025-01",
+            "openings": 14,
+            "closings": 15,
+            "netChange": -1
+        },
+        {
+            "month": "2025-02",
+            "openings": 18,
+            "closings": 20,
+            "netChange": -2
+        },
+        {
+            "month": "2025-03",
+            "openings": 26,
+            "closings": 29,
+            "netChange": -3
+        },
+        {
+            "month": "2025-04",
+            "openings": 22,
+            "closings": 18,
+            "netChange": 4
+        },
+        {
+            "month": "2025-05",
+            "openings": 14,
+            "closings": 23,
+            "netChange": -9
+        },
+        {
+            "month": "2025-06",
+            "openings": 15,
+            "closings": 29,
+            "netChange": -14
+        },
+        {
+            "month": "2025-07",
+            "openings": 18,
+            "closings": 19,
+            "netChange": -1
+        },
+        {
+            "month": "2025-08",
+            "openings": 12,
+            "closings": 24,
+            "netChange": -12
+        },
+        {
+            "month": "2025-09",
+            "openings": 11,
+            "closings": 21,
+            "netChange": -10
+        },
+        {
+            "month": "2025-10",
+            "openings": 4,
+            "closings": 21,
+            "netChange": -17
+        },
+        {
+            "month": "2025-11",
+            "openings": 10,
+            "closings": 24,
+            "netChange": -14
+        },
+        {
+            "month": "2025-12",
+            "openings": 19,
+            "closings": 37,
+            "netChange": -18
+        },
+        {
+            "month": "2026-01",
+            "openings": 16,
+            "closings": 18,
+            "netChange": -2
+        },
+        {
+            "month": "2026-02",
+            "openings": 14,
+            "closings": 17,
+            "netChange": -3
+        },
+        {
+            "month": "2026-03",
+            "openings": 18,
+            "closings": 34,
+            "netChange": -16
+        },
+        {
+            "month": "2026-04",
+            "openings": 18,
+            "closings": 18,
+            "netChange": 0
+        },
+        {
+            "month": "2026-05",
+            "openings": 14,
+            "closings": 23,
+            "netChange": -9
+        },
+        {
+            "month": "2026-06",
+            "openings": 7,
+            "closings": 25,
+            "netChange": -18
+        },
+        {
+            "month": "2026-07",
+            "openings": 4,
+            "closings": 7,
+            "netChange": -3
+        }
+    ]
+}
+
+전남
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 27,
+            "closings": 37,
+            "netChange": -10
+        },
+        {
+            "month": "2020-02",
+            "openings": 29,
+            "closings": 50,
+            "netChange": -21
+        },
+        {
+            "month": "2020-03",
+            "openings": 22,
+            "closings": 9,
+            "netChange": 13
+        },
+        {
+            "month": "2020-04",
+            "openings": 12,
+            "closings": 12,
+            "netChange": 0
+        },
+        {
+            "month": "2020-05",
+            "openings": 13,
+            "closings": 16,
+            "netChange": -3
+        },
+        {
+            "month": "2020-06",
+            "openings": 20,
+            "closings": 11,
+            "netChange": 9
+        },
+        {
+            "month": "2020-07",
+            "openings": 19,
+            "closings": 14,
+            "netChange": 5
+        },
+        {
+            "month": "2020-08",
+            "openings": 21,
+            "closings": 21,
+            "netChange": 0
+        },
+        {
+            "month": "2020-09",
+            "openings": 17,
+            "closings": 23,
+            "netChange": -6
+        },
+        {
+            "month": "2020-10",
+            "openings": 18,
+            "closings": 10,
+            "netChange": 8
+        },
+        {
+            "month": "2020-11",
+            "openings": 19,
+            "closings": 22,
+            "netChange": -3
+        },
+        {
+            "month": "2020-12",
+            "openings": 19,
+            "closings": 15,
+            "netChange": 4
+        },
+        {
+            "month": "2021-01",
+            "openings": 22,
+            "closings": 21,
+            "netChange": 1
+        },
+        {
+            "month": "2021-02",
+            "openings": 12,
+            "closings": 26,
+            "netChange": -14
+        },
+        {
+            "month": "2021-03",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2021-04",
+            "openings": 13,
+            "closings": 13,
+            "netChange": 0
+        },
+        {
+            "month": "2021-05",
+            "openings": 10,
+            "closings": 16,
+            "netChange": -6
+        },
+        {
+            "month": "2021-06",
+            "openings": 14,
+            "closings": 12,
+            "netChange": 2
+        },
+        {
+            "month": "2021-07",
+            "openings": 7,
+            "closings": 10,
+            "netChange": -3
+        },
+        {
+            "month": "2021-08",
+            "openings": 8,
+            "closings": 16,
+            "netChange": -8
+        },
+        {
+            "month": "2021-09",
+            "openings": 11,
+            "closings": 16,
+            "netChange": -5
+        },
+        {
+            "month": "2021-10",
+            "openings": 6,
+            "closings": 8,
+            "netChange": -2
+        },
+        {
+            "month": "2021-11",
+            "openings": 7,
+            "closings": 12,
+            "netChange": -5
+        },
+        {
+            "month": "2021-12",
+            "openings": 12,
+            "closings": 26,
+            "netChange": -14
+        },
+        {
+            "month": "2022-01",
+            "openings": 18,
+            "closings": 16,
+            "netChange": 2
+        },
+        {
+            "month": "2022-02",
+            "openings": 5,
+            "closings": 10,
+            "netChange": -5
+        },
+        {
+            "month": "2022-03",
+            "openings": 12,
+            "closings": 20,
+            "netChange": -8
+        },
+        {
+            "month": "2022-04",
+            "openings": 17,
+            "closings": 9,
+            "netChange": 8
+        },
+        {
+            "month": "2022-05",
+            "openings": 14,
+            "closings": 17,
+            "netChange": -3
+        },
+        {
+            "month": "2022-06",
+            "openings": 11,
+            "closings": 4,
+            "netChange": 7
+        },
+        {
+            "month": "2022-07",
+            "openings": 17,
+            "closings": 13,
+            "netChange": 4
+        },
+        {
+            "month": "2022-08",
+            "openings": 7,
+            "closings": 17,
+            "netChange": -10
+        },
+        {
+            "month": "2022-09",
+            "openings": 1,
+            "closings": 14,
+            "netChange": -13
+        },
+        {
+            "month": "2022-10",
+            "openings": 11,
+            "closings": 17,
+            "netChange": -6
+        },
+        {
+            "month": "2022-11",
+            "openings": 12,
+            "closings": 18,
+            "netChange": -6
+        },
+        {
+            "month": "2022-12",
+            "openings": 10,
+            "closings": 44,
+            "netChange": -34
+        },
+        {
+            "month": "2023-01",
+            "openings": 7,
+            "closings": 22,
+            "netChange": -15
+        },
+        {
+            "month": "2023-02",
+            "openings": 10,
+            "closings": 26,
+            "netChange": -16
+        },
+        {
+            "month": "2023-03",
+            "openings": 10,
+            "closings": 33,
+            "netChange": -23
+        },
+        {
+            "month": "2023-04",
+            "openings": 7,
+            "closings": 26,
+            "netChange": -19
+        },
+        {
+            "month": "2023-05",
+            "openings": 7,
+            "closings": 14,
+            "netChange": -7
+        },
+        {
+            "month": "2023-06",
+            "openings": 10,
+            "closings": 16,
+            "netChange": -6
+        },
+        {
+            "month": "2023-07",
+            "openings": 4,
+            "closings": 14,
+            "netChange": -10
+        },
+        {
+            "month": "2023-08",
+            "openings": 7,
+            "closings": 24,
+            "netChange": -17
+        },
+        {
+            "month": "2023-09",
+            "openings": 3,
+            "closings": 26,
+            "netChange": -23
+        },
+        {
+            "month": "2023-10",
+            "openings": 5,
+            "closings": 23,
+            "netChange": -18
+        },
+        {
+            "month": "2023-11",
+            "openings": 5,
+            "closings": 30,
+            "netChange": -25
+        },
+        {
+            "month": "2023-12",
+            "openings": 8,
+            "closings": 8,
+            "netChange": 0
+        },
+        {
+            "month": "2024-01",
+            "openings": 5,
+            "closings": 29,
+            "netChange": -24
+        },
+        {
+            "month": "2024-02",
+            "openings": 9,
+            "closings": 21,
+            "netChange": -12
+        },
+        {
+            "month": "2024-03",
+            "openings": 6,
+            "closings": 46,
+            "netChange": -40
+        },
+        {
+            "month": "2024-04",
+            "openings": 5,
+            "closings": 21,
+            "netChange": -16
+        },
+        {
+            "month": "2024-05",
+            "openings": 5,
+            "closings": 24,
+            "netChange": -19
+        },
+        {
+            "month": "2024-06",
+            "openings": 2,
+            "closings": 12,
+            "netChange": -10
+        },
+        {
+            "month": "2024-07",
+            "openings": 4,
+            "closings": 32,
+            "netChange": -28
+        },
+        {
+            "month": "2024-08",
+            "openings": 4,
+            "closings": 5,
+            "netChange": -1
+        },
+        {
+            "month": "2024-09",
+            "openings": 1,
+            "closings": 18,
+            "netChange": -17
+        },
+        {
+            "month": "2024-10",
+            "openings": 6,
+            "closings": 23,
+            "netChange": -17
+        },
+        {
+            "month": "2024-11",
+            "openings": 4,
+            "closings": 14,
+            "netChange": -10
+        },
+        {
+            "month": "2024-12",
+            "openings": 0,
+            "closings": 24,
+            "netChange": -24
+        },
+        {
+            "month": "2025-01",
+            "openings": 7,
+            "closings": 16,
+            "netChange": -9
+        },
+        {
+            "month": "2025-02",
+            "openings": 6,
+            "closings": 15,
+            "netChange": -9
+        },
+        {
+            "month": "2025-03",
+            "openings": 2,
+            "closings": 19,
+            "netChange": -17
+        },
+        {
+            "month": "2025-04",
+            "openings": 4,
+            "closings": 20,
+            "netChange": -16
+        },
+        {
+            "month": "2025-05",
+            "openings": 2,
+            "closings": 22,
+            "netChange": -20
+        },
+        {
+            "month": "2025-06",
+            "openings": 2,
+            "closings": 14,
+            "netChange": -12
+        },
+        {
+            "month": "2025-07",
+            "openings": 2,
+            "closings": 16,
+            "netChange": -14
+        },
+        {
+            "month": "2025-08",
+            "openings": 1,
+            "closings": 19,
+            "netChange": -18
+        },
+        {
+            "month": "2025-09",
+            "openings": 1,
+            "closings": 14,
+            "netChange": -13
+        },
+        {
+            "month": "2025-10",
+            "openings": 1,
+            "closings": 17,
+            "netChange": -16
+        },
+        {
+            "month": "2025-11",
+            "openings": 0,
+            "closings": 15,
+            "netChange": -15
+        },
+        {
+            "month": "2025-12",
+            "openings": 1,
+            "closings": 25,
+            "netChange": -24
+        },
+        {
+            "month": "2026-01",
+            "openings": 0,
+            "closings": 27,
+            "netChange": -27
+        },
+        {
+            "month": "2026-02",
+            "openings": 0,
+            "closings": 22,
+            "netChange": -22
+        },
+        {
+            "month": "2026-03",
+            "openings": 0,
+            "closings": 14,
+            "netChange": -14
+        },
+        {
+            "month": "2026-04",
+            "openings": 0,
+            "closings": 19,
+            "netChange": -19
+        },
+        {
+            "month": "2026-05",
+            "openings": 0,
+            "closings": 17,
+            "netChange": -17
+        },
+        {
+            "month": "2026-06",
+            "openings": 0,
+            "closings": 20,
+            "netChange": -20
+        }
+    ]
+}
+
+강원
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2020-02",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2020-03",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2020-04",
+            "openings": 10,
+            "closings": 0,
+            "netChange": 10
+        },
+        {
+            "month": "2020-05",
+            "openings": 15,
+            "closings": 0,
+            "netChange": 15
+        },
+        {
+            "month": "2020-06",
+            "openings": 13,
+            "closings": 0,
+            "netChange": 13
+        },
+        {
+            "month": "2020-07",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2020-08",
+            "openings": 13,
+            "closings": 0,
+            "netChange": 13
+        },
+        {
+            "month": "2020-09",
+            "openings": 10,
+            "closings": 0,
+            "netChange": 10
+        },
+        {
+            "month": "2020-10",
+            "openings": 10,
+            "closings": 0,
+            "netChange": 10
+        },
+        {
+            "month": "2020-11",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2020-12",
+            "openings": 13,
+            "closings": 0,
+            "netChange": 13
+        },
+        {
+            "month": "2021-01",
+            "openings": 25,
+            "closings": 0,
+            "netChange": 25
+        },
+        {
+            "month": "2021-02",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2021-03",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2021-04",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2021-05",
+            "openings": 7,
+            "closings": 0,
+            "netChange": 7
+        },
+        {
+            "month": "2021-06",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2021-07",
+            "openings": 15,
+            "closings": 0,
+            "netChange": 15
+        },
+        {
+            "month": "2021-08",
+            "openings": 10,
+            "closings": 0,
+            "netChange": 10
+        },
+        {
+            "month": "2021-09",
+            "openings": 9,
+            "closings": 0,
+            "netChange": 9
+        },
+        {
+            "month": "2021-10",
+            "openings": 18,
+            "closings": 0,
+            "netChange": 18
+        },
+        {
+            "month": "2021-11",
+            "openings": 11,
+            "closings": 0,
+            "netChange": 11
+        },
+        {
+            "month": "2021-12",
+            "openings": 30,
+            "closings": 0,
+            "netChange": 30
+        },
+        {
+            "month": "2022-01",
+            "openings": 25,
+            "closings": 0,
+            "netChange": 25
+        },
+        {
+            "month": "2022-02",
+            "openings": 20,
+            "closings": 0,
+            "netChange": 20
+        },
+        {
+            "month": "2022-03",
+            "openings": 37,
+            "closings": 0,
+            "netChange": 37
+        },
+        {
+            "month": "2022-04",
+            "openings": 13,
+            "closings": 0,
+            "netChange": 13
+        },
+        {
+            "month": "2022-05",
+            "openings": 16,
+            "closings": 0,
+            "netChange": 16
+        },
+        {
+            "month": "2022-06",
+            "openings": 19,
+            "closings": 0,
+            "netChange": 19
+        },
+        {
+            "month": "2022-07",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2022-08",
+            "openings": 11,
+            "closings": 0,
+            "netChange": 11
+        },
+        {
+            "month": "2022-09",
+            "openings": 20,
+            "closings": 0,
+            "netChange": 20
+        },
+        {
+            "month": "2022-10",
+            "openings": 15,
+            "closings": 0,
+            "netChange": 15
+        },
+        {
+            "month": "2022-11",
+            "openings": 17,
+            "closings": 0,
+            "netChange": 17
+        },
+        {
+            "month": "2022-12",
+            "openings": 32,
+            "closings": 0,
+            "netChange": 32
+        },
+        {
+            "month": "2023-01",
+            "openings": 25,
+            "closings": 0,
+            "netChange": 25
+        },
+        {
+            "month": "2023-02",
+            "openings": 19,
+            "closings": 0,
+            "netChange": 19
+        },
+        {
+            "month": "2023-03",
+            "openings": 26,
+            "closings": 0,
+            "netChange": 26
+        },
+        {
+            "month": "2023-04",
+            "openings": 24,
+            "closings": 0,
+            "netChange": 24
+        },
+        {
+            "month": "2023-05",
+            "openings": 22,
+            "closings": 0,
+            "netChange": 22
+        },
+        {
+            "month": "2023-06",
+            "openings": 14,
+            "closings": 0,
+            "netChange": 14
+        },
+        {
+            "month": "2023-07",
+            "openings": 21,
+            "closings": 24,
+            "netChange": -3
+        },
+        {
+            "month": "2023-08",
+            "openings": 11,
+            "closings": 12,
+            "netChange": -1
+        },
+        {
+            "month": "2023-09",
+            "openings": 13,
+            "closings": 13,
+            "netChange": 0
+        },
+        {
+            "month": "2023-10",
+            "openings": 12,
+            "closings": 13,
+            "netChange": -1
+        },
+        {
+            "month": "2023-11",
+            "openings": 13,
+            "closings": 36,
+            "netChange": -23
+        },
+        {
+            "month": "2023-12",
+            "openings": 18,
+            "closings": 16,
+            "netChange": 2
+        },
+        {
+            "month": "2024-01",
+            "openings": 27,
+            "closings": 18,
+            "netChange": 9
+        },
+        {
+            "month": "2024-02",
+            "openings": 14,
+            "closings": 13,
+            "netChange": 1
+        },
+        {
+            "month": "2024-03",
+            "openings": 17,
+            "closings": 28,
+            "netChange": -11
+        },
+        {
+            "month": "2024-04",
+            "openings": 19,
+            "closings": 15,
+            "netChange": 4
+        },
+        {
+            "month": "2024-05",
+            "openings": 25,
+            "closings": 17,
+            "netChange": 8
+        },
+        {
+            "month": "2024-06",
+            "openings": 9,
+            "closings": 21,
+            "netChange": -12
+        },
+        {
+            "month": "2024-07",
+            "openings": 23,
+            "closings": 29,
+            "netChange": -6
+        },
+        {
+            "month": "2024-08",
+            "openings": 8,
+            "closings": 5,
+            "netChange": 3
+        },
+        {
+            "month": "2024-09",
+            "openings": 16,
+            "closings": 12,
+            "netChange": 4
+        },
+        {
+            "month": "2024-10",
+            "openings": 6,
+            "closings": 15,
+            "netChange": -9
+        },
+        {
+            "month": "2024-11",
+            "openings": 12,
+            "closings": 20,
+            "netChange": -8
+        },
+        {
+            "month": "2024-12",
+            "openings": 16,
+            "closings": 21,
+            "netChange": -5
+        },
+        {
+            "month": "2025-01",
+            "openings": 19,
+            "closings": 14,
+            "netChange": 5
+        },
+        {
+            "month": "2025-02",
+            "openings": 15,
+            "closings": 25,
+            "netChange": -10
+        },
+        {
+            "month": "2025-03",
+            "openings": 22,
+            "closings": 26,
+            "netChange": -4
+        },
+        {
+            "month": "2025-04",
+            "openings": 11,
+            "closings": 14,
+            "netChange": -3
+        },
+        {
+            "month": "2025-05",
+            "openings": 22,
+            "closings": 29,
+            "netChange": -7
+        },
+        {
+            "month": "2025-06",
+            "openings": 11,
+            "closings": 18,
+            "netChange": -7
+        },
+        {
+            "month": "2025-07",
+            "openings": 13,
+            "closings": 20,
+            "netChange": -7
+        },
+        {
+            "month": "2025-08",
+            "openings": 11,
+            "closings": 5,
+            "netChange": 6
+        },
+        {
+            "month": "2025-09",
+            "openings": 13,
+            "closings": 16,
+            "netChange": -3
+        },
+        {
+            "month": "2025-10",
+            "openings": 3,
+            "closings": 11,
+            "netChange": -8
+        },
+        {
+            "month": "2025-11",
+            "openings": 8,
+            "closings": 25,
+            "netChange": -17
+        },
+        {
+            "month": "2025-12",
+            "openings": 26,
+            "closings": 28,
+            "netChange": -2
+        },
+        {
+            "month": "2026-01",
+            "openings": 12,
+            "closings": 24,
+            "netChange": -12
+        },
+        {
+            "month": "2026-02",
+            "openings": 7,
+            "closings": 15,
+            "netChange": -8
+        },
+        {
+            "month": "2026-03",
+            "openings": 15,
+            "closings": 26,
+            "netChange": -11
+        },
+        {
+            "month": "2026-04",
+            "openings": 15,
+            "closings": 23,
+            "netChange": -8
+        },
+        {
+            "month": "2026-05",
+            "openings": 8,
+            "closings": 23,
+            "netChange": -15
+        },
+        {
+            "month": "2026-06",
+            "openings": 13,
+            "closings": 26,
+            "netChange": -13
+        },
+        {
+            "month": "2026-07",
+            "openings": 5,
+            "closings": 10,
+            "netChange": -5
+        }
+    ]
+}
+
+제주
+{
+    "stats": [
+        {
+            "month": "2020-01",
+            "openings": 54,
+            "closings": 27,
+            "netChange": 27
+        },
+        {
+            "month": "2020-02",
+            "openings": 25,
+            "closings": 15,
+            "netChange": 10
+        },
+        {
+            "month": "2020-03",
+            "openings": 19,
+            "closings": 8,
+            "netChange": 11
+        },
+        {
+            "month": "2020-04",
+            "openings": 12,
+            "closings": 19,
+            "netChange": -7
+        },
+        {
+            "month": "2020-05",
+            "openings": 17,
+            "closings": 16,
+            "netChange": 1
+        },
+        {
+            "month": "2020-06",
+            "openings": 8,
+            "closings": 10,
+            "netChange": -2
+        },
+        {
+            "month": "2020-07",
+            "openings": 10,
+            "closings": 13,
+            "netChange": -3
+        },
+        {
+            "month": "2020-08",
+            "openings": 18,
+            "closings": 8,
+            "netChange": 10
+        },
+        {
+            "month": "2020-09",
+            "openings": 19,
+            "closings": 18,
+            "netChange": 1
+        },
+        {
+            "month": "2020-10",
+            "openings": 8,
+            "closings": 9,
+            "netChange": -1
+        },
+        {
+            "month": "2020-11",
+            "openings": 14,
+            "closings": 16,
+            "netChange": -2
+        },
+        {
+            "month": "2020-12",
+            "openings": 41,
+            "closings": 25,
+            "netChange": 16
+        },
+        {
+            "month": "2021-01",
+            "openings": 44,
+            "closings": 13,
+            "netChange": 31
+        },
+        {
+            "month": "2021-02",
+            "openings": 22,
+            "closings": 18,
+            "netChange": 4
+        },
+        {
+            "month": "2021-03",
+            "openings": 30,
+            "closings": 0,
+            "netChange": 30
+        },
+        {
+            "month": "2021-04",
+            "openings": 19,
+            "closings": 10,
+            "netChange": 9
+        },
+        {
+            "month": "2021-05",
+            "openings": 19,
+            "closings": 8,
+            "netChange": 11
+        },
+        {
+            "month": "2021-06",
+            "openings": 14,
+            "closings": 15,
+            "netChange": -1
+        },
+        {
+            "month": "2021-07",
+            "openings": 14,
+            "closings": 9,
+            "netChange": 5
+        },
+        {
+            "month": "2021-08",
+            "openings": 12,
+            "closings": 5,
+            "netChange": 7
+        },
+        {
+            "month": "2021-09",
+            "openings": 3,
+            "closings": 8,
+            "netChange": -5
+        },
+        {
+            "month": "2021-10",
+            "openings": 16,
+            "closings": 10,
+            "netChange": 6
+        },
+        {
+            "month": "2021-11",
+            "openings": 3,
+            "closings": 13,
+            "netChange": -10
+        },
+        {
+            "month": "2021-12",
+            "openings": 41,
+            "closings": 18,
+            "netChange": 23
+        },
+        {
+            "month": "2022-01",
+            "openings": 50,
+            "closings": 17,
+            "netChange": 33
+        },
+        {
+            "month": "2022-02",
+            "openings": 32,
+            "closings": 8,
+            "netChange": 24
+        },
+        {
+            "month": "2022-03",
+            "openings": 22,
+            "closings": 12,
+            "netChange": 10
+        },
+        {
+            "month": "2022-04",
+            "openings": 15,
+            "closings": 7,
+            "netChange": 8
+        },
+        {
+            "month": "2022-05",
+            "openings": 16,
+            "closings": 8,
+            "netChange": 8
+        },
+        {
+            "month": "2022-06",
+            "openings": 18,
+            "closings": 5,
+            "netChange": 13
+        },
+        {
+            "month": "2022-07",
+            "openings": 22,
+            "closings": 7,
+            "netChange": 15
+        },
+        {
+            "month": "2022-08",
+            "openings": 7,
+            "closings": 15,
+            "netChange": -8
+        },
+        {
+            "month": "2022-09",
+            "openings": 8,
+            "closings": 5,
+            "netChange": 3
+        },
+        {
+            "month": "2022-10",
+            "openings": 9,
+            "closings": 7,
+            "netChange": 2
+        },
+        {
+            "month": "2022-11",
+            "openings": 11,
+            "closings": 12,
+            "netChange": -1
+        },
+        {
+            "month": "2022-12",
+            "openings": 47,
+            "closings": 22,
+            "netChange": 25
+        },
+        {
+            "month": "2023-01",
+            "openings": 27,
+            "closings": 14,
+            "netChange": 13
+        },
+        {
+            "month": "2023-02",
+            "openings": 33,
+            "closings": 9,
+            "netChange": 24
+        },
+        {
+            "month": "2023-03",
+            "openings": 18,
+            "closings": 13,
+            "netChange": 5
+        },
+        {
+            "month": "2023-04",
+            "openings": 23,
+            "closings": 21,
+            "netChange": 2
+        },
+        {
+            "month": "2023-05",
+            "openings": 15,
+            "closings": 20,
+            "netChange": -5
+        },
+        {
+            "month": "2023-06",
+            "openings": 9,
+            "closings": 13,
+            "netChange": -4
+        },
+        {
+            "month": "2023-07",
+            "openings": 14,
+            "closings": 10,
+            "netChange": 4
+        },
+        {
+            "month": "2023-08",
+            "openings": 11,
+            "closings": 18,
+            "netChange": -7
+        },
+        {
+            "month": "2023-09",
+            "openings": 7,
+            "closings": 16,
+            "netChange": -9
+        },
+        {
+            "month": "2023-10",
+            "openings": 12,
+            "closings": 7,
+            "netChange": 5
+        },
+        {
+            "month": "2023-11",
+            "openings": 8,
+            "closings": 29,
+            "netChange": -21
+        },
+        {
+            "month": "2023-12",
+            "openings": 20,
+            "closings": 8,
+            "netChange": 12
+        },
+        {
+            "month": "2024-01",
+            "openings": 21,
+            "closings": 20,
+            "netChange": 1
+        },
+        {
+            "month": "2024-02",
+            "openings": 25,
+            "closings": 10,
+            "netChange": 15
+        },
+        {
+            "month": "2024-03",
+            "openings": 22,
+            "closings": 18,
+            "netChange": 4
+        },
+        {
+            "month": "2024-04",
+            "openings": 16,
+            "closings": 25,
+            "netChange": -9
+        },
+        {
+            "month": "2024-05",
+            "openings": 13,
+            "closings": 15,
+            "netChange": -2
+        },
+        {
+            "month": "2024-06",
+            "openings": 8,
+            "closings": 13,
+            "netChange": -5
+        },
+        {
+            "month": "2024-07",
+            "openings": 5,
+            "closings": 23,
+            "netChange": -18
+        },
+        {
+            "month": "2024-08",
+            "openings": 8,
+            "closings": 7,
+            "netChange": 1
+        },
+        {
+            "month": "2024-09",
+            "openings": 7,
+            "closings": 19,
+            "netChange": -12
+        },
+        {
+            "month": "2024-10",
+            "openings": 9,
+            "closings": 19,
+            "netChange": -10
+        },
+        {
+            "month": "2024-11",
+            "openings": 4,
+            "closings": 10,
+            "netChange": -6
+        },
+        {
+            "month": "2024-12",
+            "openings": 12,
+            "closings": 23,
+            "netChange": -11
+        },
+        {
+            "month": "2025-01",
+            "openings": 30,
+            "closings": 19,
+            "netChange": 11
+        },
+        {
+            "month": "2025-02",
+            "openings": 20,
+            "closings": 32,
+            "netChange": -12
+        },
+        {
+            "month": "2025-03",
+            "openings": 10,
+            "closings": 19,
+            "netChange": -9
+        },
+        {
+            "month": "2025-04",
+            "openings": 11,
+            "closings": 8,
+            "netChange": 3
+        },
+        {
+            "month": "2025-05",
+            "openings": 8,
+            "closings": 13,
+            "netChange": -5
+        },
+        {
+            "month": "2025-06",
+            "openings": 11,
+            "closings": 21,
+            "netChange": -10
+        },
+        {
+            "month": "2025-07",
+            "openings": 6,
+            "closings": 13,
+            "netChange": -7
+        },
+        {
+            "month": "2025-08",
+            "openings": 10,
+            "closings": 17,
+            "netChange": -7
+        },
+        {
+            "month": "2025-09",
+            "openings": 3,
+            "closings": 18,
+            "netChange": -15
+        },
+        {
+            "month": "2025-10",
+            "openings": 4,
+            "closings": 10,
+            "netChange": -6
+        },
+        {
+            "month": "2025-11",
+            "openings": 6,
+            "closings": 19,
+            "netChange": -13
+        },
+        {
+            "month": "2025-12",
+            "openings": 24,
+            "closings": 30,
+            "netChange": -6
+        },
+        {
+            "month": "2026-01",
+            "openings": 15,
+            "closings": 22,
+            "netChange": -7
+        },
+        {
+            "month": "2026-02",
+            "openings": 9,
+            "closings": 18,
+            "netChange": -9
+        },
+        {
+            "month": "2026-03",
+            "openings": 14,
+            "closings": 23,
+            "netChange": -9
+        },
+        {
+            "month": "2026-04",
+            "openings": 12,
+            "closings": 12,
+            "netChange": 0
+        },
+        {
+            "month": "2026-05",
+            "openings": 6,
+            "closings": 21,
+            "netChange": -15
+        },
+        {
+            "month": "2026-06",
+            "openings": 0,
+            "closings": 21,
+            "netChange": -21
+        },
+        {
+            "month": "2026-07",
+            "openings": 6,
+            "closings": 4,
+            "netChange": 2
+        }
+    ]
+}
+
+
+
+
